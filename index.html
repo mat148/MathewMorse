@@ -91,11 +91,24 @@ body .container .col-md-12{
 
 .hello{
     text-align: center;
-    font-size: 120px;
+    font-size: 90px;
     font-family: museo-sans;
     color: white;
     position: relative;
     top : 100px;
+}
+
+div .second-line{
+	font-size:40px;
+}
+        
+.air{
+    background-image: url(img/air.jpg);
+    background-position: 50% 50%;
+}
+        
+.work:hover .air{
+    background-position: 50% 102%;
 }
 
 .work.last{
@@ -111,6 +124,7 @@ body .container .col-md-12{
     margin-right: 30px;
     padding: 10px;
     position: relative;
+    overflow: hidden;
     }
 
 .work p{
@@ -123,13 +137,35 @@ body .container .col-md-12{
     //bottom: 0px;
     padding-top: 325px;
     padding-left: 10px;
-    pa
+    z-index: 1;
     -webkit-transition: all 1s;
     transition: all 0.5s;
 }
 
-.work p:hover{
-    padding-top: 300px;
+.work:hover p{
+    top:-15px;
+}
+        
+.gradient{
+    position: relative;
+    top: 349px;
+    left:  -10px;
+    height: 90px;
+    width: 360px;
+    z-index: 0;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.3) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0.3)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#4d000000',GradientType=0 );
+    -webkit-transition: all 1s;
+    transition: all 0.5s;
+}
+        
+.work:hover .gradient{
+    top: 260px;
 }
 
 .projectTitle{
@@ -192,61 +228,46 @@ li a:hover{
         <script>try{Typekit.load();}catch(e){}</script>
     <![endif]-->
   </head>
-
   <body>
-    
     <!-- Hero -->
     <div class="row hero">
-        
         <div class="container">
-            
             <div class= "col-md-12 navContainer">
                 <img src="img/logo.png"/>
-                
                 <ul>
                     <li><a href="google.com">ABOUT</a></li>
                     <li><a href="google.com">RESUME</a></li>
                     <li><a href="google.com">CONTACT</a></li>
                 </ul>
             </div>
-            
-            <div class="col-md-12 hello">Hello! Is it me you are looking for?</div>
-        
+            <p class="col-md-12 hello">Mathew Morse</p>
+            <p class="col-md-12 hello second-line">Interactive Designer & Front-end Developer</p>
         </div> <!-- /container -->
-        
-        
     </div> <!--/row -->
-    
+      
     <div class="container">
-        
         <div class="col-md-12">
-            
-            <div class="work"><p class="projectTitle">Project</p></div>
-            
-            <div class="work"><p class="projectTitle">Project</p></div>
-            
-            <div class="work last"><p class="projectTitle">Project</p></div>
-            
+            <div class="work air"><p class="projectTitle">AIR</p><div class="gradient"></div></div>
+            <div class="work"><p class="projectTitle">Crickets</p><div class="gradient"></div></div>
+            <div class="work last"><p class="projectTitle">Free Food Feed</p><div class="gradient"></div></div>
         </div>
         
         <div class="col-md-12">
-            
-            <div class="work"><p class="projectTitle">Project</p></div>
-            
-            <div class="work"><p class="projectTitle">Project</p></div>
-            
-            <div class="work last"><p class="projectTitle">Project</p></div>
+            <div class="work"><p class="projectTitle">GHG</p><div class="gradient"></div></div>
+            <div class="work"><p class="projectTitle">Smart</p><div class="gradient"></div></div>
+            <div class="work last"><p class="projectTitle">Everyguyed</p><div class="gradient"></div></div>
         </div>
         
+        <div class="col-md-12">
+            <div class="work"><p class="projectTitle">issheintome?</p><div class="gradient"></div></div>
+            <div class="work"><p class="projectTitle">3D</p><div class="gradient"></div></div>
+            <div class="work last"><p class="projectTitle">Thr33fold</p><div class="gradient"></div></div>
+        </div>
     </div> <!-- /container -->
     
     <div class="row footer">
-        
         <div class="col-md-12">
-            
         </div>
-        
     </div> <!--/container-->
-
   </body>
 </html>
