@@ -55,7 +55,9 @@ body{
 }
 
 .hero{
-    background-color: #1E7BB1;
+    background-image: url('img/hero2.jpg');
+    background-position: center;
+    background-size: cover;
     height: 600px;
     margin-bottom: 20px;
 }
@@ -115,13 +117,46 @@ div .second-line{
 }
         
 .air{
-    background-image: url(img/air.jpg);
+    background-image: url(img/air2.jpg);
     background-position: 50% 50%;
     transition: all 0.8s;
     -webkit transition: all 0.8s;
 }
         
 .air:hover{
+    background-position: 50% 102%;
+}
+        
+.cricket{
+    background-image: url(img/crickets2.jpg);
+    background-position: 50% 50%;
+    transition: all 0.8s;
+    -webkit transition: all 0.8s;
+}
+        
+.cricket:hover{
+    background-position: 50% 102%;
+}
+        
+.smart{
+    background-image: url(img/smart2.jpg);
+    background-position: 50% 50%;
+    transition: all 0.8s;
+    -webkit transition: all 0.8s;
+}
+        
+.smart:hover{
+    background-position: 50% 102%;
+}
+        
+.three{
+    background-image: url(img/thr33.jpg);
+    background-position: 50% 50%;
+    transition: all 0.8s;
+    -webkit transition: all 0.8s;
+}
+        
+.three:hover{
     background-position: 50% 102%;
 }
 
@@ -158,7 +193,7 @@ div .second-line{
 }
 
 .work:hover p{
-    top:-15px;
+    top:-25px;
 }
         
 .gradient{
@@ -183,11 +218,19 @@ div .second-line{
     top: 260px;
 }
 
-.projectTitle{
+.project-title{
     font-size: 21px;
     color: white;
     font-family: museo-sans;
-    font-weight: 100;
+    font-weight: 200;
+}
+        
+.project-subject{
+    font-size: 21px;
+    color: white;
+    font-family: "utopia-std";
+    font-style: italic;
+    margin-top: 30px;
 }
 
 a{
@@ -235,19 +278,19 @@ li a:hover{
       
     <div class="container">
         <div class="col-md-12">
-            <div class="work air"><p class="projectTitle">AIR</p><div class="gradient"></div></div>
-            <div class="work"><p class="projectTitle">Crickets</p><div class="gradient"></div></div>
-            <div class="work last"><p class="projectTitle">Thr33fold</p><div class="gradient"></div></div>
+            <div class="work air"><p class="project-title">AIR</p><p class="project-subject">Mobile Design & Development</p><div class="gradient"></div></div>
+            <div class="work cricket"><p class="project-title">Crickets</p><p class="project-subject">WebGL & THREE.js Development</p><div class="gradient"></div></div>
+            <div class="work last three"><p class="project-title">Thr33fold</p><p class="project-subject">Mobile, Web Design, Front-end Dev,</p><div class="gradient"></div></div>
         </div>
         
         <div class="col-md-12">
-            <div class="work"><p class="projectTitle">GHG</p><div class="gradient"></div></div>
-            <div class="work"><p class="projectTitle">Everyguyed</p><div class="gradient"></div></div>
-            <div class="work last"><p class="projectTitle">Smart</p><div class="gradient"></div></div>
+            <div class="work"><p class="project-title">GHG</p><p class="project-subject">Mobile Design & Development</p><div class="gradient"></div></div>
+            <div class="work"><p class="project-title">Everyguyed</p><p class="project-subject">Mobile Design & Development</p><div class="gradient"></div></div>
+            <div class="work last smart"><p class="project-title">Smart</p><p class="project-subject">Branding & Web Design</p><div class="gradient"></div></div>
         </div>
         
         <div class="col-md-12">
-            <div class="work"><p class="projectTitle">3D</p><div class="gradient"></div></div>
+            <div class="work"><p class="project-title">3D</p><p class="project-subject">Mobile Design & Development</p><div class="gradient"></div></div>
             <!--<div class="work"><p class="projectTitle"></p><div class="gradient"></div></div>
             <div class="work last"><p class="projectTitle"></p><div class="gradient"></div></div>-->
         </div>
