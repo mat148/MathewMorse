@@ -1,0 +1,206 @@
+        body{
+            width: 100%;
+        }
+
+        .container{
+            width: 100%;
+        }
+
+        .hero{
+            background-image: url('../img/hero2.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 600px;
+            margin-bottom: 20px;
+        }
+
+        .navContainer{
+            height: 78px;
+        }
+
+        .navContainer img{
+            width: 22px;
+            height: 35px;
+            float: left;
+            line-height: 39px;
+        }
+
+        .navContainer ul{
+            float: right;
+            list-style: none;
+            line-height: 39px;
+        }
+
+        .navContainer ul li{
+            display:inline-block;
+            margin-right: 23px;
+            color: white;
+        }
+
+        body .container .col-md-12{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .hello{
+            text-align: center;
+            font-size: 90px;
+            font-family: "museo-sans";
+            font-weight: 100;
+            color: white;
+            position: relative;
+            top : 80px;
+            opacity: 0;
+            text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
+            transition: all 1s;
+            /*animation: heroAnimate 1s 0.5s forwards ease-out;
+            -webkit-animation: heroAnimate 1s 0.5s forwards ease-out;*/
+        }
+
+        div .second-line{
+            font-size:40px;
+            font-family: "utopia-std";
+            font-style: italic;
+            top: 0px;
+            opacity: 0;
+            transition: all 1s;
+            /*animation: heroAnimate 1s 0.5s forwards ease-out;
+            -webkit-animation: heroAnimate 1s 0.5s forwards ease-out;*/
+        }
+
+        .air{
+            background-image: url(../img/air2.jpg);
+            background-position: 50% 50%;
+            transition: all 0.8s;
+            -webkit transition: all 0.8s;
+        }
+
+        .air:hover{
+            background-position: 50% 102%;
+        }
+
+        .cricket{
+            background-image: url(../img/crickets2.jpg);
+            background-position: 50% 50%;
+            transition: all 0.8s;
+            -webkit transition: all 0.8s;
+        }
+
+        .cricket:hover{
+            background-position: 50% 102%;
+        }
+
+        .smart{
+            background-image: url(../img/smart2.jpg);
+            background-position: 50% 50%;
+            transition: all 0.8s;
+            -webkit transition: all 0.8s;
+        }
+
+        .smart:hover{
+            background-position: 50% 102%;
+        }
+
+        .three{
+            background-image: url(../img/thr33.jpg);
+            background-size: cover;
+            background-position: 50% 50%;
+            transition: all 0.8s;
+            -webkit transition: all 0.8s;
+        }
+
+        .three:hover{
+            background-position: 50% 102%;
+        }
+
+        .work.last{
+            margin-right: 0px;
+        }
+
+        .work{
+            //padding: 10px;
+            background-color: #1E7BB1;
+            height: 360px;
+            width: 360px;
+            float: left;
+            margin-right: 30px;
+            padding: 10px;
+            position: relative;
+            overflow: hidden;
+            }
+
+        .work p{
+            width: 360px;
+            height: 360px;
+            //background-color: green;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            //bottom: 0px;
+            padding-top: 325px;
+            padding-left: 10px;
+            z-index: 1;
+            -webkit-transition: all 1s;
+            transition: all 0.5s;
+            text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
+        }
+
+        .work:hover p{
+            top:-25px;
+        }
+
+        .gradient{
+            position: relative;
+            top: 349px;
+            left:  -10px;
+            height: 90px;
+            width: 360px;
+            z-index: 0;
+            background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.3) 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0.3)));
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+            background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+            background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+            background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#4d000000',GradientType=0 );
+            -webkit-transition: all 1s;
+            transition: all 0.5s;
+        }
+
+        .work:hover .gradient{
+            top: 260px;
+        }
+
+        .project-title{
+            font-size: 21px;
+            color: white;
+            font-family: museo-sans;
+            font-weight: 200;
+        }
+
+        .project-subject{
+            font-size: 21px;
+            color: white;
+            font-family: "utopia-std";
+            font-style: italic;
+            margin-top: 30px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        a:link{
+            color: white;
+        }
+
+        li a:hover{
+            color: #FF00FF;
+        }
+
+        .footer{
+            background-color: #1E7BB1;
+            height: 200px;
+            margin-top: 20px;
+        }
