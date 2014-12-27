@@ -13,245 +13,260 @@
     <!--style-->
     <style>
         h4 {
-  margin-top: 25px;
-}
-.row {
-  //margin-bottom: 20px;
-}
-.row .row {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-[class*="col-"] {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #eee;
-  background-color: rgba(86,61,124,.15);
-  border: 1px solid #ddd;
-  border: 1px solid rgba(86,61,124,.2);
-}
+          margin-top: 25px;
+        }
 
-hr {
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
+        hr {
+          margin-top: 40px;
+          margin-bottom: 40px;
+        }
 
-.col-md-12{
-    background-color: inherit;
-    border: inherit;
-}
+        body{
+            width: 100%;
+            background-color: #f5f5f5;
+        }
 
-.col-md-4{
-    background-color: inherit;
-    border: inherit;
-}
+        .container{
+            width: 100%;
+        }
 
-body{
-    width: 100%;
-}
+        .hero{
+            background-image: url('img/hero2.jpg');
+            background-position: 50% 66%;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 600px;
+            margin-bottom: 30px;
+        }
 
-.container{
-    width: 100%;
-}
-
-.hero{
-    background-image: url('img/hero2.jpg');
-    background-position: center;
-    background-size: cover;
-    height: 600px;
-    margin-bottom: 20px;
-}
-
-.navContainer{
-    height: 78px;
-}
-
-.navContainer img{
-    width: 22px;
-    height: 35px;
-    float: left;
-    line-height: 39px;
-}
-
-.navContainer ul{
-    float: right;
-    list-style: none;
-    line-height: 39px;
-}
-
-.navContainer ul li{
-    display:inline-block;
-    margin-right: 23px;
-    color: white;
-}
-
-body .container .col-md-12{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.hello{
-    text-align: center;
-    font-size: 90px;
-    font-family: "museo-sans";
-    font-weight: 100;
-    color: white;
-    position: relative;
-    top : 80px;
-    opacity: 0;
-    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
-    transition: all 1s;
-    /*animation: heroAnimate 1s 0.5s forwards ease-out;
-    -webkit-animation: heroAnimate 1s 0.5s forwards ease-out;*/
-}
-
-div .second-line{
-	font-size:40px;
-    font-family: "utopia-std";
-    font-style: italic;
-    top: 0px;
-    opacity: 0;
-    transition: all 1s;
-    /*animation: heroAnimate 1s 0.5s forwards ease-out;
-    -webkit-animation: heroAnimate 1s 0.5s forwards ease-out;*/
-}
+        .bar{
+            background-color: white;
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            top: 600px;
+            left: 0px;
+        }
         
-.air{
-    background-image: url(img/air2.jpg);
-    background-position: 50% 50%;
-    transition: all 0.8s;
-    -webkit transition: all 0.8s;
-}
+        .bar2{
+            background-color: white;
+            opacity: 0.5;
+            height: 2px;
+            width: 100%;
+            position: absolute;
+            top: 598px;
+            left: 0px;
+        }
         
-.air:hover{
-    background-position: 50% 102%;
-}
-        
-.cricket{
-    background-image: url(img/crickets2.jpg);
-    background-position: 50% 50%;
-    transition: all 0.8s;
-    -webkit transition: all 0.8s;
-}
-        
-.cricket:hover{
-    background-position: 50% 102%;
-}
-        
-.smart{
-    background-image: url(img/smart2.jpg);
-    background-position: 50% 50%;
-    transition: all 0.8s;
-    -webkit transition: all 0.8s;
-}
-        
-.smart:hover{
-    background-position: 50% 102%;
-}
-        
-.three{
-    background-image: url(img/thr33.jpg);
-    background-size: cover;
-    background-position: 50% 50%;
-    transition: all 0.8s;
-    -webkit transition: all 0.8s;
-}
-        
-.three:hover{
-    background-position: 50% 102%;
-}
+        .hero-gradient{
+            position: absolute;
+            top: 450px;
+            left:  0px;
+            height: 150px;
+            width: 100%;
+            z-index: 0;
+            background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.4) 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0.4)));
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
+            background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
+            background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
+            background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#4d000000',GradientType=0 );
+        }
 
-.work.last{
-    margin-right: 0px;
-}
+        .navContainer{
+            height: 78px;
+            width: 100%;
+            margin-top: 10px;
+            z-index: 5;
+        }
 
-.work{
-    //padding: 10px;
-    background-color: #1E7BB1;
-    height: 360px;
-    width: 360px;
-    float: left;
-    margin-right: 30px;
-    padding: 10px;
-    position: relative;
-    overflow: hidden;
-    }
+        .navContainer img{
+            width: 22px;
+            height: 35px;
+            float: left;
+            line-height: 39px;
+        }
 
-.work p{
-    width: 360px;
-    height: 360px;
-    //background-color: green;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    //bottom: 0px;
-    padding-top: 325px;
-    padding-left: 10px;
-    z-index: 1;
-    -webkit-transition: all 1s;
-    transition: all 0.5s;
-    text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
-}
+        .navContainer ul{
+            float: right;
+            list-style: none;
+            line-height: 39px;
+        }
 
-.work:hover p{
-    top:-25px;
-}
-        
-.gradient{
-    position: relative;
-    top: 349px;
-    left:  -10px;
-    height: 90px;
-    width: 360px;
-    z-index: 0;
-    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.3) 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0.3)));
-    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
-    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
-    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
-    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#4d000000',GradientType=0 );
-    -webkit-transition: all 1s;
-    transition: all 0.5s;
-}
-        
-.work:hover .gradient{
-    top: 260px;
-}
+        .navContainer ul li{
+            display:inline-block;
+            margin-right: 23px;
+            color: white;
+        }
 
-.project-title{
-    font-size: 21px;
-    color: white;
-    font-family: museo-sans;
-    font-weight: 200;
-}
-        
-.project-subject{
-    font-size: 21px;
-    color: white;
-    font-family: "utopia-std";
-    font-style: italic;
-    margin-top: 30px;
-}
+        body .container .col-md-12{
+            padding-left: 0px;
+            padding-right: 0px;
+        }
 
-a{
-    color: white;
-    text-decoration: none;
-}
+        .hello{
+            text-align: center;
+            font-size: 90px;
+            font-family: "museo-sans";
+            font-weight: 100;
+            color: white;
+            position: relative;
+            top : 80px;
+            opacity: 0;
+            text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
+            transition: all 1s;
+            /*animation: heroAnimate 1s 0.5s forwards ease-out;
+            -webkit-animation: heroAnimate 1s 0.5s forwards ease-out;*/
+        }
 
-a:link{
-    color: white;
-}
+        div .second-line{
+            font-size:40px;
+            font-family: "utopia-std";
+            font-style: italic;
+            top: 0px;
+            opacity: 0;
+            transition: all 1s;
+            /*animation: heroAnimate 1s 0.5s forwards ease-out;
+            -webkit-animation: heroAnimate 1s 0.5s forwards ease-out;*/
+        }
 
-li a:hover{
-    color: #FF00FF;
-}
+        .air{
+            background-image: url(img/air2.jpg);
+            background-position: 50% 50%;
+            transition: all 0.8s;
+            -webkit transition: all 0.8s;
+        }
 
-.footer{
-    background-color: #1E7BB1;
-    height: 200px;
-    margin-top: 20px;
-}
+        .air:hover{
+            background-position: 50% 102%;
+        }
+
+        .cricket{
+            background-image: url(img/crickets2.jpg);
+            background-position: 50% 50%;
+            transition: all 0.8s;
+            -webkit transition: all 0.8s;
+        }
+
+        .cricket:hover{
+            background-position: 50% 102%;
+        }
+
+        .smart{
+            background-image: url(img/smart2.jpg);
+            background-position: 50% 50%;
+            transition: all 0.8s;
+            -webkit transition: all 0.8s;
+        }
+
+        .smart:hover{
+            background-position: 50% 102%;
+        }
+
+        .three{
+            background-image: url(img/thr33.jpg);
+            background-size: cover;
+            background-position: 50% 50%;
+            transition: all 0.8s;
+            -webkit transition: all 0.8s;
+        }
+
+        .three:hover{
+            background-position: 50% 102%;
+        }
+
+        .work.last{
+            margin-right: 0px;
+        }
+
+        .work{
+            background-color: #1E7BB1;
+            height: 360px;
+            width: 360px;
+            float: left;
+            margin-right: 30px;
+            margin-bottom: 30px;
+            padding: 10px;
+            position: relative;
+            overflow: hidden;
+            }
+
+        .work p{
+            width: 360px;
+            height: 360px;
+            //background-color: green;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            //bottom: 0px;
+            padding-top: 325px;
+            padding-left: 10px;
+            z-index: 1;
+            -webkit-transition: all 1s;
+            transition: all 0.5s;
+            text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
+        }
+
+        .work:hover p{
+            top:-25px;
+        }
+
+        .gradient{
+            position: relative;
+            top: 349px;
+            left:  -10px;
+            height: 90px;
+            width: 360px;
+            z-index: 0;
+            background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.3) 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0.3)));
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+            background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+            background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+            background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.3) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#4d000000',GradientType=0 );
+            -webkit-transition: all 1s;
+            transition: all 0.5s;
+        }
+
+        .work:hover .gradient{
+            top: 260px;
+        }
+
+        .project-title{
+            font-size: 21px;
+            color: white;
+            font-family: museo-sans;
+            font-weight: 200;
+        }
+
+        .project-subject{
+            font-size: 21px;
+            color: white;
+            font-family: "utopia-std";
+            font-style: italic;
+            margin-top: 30px;
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        a:link{
+            color: white;
+        }
+
+        li a:hover{
+            color: #FF00FF;
+        }
+
+        .footer{
+            background-color: #1E7BB1;
+            height: 200px;
+            margin-top: 20px;
+        }
     </style>
 
     <!-- Bootstrap core CSS -->
@@ -261,36 +276,40 @@ li a:hover{
       
   </head>
   <body>
+    <nav class= "navContainer">
+        <img src="img/logo.png"/>
+        <ul>
+            <li><a href="google.com">ABOUT</a></li>
+            <li><a href="google.com">RESUME</a></li>
+            <li><a href="google.com">CONTACT</a></li>
+        </ul>
+    </nav>
+      
     <!-- Hero -->
     <div class="row hero">
         <div class="container">
-            <nav class= "col-md-12 navContainer">
-                <img src="img/logo.png"/>
-                <ul>
-                    <li><a href="google.com">ABOUT</a></li>
-                    <li><a href="google.com">RESUME</a></li>
-                    <li><a href="google.com">CONTACT</a></li>
-                </ul>
-            </nav>
-                <p class="col-md-12 hello" name="name">Mathew Morse</p>
-                <p class="col-md-12 hello second-line" name="title">Interactive Designer & Front-end Developer</p>
+                <p class="hello" name="name">Mathew Morse</p>
+                <p class="hello second-line" name="title">Interactive Designer & Front-end Developer</p>
         </div> <!-- /container -->
+    <div class="hero-gradient"></div>
+    <div class="bar2"></div>
+    <div class="bar"></div>
     </div> <!--/row -->
       
     <div class="container">
-        <div class="col-md-12">
+        <div>
             <div class="work air"><p class="project-title">AIR</p><p class="project-subject">Mobile Design & Development</p><div class="gradient"></div></div>
             <div class="work cricket"><p class="project-title">Crickets</p><p class="project-subject">WebGL & THREE.js Development</p><div class="gradient"></div></div>
             <div class="work last three"><p class="project-title">Thr33fold</p><p class="project-subject">Creative Intern</p><div class="gradient"></div></div>
         </div>
         
-        <div class="col-md-12">
+        <div>
             <div class="work"><p class="project-title">GHG</p><p class="project-subject">Mobile Design & Development</p><div class="gradient"></div></div>
             <div class="work"><p class="project-title">Everyguyed</p><p class="project-subject">Mobile Design & Development</p><div class="gradient"></div></div>
             <div class="work last smart"><p class="project-title">Smart</p><p class="project-subject">Branding & Web Design</p><div class="gradient"></div></div>
         </div>
         
-        <div class="col-md-12">
+        <div>
             <div class="work"><p class="project-title">3D</p><p class="project-subject">Mobile Design & Development</p><div class="gradient"></div></div>
             <!--<div class="work"><p class="projectTitle"></p><div class="gradient"></div></div>
             <div class="work last"><p class="projectTitle"></p><div class="gradient"></div></div>-->
@@ -298,7 +317,7 @@ li a:hover{
     </div> <!-- /container -->
     
     <div class="row footer">
-        <div class="col-md-12">
+        <div>
         </div>
     </div> <!--/container-->
   </body>
@@ -315,7 +334,7 @@ li a:hover{
             
             setTimeout(function(){
                 title[0].style.opacity = 1;
-                title[0].style.top = '100px';
+                title[0].style.top = '125px';
             }, 300);
         }
     </script>
