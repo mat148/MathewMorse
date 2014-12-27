@@ -10,10 +10,11 @@
 
     <title>Mat Morse</title>
       
-    <link href="css/main.css" rel="stylesheet">
+    
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="//use.typekit.net/vzk6nlt.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
+      <link href="css/main.css" rel="stylesheet">
       
   </head>
   <body>
@@ -23,14 +24,18 @@
             <nav class= "col-md-12 navContainer">
                 <img src="img/logo.png"/>
                 <ul>
-                    <li><a href="google.com">ABOUT</a></li>
-                    <li><a href="google.com">RESUME</a></li>
-                    <li><a href="google.com">CONTACT</a></li>
+                    <li id="about"><a href="google.com">ABOUT</a></li>
+                    <li id="resume"><a href="google.com">RESUME</a></li>
+                    <li id="contact"><a href="google.com">CONTACT</a></li>
                 </ul>
             </nav>
                 <p class="col-md-12 hello" name="name">Mathew Morse</p>
                 <p class="col-md-12 hello second-line" name="title">Interactive Designer & Front-end Developer</p>
         </div> <!-- /container -->
+        
+    <div class="hero-gradient"></div>
+    <div class="bar bar1"></div>
+    <div class="bar bar2"></div>
     </div> <!--/row -->
       
     <div class="container">
@@ -71,7 +76,7 @@
             
             setTimeout(function(){
                 title[0].style.opacity = 1;
-                title[0].style.top = '100px';
+                title[0].style.top = '120px';
             }, 300);
         }
     </script>

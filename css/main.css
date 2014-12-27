@@ -1,21 +1,54 @@
         body{
             width: 100%;
-        }
-
-        .container{
-            width: 100%;
+            background-color: #f5f5f5;
         }
 
         .hero{
             background-image: url('../img/hero2.jpg');
-            background-position: center;
+            background-position: 50% 65%;
             background-size: cover;
+            background-attachment: fixed;
             height: 600px;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .hero-gradient{
+            position: absolute;
+            top: 450px;
+            left:  0px;
+            height: 150px;
+            width: 100%;
+            z-index: 0;
+            background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.4) 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0.4)));
+            background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
+            background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
+            background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
+            background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#4d000000',GradientType=0 );
+        }
+
+        .bar{
+            background-color: white;
+            height: 2px;
+            width: 100%;
+            position: absolute;
+        }
+
+        .bar1{
+            top: 598px;
+            left: 0px;
+            opacity: 0.5;
+        }
+
+        .bar2{
+            top: 600px;
+            left: 0px;
         }
 
         .navContainer{
             height: 78px;
+            margin-top: 30px;
         }
 
         .navContainer img{
@@ -35,6 +68,63 @@
             display:inline-block;
             margin-right: 23px;
             color: white;
+            text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
+        }
+
+        a{
+            color: white;
+            text-decoration: none;
+        }
+
+        li::before{
+            content: "";
+            display: block;
+            height: 3px;
+            background-color: white;
+            position: absolute;
+            top: 33px;
+            transition: 0.5s all;
+            -webkit-transform: scaleX(0);
+        }
+
+        #about:hover:before{
+            -webkit-transform: scaleX(1);
+        }
+
+        #resume:hover:before{
+            -webkit-transform: scaleX(1);
+        }
+
+        #contact:hover:before{
+            -webkit-transform: scaleX(1);
+        }
+
+        #about::before{
+            width: 48px;
+        }
+
+        #resume::before{
+            width: 59px;
+        }
+
+        #contact::before{
+            width: 67px;
+        }
+
+        a:link{
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover{
+            color: white;
+            text-decoration: none;
+            color: #1E7BB1;
+        }
+
+        a:visited{
+            color: white;
+            text-decoration: none;
         }
 
         body .container .col-md-12{
@@ -118,25 +208,25 @@
         }
 
         .work{
-            //padding: 10px;
             background-color: #1E7BB1;
             height: 360px;
             width: 360px;
             float: left;
-            margin-right: 30px;
+            margin: 0 30px 30px 0;
             padding: 10px;
             position: relative;
             overflow: hidden;
+            border-width: 2px;
+            border-color: white;
+            border-style: solid;
             }
 
         .work p{
             width: 360px;
             height: 360px;
-            //background-color: green;
             position: absolute;
             top: 0px;
             left: 0px;
-            //bottom: 0px;
             padding-top: 325px;
             padding-left: 10px;
             z-index: 1;
@@ -146,7 +236,7 @@
         }
 
         .work:hover p{
-            top:-25px;
+            top:-35px;
         }
 
         .gradient{
@@ -186,21 +276,7 @@
             margin-top: 30px;
         }
 
-        a{
-            color: white;
-            text-decoration: none;
-        }
-
-        a:link{
-            color: white;
-        }
-
-        li a:hover{
-            color: #FF00FF;
-        }
-
         .footer{
             background-color: #1E7BB1;
             height: 200px;
-            margin-top: 20px;
         }
