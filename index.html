@@ -12,9 +12,9 @@
       
     
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <script src="//use.typekit.net/vzk6nlt.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
-      <link href="css/main.css" rel="stylesheet">
       
   </head>
   <body>
@@ -63,22 +63,5 @@
         </div>
     </div> <!--/container-->
   </body>
-    
-    <script>
-        window.onload = init;
-        
-        function init()
-        {
-            var name = document.getElementsByName('name');
-            var title = document.getElementsByName('title');
-            name[0].style.opacity = 1;
-            name[0].style.top = '150px';
-            
-            setTimeout(function(){
-                title[0].style.opacity = 1;
-                title[0].style.top = '120px';
-            }, 300);
-        }
-    </script>
-    
+<script src="js/main.js"></script>
 </html>

@@ -48,7 +48,7 @@
 
         .navContainer{
             height: 78px;
-            margin-top: 30px;
+            margin-top: 15px;
         }
 
         .navContainer img{
@@ -80,6 +80,7 @@
             content: "";
             display: block;
             height: 3px;
+            /*background-color: #1E7BB1;*/
             background-color: white;
             position: absolute;
             top: 33px;
@@ -119,7 +120,6 @@
         a:hover{
             color: white;
             text-decoration: none;
-            color: #1E7BB1;
         }
 
         a:visited{
@@ -280,3 +280,70 @@
             background-color: #1E7BB1;
             height: 200px;
         }
+
+        <!-- portfolio page rules-->
+
+        .project-details{
+    height: 400px;
+    background-color: lightgrey;
+}
+        
+.details-contain{
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+.project-description{
+    height: 400px;
+    background-color: grey;
+    padding: 100px;
+}
+        
+.project-description p{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+    color: white;
+    font-family: "museo-sans";
+    font-weight: 100;
+}
+        
+.project-user{
+    height: 400px;
+    background-color: lightgrey;
+}
+        
+.user-contain{
+    height: 200px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: grey;
+}
+        
+.project-wireframe{
+    height: 400px;
+    background-color: grey;
+}
+        
+.wireframe-contain{
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+        
+.wireframe-contain p{
+    font-size:40px;
+    font-family: "utopia-std";
+    font-style: italic;
+    color: white;
+}
+        
+.wireframe-contain .wireframe{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+}
