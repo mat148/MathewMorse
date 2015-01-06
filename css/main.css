@@ -12,6 +12,29 @@
             margin-bottom: 30px;
         }
 
+        .air-hero{
+            
+            background-image: none;
+            background: #4a778f; /* Old browsers */
+            background: -moz-linear-gradient(top,  #4a778f 0%, #00aba2 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a778f), color-stop(100%,#00aba2)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(top,  #4a778f 0%,#00aba2 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(top,  #4a778f 0%,#00aba2 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(top,  #4a778f 0%,#00aba2 100%); /* IE10+ */
+            background: linear-gradient(to bottom,  #4a778f 0%,#00aba2 100%); /* W3C */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a778f', endColorstr='#00aba2',GradientType=0 ); /* IE6-9 */
+        }
+
+        .air-hero:before{
+            content: "";
+            display: block;
+            background-image: url(../img/airHeroPhone.png);
+            background-size: cover;
+            height: 500px;
+            width: 267px;
+            position: absolute;
+        }
+
         .hero-gradient{
             position: absolute;
             top: 450px;
@@ -86,6 +109,10 @@
             top: 33px;
             transition: 0.5s all;
             -webkit-transform: scaleX(0);
+        }
+
+        li{
+            list-style: none;
         }
 
         #about:hover:before{
@@ -219,7 +246,7 @@
             border-width: 2px;
             border-color: white;
             border-style: solid;
-            }
+        }
 
         .work p{
             width: 360px;
@@ -284,66 +311,98 @@
         <!-- portfolio page rules-->
 
         .project-details{
-    height: 400px;
-    background-color: lightgrey;
-}
+            height: 400px;
+            background-color: #f2f2f2;
+        }
         
-.details-contain{
-    height: 200px;
-    width: 80%;
-    margin: 0 auto;
-    background-color: grey;
-}
+        .details-contain{
+            height: 200px;
+            //width: 80%;
+            //margin: 0 auto;
+            //background-color: red;
+        }
 
-.project-description{
-    height: 400px;
-    background-color: grey;
-    padding: 100px;
-}
-        
-.project-description p{
-    width: 80%;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 40px;
-    color: white;
-    font-family: "museo-sans";
-    font-weight: 100;
-}
-        
-.project-user{
-    height: 400px;
-    background-color: lightgrey;
-}
-        
-.user-contain{
-    height: 200px;
-    width: 80%;
-    margin: 0 auto;
-    background-color: grey;
-}
-        
-.project-wireframe{
-    height: 400px;
-    background-color: grey;
-}
-        
-.wireframe-contain{
-    height: 400px;
-    width: 80%;
-    margin: 0 auto;
-    background-color: lightgrey;
-}
-        
-.wireframe-contain p{
-    font-size:40px;
-    font-family: "utopia-std";
-    font-style: italic;
-    color: white;
-}
-        
-.wireframe-contain .wireframe{
-    height: 300px;
-    width: 300px;
-    background-color: red;
-}
+        .details-contain ul li:first-child{
+            font-size: 20px;
+            font-family: "utopia-std";
+            font-style: italic;
+            font-weight: 600;
+            color: black;
+        }
+
+        .details-contain ul li{
+            color: #7e7e7e;
+            font-family: "museo-sans";
+            font-weight: 100;
+            font-size: 15px;
+        }
+
+        .details-contain ul{
+            float: left;
+            height: auto;
+            width: auto;
+            margin-right: 15%;
+            -webkit-padding-start: 0px;
+            -webkit-margin-before: 0px;
+            -webkit-margin-after: 0px;
+        }
+
+        .details-contain ul:last-child{
+            float: right;
+            margin-right: 0px;
+        }
+
+        .details-contain ul:nth-last-child(2){
+            position: absolute;
+            left: 50%;
+            margin: 0 0 0 -82.5px;
+        }
+
+        .project-description{
+            height: 400px;
+            background-color: white;
+            padding: 100px;
+        }
+
+        .project-description p{
+            text-align: center;
+            font-size: 30px;
+            color: #7e7e7e;
+            font-family: "museo-sans";
+            font-weight: 100;
+        }
+
+        .project-user{
+            height: 400px;
+            background-color: lightgrey;
+        }
+
+        .user-contain{
+            height: 200px;
+            margin: 0 auto;
+            background-color: grey;
+        }
+
+        .project-wireframe{
+            height: 400px;
+            background-color: grey;
+        }
+
+        .wireframe-contain{
+            height: 400px;
+            margin: 0 auto;
+            background-color: lightgrey;
+        }
+
+        .wireframe-contain p{
+            font-size:40px;
+            font-family: "utopia-std";
+            font-style: italic;
+            color: white;
+        }
+
+        .wireframe-contain .wireframe{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+        }
