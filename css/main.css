@@ -3,6 +3,38 @@
             background-color: #f5f5f5;
         }
 
+        p{
+            font-size: 30px;
+            color: #7e7e7e;
+            font-family: "museo-sans";
+            font-weight: 100;
+        }
+
+        ul li:first-child{
+            font-size: 20px;
+            font-family: "utopia-std";
+            font-style: italic;
+            font-weight: 600;
+            color: black;
+        }
+
+        ul li{
+            color: #7e7e7e;
+            font-family: "museo-sans";
+            font-weight: 100;
+            font-size: 15px;
+        }
+
+        ul{
+            float: left;
+            height: auto;
+            width: auto;
+            //margin-right: 15%;
+            -webkit-padding-start: 0px;
+            -webkit-margin-before: 0px;
+            -webkit-margin-after: 0px;
+        }
+
         .hero{
             background-image: url('../img/hero2.jpg');
             background-position: 50% 65%;
@@ -10,29 +42,7 @@
             background-attachment: fixed;
             height: 600px;
             margin-bottom: 30px;
-        }
-
-        .air-hero{
-            
-            background-image: none;
-            background: #4a778f; /* Old browsers */
-            background: -moz-linear-gradient(top,  #4a778f 0%, #00aba2 100%); /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a778f), color-stop(100%,#00aba2)); /* Chrome,Safari4+ */
-            background: -webkit-linear-gradient(top,  #4a778f 0%,#00aba2 100%); /* Chrome10+,Safari5.1+ */
-            background: -o-linear-gradient(top,  #4a778f 0%,#00aba2 100%); /* Opera 11.10+ */
-            background: -ms-linear-gradient(top,  #4a778f 0%,#00aba2 100%); /* IE10+ */
-            background: linear-gradient(to bottom,  #4a778f 0%,#00aba2 100%); /* W3C */
-            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a778f', endColorstr='#00aba2',GradientType=0 ); /* IE6-9 */
-        }
-
-        .air-hero:before{
-            content: "";
-            display: block;
-            background-image: url(../img/airHeroPhone.png);
-            background-size: cover;
-            height: 500px;
-            width: 267px;
-            position: absolute;
+            overflow: hidden;
         }
 
         .hero-gradient{
@@ -41,7 +51,7 @@
             left:  0px;
             height: 150px;
             width: 100%;
-            z-index: 0;
+            z-index: 2;
             background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.4) 100%);
             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0.4)));
             background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(0,0,0,0.4) 100%);
@@ -56,6 +66,7 @@
             height: 2px;
             width: 100%;
             position: absolute;
+            z-index: 2;
         }
 
         .bar1{
@@ -92,6 +103,15 @@
             margin-right: 23px;
             color: white;
             text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
+            font-size: 15px;
+        }
+
+        .navContainer ul li:first-child{
+            color: #7e7e7e;
+            font-family: "museo-sans";
+            font-weight: 100;
+            font-size: 15px;
+            font-style: normal;
         }
 
         a{
@@ -170,6 +190,7 @@
             opacity: 0;
             text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
             transition: all 1s;
+            z-index: 2;
             /*animation: heroAnimate 1s 0.5s forwards ease-out;
             -webkit-animation: heroAnimate 1s 0.5s forwards ease-out;*/
         }
@@ -307,9 +328,16 @@
             background-color: #1E7BB1;
             height: 200px;
         }
-
-        <!-- portfolio page rules-->
-
+        
+/* portfolio page rules*/
+        .whiteSpace-box{
+            height: 340px;
+            background-color: white;
+            padding-top: 100px;
+            box-shadow: 0px 0px 2px #888888;
+            -webkit-box-shadow: 0px 0px 2px #d1d1d1;
+        }
+        
         .project-details{
             height: 400px;
             background-color: #f2f2f2;
@@ -317,34 +345,10 @@
         
         .details-contain{
             height: 200px;
+            padding-top: 55px;
             //width: 80%;
             //margin: 0 auto;
             //background-color: red;
-        }
-
-        .details-contain ul li:first-child{
-            font-size: 20px;
-            font-family: "utopia-std";
-            font-style: italic;
-            font-weight: 600;
-            color: black;
-        }
-
-        .details-contain ul li{
-            color: #7e7e7e;
-            font-family: "museo-sans";
-            font-weight: 100;
-            font-size: 15px;
-        }
-
-        .details-contain ul{
-            float: left;
-            height: auto;
-            width: auto;
-            margin-right: 15%;
-            -webkit-padding-start: 0px;
-            -webkit-margin-before: 0px;
-            -webkit-margin-after: 0px;
         }
 
         .details-contain ul:last-child{
@@ -353,15 +357,9 @@
         }
 
         .details-contain ul:nth-last-child(2){
-            position: absolute;
+            position: relative;
             left: 50%;
-            margin: 0 0 0 -82.5px;
-        }
-
-        .project-description{
-            height: 400px;
-            background-color: white;
-            padding: 100px;
+            margin-left: -180px;
         }
 
         .project-description p{
@@ -380,12 +378,15 @@
         .user-contain{
             height: 200px;
             margin: 0 auto;
-            background-color: grey;
+            margin-top: 100px;
+        }
+
+        .user-contain p{
+            font-size: 20px;
+            margin-left: 200px;
         }
 
         .project-wireframe{
-            height: 400px;
-            background-color: grey;
         }
 
         .wireframe-contain{
@@ -405,4 +406,62 @@
             height: 300px;
             width: 300px;
             background-color: red;
+        }
+
+    /* -- Air portfolio page--*/
+
+                
+        .air-hero{
+            height: 600px;
+            width: 100%;
+            //margin-bottom: 30px;
+            overflow: hidden;
+            background-image: url('../img/airHero2.jpg');
+            background-position: 50% 150%;
+            background-size: cover;
+            background-attachment: fixed;
+            //perspective: 500px;
+        }
+
+        .airphone-hero1{
+            background-image: url(../img/airHeroPhone.png);
+            background-size: cover;
+            height: 600px;
+            width: 320px;
+            float: left;
+            position: relative;
+            top: -185px;
+            left: 50%;
+            margin-left: -160px;
+            z-index: 1;
+        }
+
+        .airphone-hero2{
+            background-image: url(../img/airHeroPhone.png);
+            background-size: cover;
+            height: 500px;
+            width: 267px;
+            float: left;
+            position: relative;
+            top: -135px;
+            left: 50%;
+            margin-left: -480px;
+            z-index: 0;
+            //-webkit-transform: rotateY(30deg); /* Chrome, Safari, Opera */
+            //transform: rotateY(30deg);
+        }
+
+        .airphone-hero3{
+            background-image: url(../img/airHeroPhone.png);
+            background-size: cover;
+            height: 500px;
+            width: 267px;
+            float: left;
+            position: relative;
+            top: -135px;
+            left: 50%;
+            margin-left: -105px;
+            z-index: 0;
+            //-webkit-transform: rotateY(-30deg); /* Chrome, Safari, Opera */
+            //transform: rotateY(-30deg);
         }
