@@ -68,13 +68,13 @@
         }
 
         .project-details{
-            background-color: #038d86;
+            background-color: #497990;
+        }
+
+        .bar2{
+            background-color: #4fb2e2;
         }
 
         ul li{
             color: white;
-        }
-
-        .bar2{
-            background-color: #04c6bc;
         }
