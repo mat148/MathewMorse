@@ -10,7 +10,7 @@
             font-weight: 100;
         }
 
-        ul li:first-child{
+        h1{
             font-size: 20px;
             font-family: "utopia-std";
             font-style: italic;
@@ -331,11 +331,17 @@
         
 /* portfolio page rules*/
         .whiteSpace-box{
-            height: 340px;
+            height: auto;
             background-color: white;
-            padding-top: 100px;
+            padding: 80px 0;
             box-shadow: 0px 0px 2px #888888;
             -webkit-box-shadow: 0px 0px 2px #d1d1d1;
+        }
+
+        .greySpace-box{
+            height: auto;
+            margin: 0 auto;
+            margin: 80px 0px;
         }
         
         .project-details{
@@ -344,11 +350,6 @@
         }
         
         .details-contain{
-            height: 200px;
-            padding-top: 55px;
-            //width: 80%;
-            //margin: 0 auto;
-            //background-color: red;
         }
 
         .details-contain ul:last-child{
@@ -375,24 +376,13 @@
             background-color: lightgrey;
         }
 
-        .user-contain{
-            height: 200px;
-            margin: 0 auto;
-            margin-top: 100px;
-        }
-
         .user-contain p{
             font-size: 20px;
             margin-left: 200px;
+            margin-top: 15px;
         }
 
         .project-wireframe{
-        }
-
-        .wireframe-contain{
-            height: 400px;
-            margin: 0 auto;
-            background-color: lightgrey;
         }
 
         .wireframe-contain p{
@@ -400,68 +390,4 @@
             font-family: "utopia-std";
             font-style: italic;
             color: white;
-        }
-
-        .wireframe-contain .wireframe{
-            height: 300px;
-            width: 300px;
-            background-color: red;
-        }
-
-    /* -- Air portfolio page--*/
-
-                
-        .air-hero{
-            height: 600px;
-            width: 100%;
-            //margin-bottom: 30px;
-            overflow: hidden;
-            background-image: url('../img/airHero2.jpg');
-            background-position: 50% 150%;
-            background-size: cover;
-            background-attachment: fixed;
-            //perspective: 500px;
-        }
-
-        .airphone-hero1{
-            background-image: url(../img/airHeroPhone.png);
-            background-size: cover;
-            height: 600px;
-            width: 320px;
-            float: left;
-            position: relative;
-            top: -185px;
-            left: 50%;
-            margin-left: -160px;
-            z-index: 1;
-        }
-
-        .airphone-hero2{
-            background-image: url(../img/airHeroPhone.png);
-            background-size: cover;
-            height: 500px;
-            width: 267px;
-            float: left;
-            position: relative;
-            top: -135px;
-            left: 50%;
-            margin-left: -480px;
-            z-index: 0;
-            //-webkit-transform: rotateY(30deg); /* Chrome, Safari, Opera */
-            //transform: rotateY(30deg);
-        }
-
-        .airphone-hero3{
-            background-image: url(../img/airHeroPhone.png);
-            background-size: cover;
-            height: 500px;
-            width: 267px;
-            float: left;
-            position: relative;
-            top: -135px;
-            left: 50%;
-            margin-left: -105px;
-            z-index: 0;
-            //-webkit-transform: rotateY(-30deg); /* Chrome, Safari, Opera */
-            //transform: rotateY(-30deg);
         }

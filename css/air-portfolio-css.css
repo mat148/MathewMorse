@@ -1,0 +1,80 @@
+/* -- Air portfolio page--*/
+
+                
+        .air-hero{
+            height: 600px;
+            width: 100%;
+            //margin-bottom: 30px;
+            overflow: hidden;
+            background-image: url('../img/airHero2.jpg');
+            background-position: 50% 150%;
+            background-size: cover;
+            background-attachment: fixed;
+            //perspective: 500px;
+        }
+
+        .airphone-hero1{
+            background-image: url(../img/airHeroPhone.png);
+            background-size: cover;
+            height: 600px;
+            width: 320px;
+            float: left;
+            position: relative;
+            top: -185px;
+            left: 50%;
+            margin-left: -160px;
+            z-index: 1;
+        }
+
+        .airphone-hero2{
+            background-image: url(../img/airHeroPhone.png);
+            background-size: cover;
+            height: 500px;
+            width: 267px;
+            float: left;
+            position: relative;
+            top: -135px;
+            left: 50%;
+            margin-left: -480px;
+            z-index: 0;
+            //-webkit-transform: rotateY(30deg); /* Chrome, Safari, Opera */
+            //transform: rotateY(30deg);
+        }
+
+        .airphone-hero3{
+            background-image: url(../img/airHeroPhone.png);
+            background-size: cover;
+            height: 500px;
+            width: 267px;
+            float: left;
+            position: relative;
+            top: -135px;
+            left: 50%;
+            margin-left: -105px;
+            z-index: 0;
+            //-webkit-transform: rotateY(-30deg); /* Chrome, Safari, Opera */
+            //transform: rotateY(-30deg);
+        }
+
+        .wireframes img{
+            height: auto;
+            width: 100%;
+            border: 1px #e6e6e6 solid;
+        }
+
+        .wireframes p{
+            font-size: 20px;
+            margin: 15px 0px;;          
+        }
+
+        .project-details{
+            background-color: #038d86;
+        }
+
+        ul li{
+            color: white;
+        }
+
+        .bar2{
+            background-color: #04c6bc;
+        }
