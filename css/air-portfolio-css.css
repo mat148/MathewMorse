@@ -60,6 +60,8 @@
             height: auto;
             width: 100%;
             border: 1px #e6e6e6 solid;
+            box-shadow: 0px 0px 5px #575757;
+            -webkit-box-shadow: 0px 0px 5px #c9c9c9;=
         }
 
         .wireframes p{
@@ -67,14 +69,22 @@
             margin: 15px 0px;;          
         }
 
-        .project-details{
-            background-color: #497990;
+        .details-contain{
+            background-color: #2b333e;
         }
 
         .bar2{
-            background-color: #4fb2e2;
+            background-color: #5f6976;
         }
 
         ul li{
-            color: white;
+            
+        }
+
+        .user-contain{
+            background-color: #2b333e;
+        }
+
+        .greySpace-box{
+            background-color: rgba(43, 51, 62, 1);
         }
