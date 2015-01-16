@@ -26,10 +26,8 @@
         }
 
         ul{
-            float: left;
             height: auto;
             width: auto;
-            //margin-right: 15%;
             -webkit-padding-start: 0px;
             -webkit-margin-before: 0px;
             -webkit-margin-after: 0px;
@@ -258,7 +256,7 @@
         .work{
             background-color: #1E7BB1;
             height: 360px;
-            width: 360px;
+            width: 100%;
             float: left;
             margin: 0 30px 30px 0;
             padding: 10px;
@@ -324,18 +322,15 @@
             margin-top: 30px;
         }
 
-        .foot{
+        .footer{
             background-color: #2b333e;
             height: 200px;
-            width: 100%;
-            z-index: 5;
-            float: left;
+            display: block;
         }
         
 /* portfolio page rules*/
         .whiteSpace-box{
             height: auto;
-            background-color: white;
             padding: 80px 0;
             z-index: 0;
         }
@@ -346,7 +341,7 @@
             padding: 80px 0px;
             box-shadow: 0px 0px 8px #575757;
             -webkit-box-shadow: 0px 0px 8px #575757;
-            z-index: 1;
+            z-index: 5;
         }
 
         .greySpace-box p{
@@ -369,17 +364,6 @@
         .details-contain{
         }
 
-        .details-contain ul:last-child{
-            float: right;
-            margin-right: 0px;
-        }
-
-        .details-contain ul:nth-last-child(2){
-            position: relative;
-            left: 50%;
-            margin-left: -180px;
-        }
-
         .project-description p{
             text-align: center;
             font-size: 30px;
@@ -393,22 +377,28 @@
             background-color: lightgrey;
         }
 
-        .vertLine{
-            height: 131px;
-            width: 1px;
-            float: left;
-            margin-left: 24px;
-            background-color: white;
-        }
-
         .user-contain p{
             font-size: 20px;
-            margin-left: 212px;
+            padding-left: 40px;
             margin-top: 15px;
+            float: left;
+            width: 83%;
+        }
+
+        .user-contain ul{
+            float: left;
         }
 
         .user-contain li{
             margin-bottom: 10px;
+        }
+
+        .vertLine{
+            height: 131px;
+            width: 1px;
+            background-color: white;
+            float: left;
+            margin-left: 30px;
         }
 
         .project-wireframe{
@@ -428,16 +418,14 @@
 
         .project-moodboards p{
             float: left;
-            width: 30%;
             font-size: 20px;
             margin: 15px 0px;  
         }
 
-         .moodboards img{
+         .project-moodboards img{
             height: auto;
-            width: 65%;
+            width: 100%;
             border: 1px #e6e6e6 solid;
             box-shadow: 0px 0px 5px #575757;
             -webkit-box-shadow: 0px 0px 5px #c9c9c9;
-            float: right;
         }
