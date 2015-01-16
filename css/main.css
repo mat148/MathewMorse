@@ -324,9 +324,12 @@
             margin-top: 30px;
         }
 
-        .footer{
+        .foot{
             background-color: #2b333e;
             height: 200px;
+            width: 100%;
+            z-index: 5;
+            float: left;
         }
         
 /* portfolio page rules*/
@@ -390,18 +393,51 @@
             background-color: lightgrey;
         }
 
+        .vertLine{
+            height: 131px;
+            width: 1px;
+            float: left;
+            margin-left: 24px;
+            background-color: white;
+        }
+
         .user-contain p{
             font-size: 20px;
-            margin-left: 200px;
+            margin-left: 212px;
             margin-top: 15px;
+        }
+
+        .user-contain li{
+            margin-bottom: 10px;
         }
 
         .project-wireframe{
         }
 
-        .wireframe-contain p{
-            font-size:40px;
-            font-family: "utopia-std";
-            font-style: italic;
-            color: white;
+        .wireframes p{
+            font-size: 20px;
+            margin: 15px 0px;        
+        }
+
+        .wireframes img{
+            width: 100%;
+            border: 1px #e6e6e6 solid;
+            box-shadow: 0px 0px 5px #575757;
+            -webkit-box-shadow: 0px 0px 5px #c9c9c9;
+        }
+
+        .project-moodboards p{
+            float: left;
+            width: 30%;
+            font-size: 20px;
+            margin: 15px 0px;  
+        }
+
+         .moodboards img{
+            height: auto;
+            width: 65%;
+            border: 1px #e6e6e6 solid;
+            box-shadow: 0px 0px 5px #575757;
+            -webkit-box-shadow: 0px 0px 5px #c9c9c9;
+            float: right;
         }
