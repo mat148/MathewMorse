@@ -90,6 +90,10 @@
             line-height: 39px;
         }
 
+        .logo{
+            cursor: pointer;
+        }
+
         .navContainer ul{
             float: right;
             list-style: none;
@@ -137,6 +141,10 @@
             -webkit-transform: scaleX(1);
         }
 
+        #work:hover:before{
+            -webkit-transform: scaleX(1);
+        }
+
         #resume:hover:before{
             -webkit-transform: scaleX(1);
         }
@@ -147,6 +155,10 @@
 
         #about::before{
             width: 48px;
+        }
+
+        #work::before{
+            width: 43px;
         }
 
         #resume::before{
@@ -179,10 +191,10 @@
 
         .hello{
             text-align: center;
-            font-size: 90px;
+            font-size: 70px;
             font-family: "museo-sans";
             font-weight: 100;
-            color: white;
+            color: red;
             position: relative;
             top : 80px;
             opacity: 0;
@@ -194,7 +206,7 @@
         }
 
         div .second-line{
-            font-size:40px;
+            font-size:30px;
             font-family: "utopia-std";
             font-style: italic;
             top: 0px;
@@ -205,10 +217,11 @@
         }
 
         .air{
-            background-image: url(../img/air2.jpg);
+            background-image: url(../img/air3.jpg);
             background-position: 50% 50%;
             transition: all 0.8s;
             -webkit transition: all 0.8s;
+            background-size: cover;
         }
 
         .air:hover{
@@ -216,10 +229,12 @@
         }
 
         .cricket{
-            background-image: url(../img/crickets2.jpg);
+            background-image: url(../img/crickets3.jpg);
             background-position: 50% 50%;
+            background-size: cover;
             transition: all 0.8s;
             -webkit transition: all 0.8s;
+            background-size: cover;
         }
 
         .cricket:hover{
@@ -227,10 +242,12 @@
         }
 
         .smart{
-            background-image: url(../img/smart2.jpg);
+            background-image: url(../img/smart3.jpg);
             background-position: 50% 50%;
+            background-size: cover;
             transition: all 0.8s;
             -webkit transition: all 0.8s;
+            background-size: cover;
         }
 
         .smart:hover{
@@ -238,7 +255,7 @@
         }
 
         .three{
-            background-image: url(../img/thr33.jpg);
+            background-image: url(../img/thr332.jpg);
             background-size: cover;
             background-position: 50% 50%;
             transition: all 0.8s;
@@ -249,22 +266,18 @@
             background-position: 50% 102%;
         }
 
-        .work.last{
-            margin-right: 0px;
-        }
-
         .work{
             background-color: #1E7BB1;
             height: 360px;
             width: 100%;
             float: left;
             margin: 0 30px 30px 0;
-            padding: 10px;
             position: relative;
             overflow: hidden;
             border-width: 2px;
             border-color: white;
             border-style: solid;
+            background-repeat: no-repeat;
         }
 
         .work p{
@@ -273,24 +286,18 @@
             position: absolute;
             top: 0px;
             left: 0px;
-            padding-top: 325px;
             padding-left: 10px;
+            padding-top: 10px;
             z-index: 1;
-            -webkit-transition: all 1s;
-            transition: all 0.5s;
             text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
         }
 
-        .work:hover p{
-            top:-35px;
-        }
-
         .gradient{
-            position: relative;
-            top: 349px;
-            left:  -10px;
+            position: absolute;
+            top: -13px;
+            left:  0px;
             height: 90px;
-            width: 360px;
+            width: 705px;
             z-index: 0;
             background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(0,0,0,0.3) 100%);
             background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(0,0,0,0.3)));
@@ -303,8 +310,19 @@
             transition: all 0.5s;
         }
 
-        .work:hover .gradient{
-            top: 260px;
+        .project-container{
+            height: 100px;
+            width: 100%;
+            padding: 10px;
+            position: relative;
+            top: 313px;
+            left: 0px;
+            -webkit-transition: all 1s;
+            transition: all 0.5s;
+        }
+
+        .work:hover .project-container{
+            top: 279px;
         }
 
         .project-title{
@@ -428,4 +446,118 @@
             border: 1px #e6e6e6 solid;
             box-shadow: 0px 0px 5px #575757;
             -webkit-box-shadow: 0px 0px 5px #c9c9c9;
+        }
+
+<!-- Media query -->
+        @media screen and (max-width: 640px){
+        }
+        @media screen and (min-width: 640px){
+            .work{
+                height: 360px;
+            }
+            
+            .air{
+                background-size: 105%;
+            }
+            
+            .cricket{
+                background-size: 105%;
+            }
+            
+            .smart{
+                background-size: 105%;
+            }
+            
+            .work .three{
+                background-image: url(../img/thr332.jpg);
+            }
+            
+            .gradient{
+                width: 705px;
+            }
+            
+            .project-container{
+                top: 313px;
+            }
+            
+            .work:hover .project-container{
+                top: 279px;
+            }
+            
+            .hello{
+                color: white;
+                font-size: 90px;
+            }
+            
+            .second-line{
+                font-size: 40px;
+            }
+        }
+
+        @media screen and (min-width: 992px){
+            .work{
+                height: 283px;
+            }
+            
+            .air{
+                background-size: 195%;
+            }
+            
+            .cricket{
+                background-size: 195%;
+            }
+            
+            .smart{
+                background-size: 195%;
+            }
+            
+            .three{
+                background-image: url(../img/thr33.jpg);
+            }
+            
+            .gradient{
+                width: 360px;
+            }
+            
+            .project-container{
+                top: 237px;
+            }
+            
+            .work:hover .project-container{
+                top: 202px;
+            }
+        }
+
+        @media screen and (min-width: 1200px){
+            .work{
+                height: 360px;
+            }
+            
+            .air{
+                background-size: 195%;
+            }
+            
+            .cricket{
+                background-size: 195%;
+            }
+            
+            .smart{
+                background-size: 195%;
+            }
+            
+            .three{
+                background-image: url(../img/thr33.jpg);
+            }
+            
+            .gradient{
+                width: 705px;
+            }
+            
+            .project-container{
+                top: 313px;
+            }
+            
+            .work:hover .project-container{
+                top: 279px;
+            }
         }
