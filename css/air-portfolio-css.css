@@ -69,3 +69,15 @@
             background-image: url(../img/diagonal-noise6.png);
             background-repeat: repeat;
         }
+
+        .user-contain{
+            background-color: #2b707b;
+        }
+
+        .project-moodboards{
+            background-color: #167e81;
+        }
+
+        .project-prototype{
+            background-color: #028d86;
+        }

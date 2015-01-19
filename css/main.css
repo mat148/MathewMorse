@@ -358,6 +358,7 @@
             height: auto;
             margin: 0 auto;
             padding: 80px 0px;
+            background-color: red;
             box-shadow: 0px 0px 8px #575757;
             -webkit-box-shadow: 0px 0px 8px #575757;
             z-index: 5;
@@ -398,10 +399,7 @@
 
         .user-contain p{
             font-size: 20px;
-            padding-left: 40px;
             margin-top: 15px;
-            float: left;
-            width: 83%;
         }
 
         .user-contain ul{
@@ -410,14 +408,6 @@
 
         .user-contain li{
             margin-bottom: 10px;
-        }
-
-        .vertLine{
-            height: 131px;
-            width: 1px;
-            background-color: white;
-            float: left;
-            margin-left: 30px;
         }
 
         .project-wireframe{
