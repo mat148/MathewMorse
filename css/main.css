@@ -191,10 +191,10 @@
 
         .hello{
             text-align: center;
-            font-size: 70px;
+            font-size: 40px;
             font-family: "museo-sans";
             font-weight: 100;
-            color: red;
+            color: white;
             position: relative;
             top : 80px;
             opacity: 0;
@@ -206,10 +206,11 @@
         }
 
         div .second-line{
-            font-size:30px;
+            font-size:25px;
             font-family: "utopia-std";
             font-style: italic;
             top: 0px;
+            margin-top: 40px;
             opacity: 0;
             transition: all 1s;
             /*animation: heroAnimate 1s 0.5s forwards ease-out;
@@ -268,7 +269,7 @@
 
         .work{
             background-color: #1E7BB1;
-            height: 360px;
+            height: 244px;
             width: 100%;
             float: left;
             margin: 0 30px 30px 0;
@@ -443,13 +444,44 @@
          .project-moodboards img{
             height: auto;
             width: 100%;
-            border: 1px #e6e6e6 solid;
-            box-shadow: 0px 0px 5px #575757;
-            -webkit-box-shadow: 0px 0px 5px #c9c9c9;
+            //border: 1px #e6e6e6 solid;
+            //box-shadow: 0px 0px 5px #575757;
+            //-webkit-box-shadow: 0px 0px 5px #c9c9c9;
+        }
+
+        .project-comps p{
+            float: left;
+            font-size: 20px;
+            margin: 15px 0px;  
+        }
+
+        .project-comps img{
+            width: 50%;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .project-prototype p{
+            float: left;
+            font-size: 20px;
+            margin: 15px 0px; 
+        }
+
+        .project-prototype img{
+            width: 100%;
+            margin: 0 auto;
+            display: block;
         }
 
 <!-- Media query -->
-        @media screen and (max-width: 640px){
+        @media screen and (min-width: 400px){
+            div .second-line{
+                margin-top: 0px;
+            }
+            
+            .work{
+                height: 244px;
+            }
         }
         @media screen and (min-width: 640px){
             .work{
@@ -489,8 +521,9 @@
                 font-size: 90px;
             }
             
-            .second-line{
+            div .second-line{
                 font-size: 40px;
+                margin-top: 0px;
             }
         }
 
