@@ -11,7 +11,7 @@
         }
 
         h1{
-            font-size: 20px;
+            font-size: 23px;
             font-family: "utopia-std";
             font-style: italic;
             font-weight: 600;
@@ -80,12 +80,12 @@
 
         .navContainer{
             height: 78px;
-            margin-top: 15px;
+            margin-top: 30px;
         }
 
         .navContainer img{
-            width: 22px;
-            height: 35px;
+            width: 25px;
+            height: 40px;
             float: left;
             line-height: 39px;
         }
@@ -382,6 +382,11 @@
         }
         
         .details-contain{
+            padding: 50px 0;
+        }
+
+        .project-description{
+            padding: 160px 0;
         }
 
         .project-description p{
@@ -390,6 +395,8 @@
             color: #7e7e7e;
             font-family: "museo-sans";
             font-weight: 100;
+            line-height: 60px;
+            //padding: 100px 0;
         }
 
         .project-user{
