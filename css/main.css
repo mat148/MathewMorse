@@ -210,7 +210,7 @@ div .second-line{
     font-family: "utopia-std";
     font-style: italic;
     top: 0px;
-    margin-top: 40px;
+    margin-top: 30px;
     opacity: 0;
     transition: all 1s;
 }
@@ -267,13 +267,13 @@ div .second-line{
 
 .work{
     background-color: #1E7BB1;
-    height: 244px;
+    height: 350px;
     width: 100%;
     float: left;
     margin: 0 30px 30px 0;
     position: relative;
     overflow: hidden;
-    border-width: 2px;
+    border-width: 3px;
     border-color: white;
     border-style: solid;
     background-repeat: no-repeat;
@@ -485,38 +485,102 @@ div .second-line{
  
 
 <!--================ MEDIA QUERY=============-->
-/*@media screen and (min-width: 960px){            
+*@media screen and (max-width: 1200px){            
     p.hello{
         font-size: 90px;
     }
             
-    div .second-line{
+    p.second-line{
         font-size: 40px;
+    }
+    
+    .work{
+        height: 360px;
+    }
+            
+    .air{
+        background-size: 105%;
+    }
+            
+    .cricket{
+        background-size: 105%;
+    }
+            
+    .smart{
+        background-size: 105%;
+    }
+            
+    .work .three{
+        background-image: url(../img/thr332.jpg);
+    }
+            
+    .gradient{
+        width: 705px;
+    }
+            
+    .project-container{
+        top: 313px;
+    }
+            
+    .work:hover .project-container{
+        top: 279px;
     }
 }
 /*Retina*/
-/*@media
-screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 960px),
-screen and (min--moz-device-pixel-ratio: 2) and (min-width: 960px),
-screen and (-o-min-device-pixel-ratio: 2/1) and (min-width: 960px),
-screen and (min-device-pixel-ratio: 2) and (min-width: 960px),
-screen and (min-resolution: 192dpi) and (min-width: 960px),
-screen and (min-resolution: 2dppx)  and (min-width: 960px) {
+@media
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 960px),
+screen and (min--moz-device-pixel-ratio: 2) and (max-width: 960px),
+screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 960px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 960px),
+screen and (min-resolution: 192dpi) and (max-width: 960px),
+screen and (min-resolution: 2dppx)  and (max-width: 960px) {
     p.hello{
         font-size: 90px;
     }
             
-    div .second-line{
+    p.second-line{
         font-size: 40px;
     }
-}*/
+    
+    .work{
+        height: 360px;
+    }
+            
+    .air{
+        background-size: 105%;
+    }
+            
+    .cricket{
+        background-size: 105%;
+    }
+            
+    .smart{
+        background-size: 105%;
+    }
+            
+    .work .three{
+        background-image: url(../img/thr332.jpg);
+    }
+            
+    .gradient{
+        width: 705px;
+    }
+            
+    .project-container{
+        top: 313px;
+    }
+            
+    .work:hover .project-container{
+        top: 279px;
+    }
+}
 @media screen and (max-width: 991px){
-    .hello{
-        //font-size: 30px;
+    p.hello{
+        font-size: 75px;
     }
     
-    div .second-line{
-        //font-size: 10px;
+    p.second-line{
+        font-size: 30px;
     }
 }
 /*Retina*/
@@ -528,11 +592,44 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 991px),
 screen and (min-resolution: 192dpi) and (max-width: 991px),
 screen and (min-resolution: 2dppx)  and (max-width: 991px) {
     p.hello{
-        //font-size: 30px;
+        font-size: 75px;
     }
             
-    div .second-line{
-        //font-size: 10px;
+    p.second-line{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 570px){
+    p.hello{
+        font-size: 40px;
+    }
+    
+    p.second-line{
+        font-size: 19px;
+    }
+    
+    .work{
+        height: 244px;
+    }
+}
+/*Retina*/
+@media
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 570px),
+screen and (min--moz-device-pixel-ratio: 2) and (max-width: 570px),
+screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 570px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 570px),
+screen and (min-resolution: 192dpi) and (max-width: 570px),
+screen and (min-resolution: 2dppx)  and (max-width: 570px) {
+    p.hello{
+        font-size: 40px;
+    }
+            
+    p.second-line{
+        font-size: 19px;
+    }
+    
+    .work{
+        height: 244px;
     }
 }
 
