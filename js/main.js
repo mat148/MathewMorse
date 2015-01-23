@@ -10,7 +10,7 @@ function init()
     setTimeout(function(){
         title[0].style.opacity = 1;
         title[0].style.top = '120px';
-    }, 300);
+    }, 150);
 }
 
 $(function() {

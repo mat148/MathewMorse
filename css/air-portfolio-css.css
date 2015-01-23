@@ -1,87 +1,86 @@
 /* -- Air portfolio page--*/
+.air-hero{
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url('../img/airHero2.jpg');
+    background-position: 50% 150%;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
-                
-        .air-hero{
-            height: 600px;
-            width: 100%;
-            //margin-bottom: 30px;
-            overflow: hidden;
-            background-image: url('../img/airHero2.jpg');
-            background-position: 50% 150%;
-            background-size: cover;
-            background-attachment: fixed;
-            //perspective: 500px;
-        }
+.airphone-hero1{
+    background-image: url(../img/airHeroPhone.png);
+    background-size: cover;
+    height: 600px;
+    width: 320px;
+    float: left;
+    position: relative;
+    top: -185px;
+    left: 50%;
+    margin-left: -160px;
+    z-index: 1;
+}
 
-        .airphone-hero1{
-            background-image: url(../img/airHeroPhone.png);
-            background-size: cover;
-            height: 600px;
-            width: 320px;
-            float: left;
-            position: relative;
-            top: -185px;
-            left: 50%;
-            margin-left: -160px;
-            z-index: 1;
-        }
+.airphone-hero2{
+    background-image: url(../img/airHeroPhone2.png);
+    background-size: cover;
+    height: 500px;
+    width: 267px;
+    float: left;
+    position: relative;
+    top: -135px;
+    left: 50%;
+    margin-left: -480px;
+    z-index: 0;
+}
 
-        .airphone-hero2{
-            background-image: url(../img/airHeroPhone2.png);
-            background-size: cover;
-            height: 500px;
-            width: 267px;
-            float: left;
-            position: relative;
-            top: -135px;
-            left: 50%;
-            margin-left: -480px;
-            z-index: 0;
-            //-webkit-transform: rotateY(30deg); /* Chrome, Safari, Opera */
-            //transform: rotateY(30deg);
-        }
+.airphone-hero3{
+    background-image: url(../img/airHeroPhone3.png);
+    background-size: cover;
+    height: 500px;
+    width: 267px;
+    float: left;
+    position: relative;
+    top: -135px;
+    left: 50%;
+    margin-left: -105px;
+    z-index: 0;
+}
 
-        .airphone-hero3{
-            background-image: url(../img/airHeroPhone3.png);
-            background-size: cover;
-            height: 500px;
-            width: 267px;
-            float: left;
-            position: relative;
-            top: -135px;
-            left: 50%;
-            margin-left: -105px;
-            z-index: 0;
-            //-webkit-transform: rotateY(-30deg); /* Chrome, Safari, Opera */
-            //transform: rotateY(-30deg);
-        }
+.bar2{
+    background-color: #5286a2;
+}
 
-        .bar2{
-            background-color: #5286a2;
-        }
+.center-block{
+    width: 182px;
+}
 
-        .center-block{
-            width: 182px;
-        }
+ul li{    
+}
 
-        ul li{
-            
-        }
+.greySpace-box{
+    background-color: #3d6377;
+    background-image: url(../img/diagonal-noise6.png);
+    background-repeat: repeat;
+}
 
-        .greySpace-box{
-            background-color: #3d6377;
-            background-image: url(../img/diagonal-noise6.png);
-            background-repeat: repeat;
-        }
+.user-contain{
+    background-color: #2b707b;
+}
 
-        .user-contain{
-            background-color: #2b707b;
-        }
+.project-moodboards{
+    background-color: #167e81;
+}
 
-        .project-moodboards{
-            background-color: #167e81;
-        }
+.project-comps{
+    background-image: url(../img/purty_wood2.jpg);
+}
 
-        .project-prototype{
-            background-color: #028d86;
-        }
+.project-comps h1{
+    color: white;
+}
+
+.project-prototype{
+    background-color: #028d86;
+}
