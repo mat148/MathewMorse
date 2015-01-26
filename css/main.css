@@ -220,7 +220,7 @@ div .second-line{
     background-position: 50% 50%;
     -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    background-size: cover;
+    background-size: 190%;
 }
 
 .air:hover{
@@ -233,7 +233,7 @@ div .second-line{
     background-size: cover;
     -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    background-size: cover;
+    background-size: 190%;
 }
 
 .cricket:hover{
@@ -246,7 +246,7 @@ div .second-line{
     background-size: cover;
     -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    background-size: cover;
+    background-size: 190%;
 }
 
 .smart:hover{
@@ -254,7 +254,7 @@ div .second-line{
 }
 
 .three{
-    background-image: url(../img/thr332.jpg);
+    background-image: url(../img/thr33.jpg);
     background-size: cover;
     background-position: 50% 50%;
     -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -485,7 +485,32 @@ div .second-line{
  
 
 <!--================ MEDIA QUERY=============-->
-*@media screen and (max-width: 1200px){            
+@media screen and (max-width: 13000px){
+    .work{
+        height: 16px;
+    }
+    .three{
+        background-image: url(../img/thr33.jpg);
+    }
+}
+
+/*Retina*/
+@media
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1300px),
+screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1300px),
+screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1300px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 1300px),
+screen and (min-resolution: 192dpi) and (max-width: 1300px),
+screen and (min-resolution: 2dppx)  and (max-width: 1300px) {
+    .work{
+        height: 16px;
+    }
+    .three{
+        background-image: url(../img/thr33.jpg);
+    }
+}
+
+@media screen and (max-width: 1200px){            
     p.hello{
         font-size: 90px;
     }
@@ -495,23 +520,11 @@ div .second-line{
     }
     
     .work{
-        height: 160px;
+        height: 283px;
     }
             
-    .air{
-        background-size: 105%;
-    }
-            
-    .cricket{
-        background-size: 105%;
-    }
-            
-    .smart{
-        background-size: 105%;
-    }
-            
-    .work .three{
-        background-image: url(../img/thr332.jpg);
+    .three{
+        background-image: url(../img/thr33.jpg);
     }
             
     .gradient{
@@ -519,21 +532,25 @@ div .second-line{
     }
             
     .project-container{
-        top: 313px;
+        top: 245px;
     }
             
     .work:hover .project-container{
-        top: 279px;
+        top: 214px;
+    }
+    
+    .project-subject{
+        font-size: 18px;
     }
 }
 /*Retina*/
 @media
-screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 960px),
-screen and (min--moz-device-pixel-ratio: 2) and (max-width: 960px),
-screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 960px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 960px),
-screen and (min-resolution: 192dpi) and (max-width: 960px),
-screen and (min-resolution: 2dppx)  and (max-width: 960px) {
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1200px),
+screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1200px),
+screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1200px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 1200px),
+screen and (min-resolution: 192dpi) and (max-width: 1200px),
+screen and (min-resolution: 2dppx)  and (max-width: 1200px) {
     p.hello{
         font-size: 90px;
     }
@@ -543,23 +560,7 @@ screen and (min-resolution: 2dppx)  and (max-width: 960px) {
     }
     
     .work{
-        height: 160px;
-    }
-            
-    .air{
-        background-size: 105%;
-    }
-            
-    .cricket{
-        background-size: 105%;
-    }
-            
-    .smart{
-        background-size: 105%;
-    }
-            
-    .work .three{
-        background-image: url(../img/thr332.jpg);
+        height: 283px;
     }
             
     .gradient{
@@ -567,11 +568,15 @@ screen and (min-resolution: 2dppx)  and (max-width: 960px) {
     }
             
     .project-container{
-        top: 313px;
+        top: 245px;
     }
             
     .work:hover .project-container{
-        top: 279px;
+        top: 214px;
+    }
+    
+    .project-subject{
+        font-size: 18px;
     }
 }
 @media screen and (max-width: 991px){
@@ -581,6 +586,27 @@ screen and (min-resolution: 2dppx)  and (max-width: 960px) {
     
     p.second-line{
         font-size: 30px;
+    }
+    
+    .work{
+        height: 360px;
+        background-size: 105%;
+    }
+    
+    .three{
+        background-image: url(../img/thr332.jpg);
+    }
+    
+    .project-container{
+        top: 323px;
+    }
+    
+    .work:hover .project-container{
+        top: 290px;
+    }
+    
+    .project-subject{
+        font-size: 20px;
     }
 }
 /*Retina*/
@@ -598,6 +624,23 @@ screen and (min-resolution: 2dppx)  and (max-width: 991px) {
     p.second-line{
         font-size: 30px;
     }
+    
+    .work{
+        height: 360px;
+        background-size: 105%;
+    }
+    
+    .three{
+        background-image: url(../img/thr332.jpg);
+    }
+    
+    .project-container{
+        top: 323px;
+    }
+    
+    .work:hover .project-container{
+        top: 290px;
+    }
 }
 @media screen and (max-width: 570px){
     p.hello{
@@ -608,8 +651,22 @@ screen and (min-resolution: 2dppx)  and (max-width: 991px) {
         font-size: 19px;
     }
     
+    .three{
+        background-image: url(../img/thr33.jpg);
+        background-size: cover;
+    }
+    
     .work{
         height: 244px;
+        background-size: 195%;
+    }
+    
+    .project-container{
+        top: 206px;
+    }
+    
+    .work:hover .project-container{
+        top: 175px;
     }
 }
 /*Retina*/
@@ -628,8 +685,22 @@ screen and (min-resolution: 2dppx)  and (max-width: 570px) {
         font-size: 19px;
     }
     
+    .three{
+        background-image: url(../img/thr33.jpg);
+        background-size: cover;
+    }
+    
     .work{
         height: 244px;
+        background-size: 195%;
+    }
+    
+    .project-container{
+        top: 206px;
+    }
+    
+    .work:hover .project-container{
+        top: 175px;
     }
 }
 
