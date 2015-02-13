@@ -1,51 +1,7 @@
 /* -- Air portfolio page--*/
 .air-hero{
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
     background-image: url('../img/airHero2.jpg');
     background-position: 50% 150%;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.airphone-hero1{
-    background-image: url(../img/airHeroPhone.png);
-    background-size: cover;
-    height: 600px;
-    width: 320px;
-    float: left;
-    position: relative;
-    top: -185px;
-    left: 50%;
-    margin-left: -160px;
-    z-index: 1;
-}
-
-.airphone-hero2{
-    background-image: url(../img/airHeroPhone2.png);
-    background-size: cover;
-    height: 500px;
-    width: 267px;
-    float: left;
-    position: relative;
-    top: -135px;
-    left: 50%;
-    margin-left: -480px;
-    z-index: 0;
-}
-
-.airphone-hero3{
-    background-image: url(../img/airHeroPhone3.png);
-    background-size: cover;
-    height: 500px;
-    width: 267px;
-    float: left;
-    position: relative;
-    top: -135px;
-    left: 50%;
-    margin-left: -105px;
-    z-index: 0;
 }
 
 .bar2{
@@ -83,4 +39,89 @@ ul li{
 
 .project-prototype{
     background-color: #028d86;
+}
+
+<!--================ MEDIA QUERY=============-->
+@media screen and (max-width: 1300px){
+    .display{
+        width: 60%;
+        bottom: 200px;
+    }
+}
+
+/*Retina*/
+@media
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1300px),
+screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1300px),
+screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1300px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 1300px),
+screen and (min-resolution: 192dpi) and (max-width: 1300px),
+screen and (min-resolution: 2dppx)  and (max-width: 1300px) {
+    .display{
+        width: 60%;
+        bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .display{
+        width: 60%;
+        bottom: 136px;
+    }
+}
+
+/*Retina*/
+@media
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1200px),
+screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1200px),
+screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1200px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 1200px),
+screen and (min-resolution: 192dpi) and (max-width: 1200px),
+screen and (min-resolution: 2dppx)  and (max-width: 1200px) {
+    .display{
+        width: 60%;
+        bottom: 136px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .display{
+        width: 80%;
+        bottom: 125px;
+    }
+}
+
+/*Retina*/
+@media
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991px),
+screen and (min--moz-device-pixel-ratio: 2) and (max-width: 991px),
+screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 991px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 991px),
+screen and (min-resolution: 192dpi) and (max-width: 991px),
+screen and (min-resolution: 2dppx)  and (max-width: 991px) {
+    .display{
+        width: 80%;
+        bottom: 125px;
+    }
+}
+
+@media screen and (max-width: 570px){
+    .display{
+        width: 80%;
+        bottom: 125px;
+    }
+}
+
+/*Retina*/
+@media
+screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 570px),
+screen and (min--moz-device-pixel-ratio: 2) and (max-width: 570px),
+screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 570px),
+screen and (min-device-pixel-ratio: 2) and (max-width: 570px),
+screen and (min-resolution: 192dpi) and (max-width: 570px),
+screen and (min-resolution: 2dppx)  and (max-width: 570px) {
+    .display{
+        width: 80%;
+        bottom: 125px;
+    }
 }

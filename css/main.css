@@ -35,14 +35,36 @@ ul{
 }
 
 .hero{
-    background-image: url('../img/hero2.jpg');
-    background-position: 50% 65%;
     background-size: cover;
     background-attachment: fixed;
     height: 600px;
-    margin-bottom: 30px;
+    width: 100%;
     overflow: hidden;
 }
+
+.hero-index{
+    background-image: url('../img/hero2.jpg');
+    background-position: 50% 65%;
+}
+
+.display{
+    width: 60%;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    bottom: 200px;
+}
+
+/*.hero::before{
+    content: "";
+    display: block;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    opacity: 0.6;
+}*/
 
 .hero-gradient{
     position: absolute;
@@ -117,12 +139,107 @@ ul{
     font-style: normal;
 }
 
+nav.menu {
+    position: fixed;
+    z-index: 20;
+    background-color: #67b5d1;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.menu a {
+    font-weight: 300;
+    color: #fff;
+}
+button.close-menu {
+    background-color: #3184a1;
+    color: #fff;
+}
+button.close-menu:focus {
+    outline: none
+}
+
+nav.slide-menu-right {
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+nav.slide-menu-right li {
+    display: block;
+    text-align: center;
+    border-bottom: solid 1px #3184a1;
+    border-top: solid 1px #b5dbe9;
+}
+nav.slide-menu-right li:first-child {
+    border-top: none
+}
+nav.slide-menu-right li:last-child {
+    border-bottom: none
+}
+nav.slide-menu-right a {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+nav.slide-menu-right button.close-menu {
+    margin: 10px 0;
+    padding: 10px 30px;
+    background-color: #3184a1;
+    color: #fff;
+}
+nav.slide-menu-right {
+    right: -300px
+}
+body.smr-open nav.slide-menu-right {
+    right: 0
+}
+
+.project-button{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    position: absolute;
+    cursor: pointer;
+}
+
+.next-project{
+    right: 0;
+}
+
+.last-project{
+    left: 0;
+}
+ 
+
+.button{
+    height: 40px;
+    width: 40px;
+    display: block;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.button-bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+}
+
 a{
     color: white;
     text-decoration: none;
 }
 
-li::before{
+.navContainer li::before{
     content: "";
     display: block;
     height: 3px;
@@ -209,10 +326,14 @@ div .second-line{
     font-size: 40px;
     font-family: "utopia-std";
     font-style: italic;
-    top: 0px;
-    margin-top: 30px;
+    top: 80px;
+    //margin-top: 30px;
     opacity: 0;
     transition: all 1s;
+}
+
+#work{
+    margin-top: 30px;
 }
 
 .air{
@@ -350,6 +471,7 @@ div .second-line{
     height: auto;
     padding: 80px 0;
     z-index: 0;
+    position: relative;
 }
 
 .greySpace-box{
@@ -360,6 +482,7 @@ div .second-line{
     box-shadow: 0px 0px 8px #575757;
     -webkit-box-shadow: 0px 0px 8px #575757;
     z-index: 5;
+    position: relative;
 }
 
 .greySpace-box p{
@@ -485,9 +608,9 @@ div .second-line{
  
 
 <!--================ MEDIA QUERY=============-->
-@media screen and (max-width: 13000px){
+@media screen and (max-width: 1300px){
     .work{
-        height: 16px;
+        height: 350px;
     }
     .three{
         background-image: url(../img/thr33.jpg);
@@ -503,7 +626,7 @@ screen and (min-device-pixel-ratio: 2) and (max-width: 1300px),
 screen and (min-resolution: 192dpi) and (max-width: 1300px),
 screen and (min-resolution: 2dppx)  and (max-width: 1300px) {
     .work{
-        height: 16px;
+        height: 350px;
     }
     .three{
         background-image: url(../img/thr33.jpg);
@@ -582,10 +705,12 @@ screen and (min-resolution: 2dppx)  and (max-width: 1200px) {
 @media screen and (max-width: 991px){
     p.hello{
         font-size: 75px;
+        top: 80px;
     }
     
     p.second-line{
         font-size: 30px;
+        top: 80px;
     }
     
     .work{
@@ -619,10 +744,12 @@ screen and (min-resolution: 192dpi) and (max-width: 991px),
 screen and (min-resolution: 2dppx)  and (max-width: 991px) {
     p.hello{
         font-size: 75px;
+        top: 80px;
     }
             
     p.second-line{
         font-size: 30px;
+        top: 80px;
     }
     
     .work{
@@ -645,20 +772,22 @@ screen and (min-resolution: 2dppx)  and (max-width: 991px) {
 @media screen and (max-width: 570px){
     p.hello{
         font-size: 40px;
+        top: 0px;
     }
     
     p.second-line{
         font-size: 19px;
+        top: 0px;
     }
     
     .three{
-        background-image: url(../img/thr33.jpg);
+        background-image: url(../img/thr332.jpg);
         background-size: cover;
     }
     
     .work{
         height: 244px;
-        background-size: 195%;
+        background-size: 140%;
     }
     
     .project-container{
@@ -667,6 +796,28 @@ screen and (min-resolution: 2dppx)  and (max-width: 991px) {
     
     .work:hover .project-container{
         top: 175px;
+    }
+    
+    .navContainer img{
+        width: 50px;
+        height: 80px;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        margin-left: -25px;
+    }
+    
+    .navContainer ul{
+        position: absolute;
+        right: -350px;
+    }
+    
+    .second-nav{
+        right: 457px;
+    }
+    
+    .second-nav-bg{
+        left: 0px;
     }
 }
 /*Retina*/
@@ -679,20 +830,22 @@ screen and (min-resolution: 192dpi) and (max-width: 570px),
 screen and (min-resolution: 2dppx)  and (max-width: 570px) {
     p.hello{
         font-size: 40px;
+        top: 0px;
     }
             
     p.second-line{
         font-size: 19px;
+        top: 0px;
     }
     
     .three{
-        background-image: url(../img/thr33.jpg);
+        background-image: url(../img/thr332.jpg);
         background-size: cover;
     }
     
     .work{
         height: 244px;
-        background-size: 195%;
+        background-size: 140%;
     }
     
     .project-container{
@@ -702,6 +855,21 @@ screen and (min-resolution: 2dppx)  and (max-width: 570px) {
     .work:hover .project-container{
         top: 175px;
     }
+    
+    .navContainer img{
+        width: 50px;
+        height: 80px;
+        position: absolute;
+        top: 50px;
+        left: 50%;
+        margin-left: -25px;
+    }
+    
+    .navContainer ul{
+        position: absolute;
+        left: -350px;
+    }
+    
 }
 
 

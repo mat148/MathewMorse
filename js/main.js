@@ -1,15 +1,19 @@
 window.onload = init;
+var namePos = 0;
+var titlePos = 0;
         
 function init()
 {
     var name = document.getElementsByName('name');
     var title = document.getElementsByName('title');
-    name[0].style.opacity = 1;
-    name[0].style.top = '150px';
+    namePos = (parseInt($(name).css('top'), 10))+70;
+    $(name).css("opacity","1");
+    $(name).css("top",namePos+"px");
             
     setTimeout(function(){
-        title[0].style.opacity = 1;
-        title[0].style.top = '120px';
+        //titlePos = (parseInt($(title).css('top'), 10))+70;
+        $(title).css("opacity","1");
+        $(title).css('top', '+=50px');
     }, 150);
 }
 
@@ -27,3 +31,4 @@ $(function() {
     }
   });
 });
+ 
