@@ -6,14 +6,10 @@ function init()
 {
     var name = document.getElementsByName('name');
     var title = document.getElementsByName('title');
-    namePos = (parseInt($(name).css('top'), 10))+70;
-    $(name).css("opacity","1");
-    $(name).css("top",namePos+"px");
+    $(name).addClass("hello-anim");
             
     setTimeout(function(){
-        //titlePos = (parseInt($(title).css('top'), 10))+70;
-        $(title).css("opacity","1");
-        $(title).css('top', '+=50px');
+        $(title).addClass("second-line-anim");
     }, 150);
 }
 

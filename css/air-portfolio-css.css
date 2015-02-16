@@ -45,7 +45,7 @@ ul li{
 @media screen and (max-width: 1300px){
     .display{
         width: 60%;
-        bottom: 200px;
+        bottom: -15px;
     }
 }
 
@@ -59,14 +59,14 @@ screen and (min-resolution: 192dpi) and (max-width: 1300px),
 screen and (min-resolution: 2dppx)  and (max-width: 1300px) {
     .display{
         width: 60%;
-        bottom: 200px;
+        bottom: -15px;
     }
 }
 
 @media screen and (max-width: 1200px){
     .display{
         width: 60%;
-        bottom: 136px;
+        bottom: -15px;
     }
 }
 
@@ -80,14 +80,14 @@ screen and (min-resolution: 192dpi) and (max-width: 1200px),
 screen and (min-resolution: 2dppx)  and (max-width: 1200px) {
     .display{
         width: 60%;
-        bottom: 136px;
+        bottom: -15px;
     }
 }
 
 @media screen and (max-width: 991px){
     .display{
         width: 80%;
-        bottom: 125px;
+        bottom: -85px;
     }
 }
 
@@ -101,14 +101,14 @@ screen and (min-resolution: 192dpi) and (max-width: 991px),
 screen and (min-resolution: 2dppx)  and (max-width: 991px) {
     .display{
         width: 80%;
-        bottom: 125px;
+        bottom: -85px;
     }
 }
 
 @media screen and (max-width: 570px){
     .display{
         width: 80%;
-        bottom: 125px;
+        bottom: 9px;
     }
 }
 
@@ -122,6 +122,6 @@ screen and (min-resolution: 192dpi) and (max-width: 570px),
 screen and (min-resolution: 2dppx)  and (max-width: 570px) {
     .display{
         width: 80%;
-        bottom: 125px;
+        bottom: 9px;
     }
 }
