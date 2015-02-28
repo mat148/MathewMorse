@@ -17,16 +17,26 @@ ul li{
 
 .greySpace-box{
     background-color: #3d6377;
-    background-image: url(../img/diagonal-noise6.png);
+    border-color: #2f4d5d;
+    /*background-image: url(../img/diagonal-noise6.png);*/
     background-repeat: repeat;
 }
 
+.project-description{
+    background-color: #eaeaea;
+}
+
+.project-timeline{
+    background-color: #2b333e;
+    border-color: #11151a;
+}
+
 .user-contain{
-    background-color: #2b707b;
 }
 
 .project-moodboards{
     background-color: #167e81;
+    border-color: #136d6f;
 }
 
 .project-comps{
@@ -39,6 +49,7 @@ ul li{
 
 .project-prototype{
     background-color: #028d86;
+    border-color: #026f6a;
 }
 
 <!--================ MEDIA QUERY=============-->

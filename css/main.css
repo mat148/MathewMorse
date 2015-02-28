@@ -4,7 +4,7 @@ body{
 }
 
 p{
-    font-size: 30px;
+    font-size: 20px;
     color: #7e7e7e;
     font-family: "museo-sans";
     font-weight: 100;
@@ -16,6 +16,7 @@ h1{
     font-style: italic;
     font-weight: 600;
     color: black;
+    margin-bottom: 20px;
 }
 
 ul li{
@@ -53,7 +54,7 @@ ul{
     margin: 0 auto;
     display: block;
     position: relative;
-    bottom: -15px;
+    bottom: -215px;
 }
 
 /*.hero::before{
@@ -203,38 +204,6 @@ body.smr-open nav.slide-menu-right {
     right: 0
 }
 
-.project-button{
-    height: 50px;
-    width: 50px;
-    background-color: red;
-    position: absolute;
-    cursor: pointer;
-}
-
-.next-project{
-    right: 0;
-}
-
-.last-project{
-    left: 0;
-}
- 
-
-.button{
-    height: 40px;
-    width: 40px;
-    display: block;
-    cursor: pointer;
-    margin-left: 30px;
-}
-
-.button-bar{
-    height: 3px;
-    width: 100%;
-    background-color: white;
-    margin-top: 10px;
-}
-
 a{
     color: white;
     text-decoration: none;
@@ -314,8 +283,10 @@ body .container .col-md-12{
     font-family: "museo-sans";
     font-weight: 100;
     color: white;
-    position: relative;
-    top : 80px;
+    position: absolute;
+    top : 100px;
+    left: 50%;
+    transform: translateX(-50%);
     opacity: 0;
     text-shadow: 0px 3px 2px rgba(0, 0, 0, 0.38);
     -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -324,7 +295,7 @@ body .container .col-md-12{
 }
 
 .hello-anim{
-    top: 40px;
+    top: 150px;
     opacity: 1;
     -webkit-transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
     transition: all 600ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -334,13 +305,13 @@ body .container .col-md-12{
     font-size: 40px;
     font-family: "utopia-std";
     font-style: italic;
-    top: 80px;
+    top: 200px;
     opacity: 0;
     transition: all 1s;
 }
 
 .second-line-anim{
-    top: 6px;
+    top: 250px;
     opacity: 1;
 }
 
@@ -474,8 +445,52 @@ body .container .col-md-12{
 
 .footer{
     background-color: #2b333e;
-    height: 200px;
+    height: auto;
     display: block;
+    padding: 50px 0px 0px 0px;
+}
+
+.bottom-footer{
+    background-color: #20272f;
+    width: 100%;
+    height: 60px;
+    margin-top: 30px;
+}
+
+.bottom-footer p{
+    text-align: center;
+    font-size: 15px;
+    line-height: 60px;
+    margin: 0px;
+}
+
+.footer img{
+    margin-right: 10px;
+}
+
+.footer h1{
+    font-size: 70px;
+    font-family: museo-sans;
+    font-weight: 100;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.footer h2{
+    font-size: 25px;
+    font-family: "utopia-std";
+    font-style: italic;
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.footer .link-holder{
+    margin: 0 auto;
+    width: auto;
+    display: block;
+    width: 40%;
 }
         
 /* portfolio page rules*/
@@ -491,10 +506,11 @@ body .container .col-md-12{
     margin: 0 auto;
     padding: 80px 0px;
     background-color: red;
-    box-shadow: 0px 0px 8px #575757;
-    -webkit-box-shadow: 0px 0px 8px #575757;
     z-index: 1;
     position: relative;
+    border: solid 2px #363636;
+    border-left-width: 0px;
+    border-right-width: 0px;
 }
 
 .greySpace-box p{
@@ -508,41 +524,36 @@ body .container .col-md-12{
 .greySpace-box h1{
     color: white;
 }
-        
-.project-details{
-    height: 400px;
-    background-color: #f2f2f2;
+
+.details-blah{
+    position: relative;
+    text-align: center;
+    z-index: 3;
+}
+
+.details-blah li{
+    color: white;
+    display: inline;
+}
+
+.details-blah li:nth-child(1){
+    font-family: "utopia-std";
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
 }
         
 .details-contain{
-    padding: 50px 0;
+    padding: 100px 0;
+    box-shadow: 0px 0px 8px #575757;
+    -webkit-box-shadow: 0px 0px 8px #575757;
 }
 
-.details-contain img{
-    height: 40px;
-    float: left;
-}
-
-.detail{
-    width: 33%;
-    float: left;
-}
-
-.detail ul{
-    float: left;
-    margin-left: 10px;
-}
-
-.detail li{
-    font-size: 18px;
-}
-
-.project-description{
+.project-goal{
     padding: 160px 0;
 }
 
-.project-description p{
-    font-size: 30px;
+.project-goal p{
     color: #7e7e7e;
     font-family: "museo-sans";
     font-weight: 100;
@@ -621,6 +632,95 @@ body .container .col-md-12{
     width: 100%;
     margin: 0 auto;
     display: block;
+}
+
+
+body .change-project{
+    background-color: #f5f5f5;
+    background-image: none;
+    box-shadow: 0px 0px 0px #575757;
+    -webkit-box-shadow: 0px 0px 0px #575757;
+    border-width: 2px 0px;
+    border-color: #ebebeb;
+}
+
+.change-project .project-button:hover{
+    background-color: #2b333e;
+}
+
+.change-project .project-button:hover p{
+    color: white;
+}
+
+.project-button{
+    height: 50px;
+    width: 140px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+    padding: 0 10px;
+    border: solid #e2e2e2;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.next-project{
+    right: 0;
+    padding-right: 0px;
+    border-width: 1px 0px 1px 1px;
+}
+
+.last-project{
+    left: 0;
+    padding-left: 0px;
+    border-width: 1px 1px 1px 0px;
+}
+
+.last-project img{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+
+.next-project img{
+    width: 50px;
+    float: right;
+}
+
+.last-project img{
+    float: left;
+    width: 50px;
+}
+
+.next-project p{
+    font-size: 18px;
+    line-height: 50px;
+    float: left;
+    color: #b1b1b1;
+}
+
+.last-project p{
+    font-size: 18px;
+    line-height: 50px;
+    float: right;
+    color: #b1b1b1;
+}
+ 
+
+.button{
+    height: 40px;
+    width: 40px;
+    display: block;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.button-bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
 }
 
 <!--==============CSS ANIMATIONS============-->
