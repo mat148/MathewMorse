@@ -1,3 +1,7 @@
+.col-md-4{
+    padding: 0px;
+}
+
 body{
     width: 100%;
     background-color: #f5f5f5;
@@ -8,6 +12,9 @@ p{
     color: #7e7e7e;
     font-family: "museo-sans";
     font-weight: 100;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+ 
 }
 
 h1{
@@ -443,6 +450,18 @@ body .container .col-md-12{
     margin-top: 30px;
 }
 
+body .project-description{
+    padding-bottom: 350px;
+}
+
+.project-description img{
+    position: absolute;
+    margin-top: 35px;
+    width: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .footer{
     background-color: #2b333e;
     height: auto;
@@ -558,6 +577,108 @@ body .container .col-md-12{
     font-family: "museo-sans";
     font-weight: 100;
     line-height: 50px;
+}
+
+.project-timeline .center .line{
+    width: 1px;
+    height: 2200px;
+    background-color: white;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.project-timeline .timeline-box{
+    width: 100%;
+    border-radius: 3px;
+    background-color: white;
+    border: 1px #11151a solid;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.right-boxes .timeline-box:nth-child(1){
+    margin-top: 150px;
+}
+
+.project-timeline .timeline-box .timeline-contain{
+    z-index: 1;
+}
+
+.project-timeline .right-boxes .timeline-box .node{
+    right: 375px;
+}
+
+.project-timeline .timeline-box .node{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    top: 80px;
+    right: -186px;
+    z-index: 0;
+}
+
+.project-timeline .right-boxes .timeline-box .node .circle{
+    right: 199px;
+}
+
+.project-timeline .timeline-box .node .circle{
+    display: block;
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: 1px solid #11151a;
+    border-radius: 50%;
+    position: relative;
+}
+
+.project-timeline .timeline-box .node .circle:after{
+    content: "";
+    display: block;
+    height: 8px;
+    width: 8px;
+    background-color: #e8e8e8;
+    border: 1px solid #d3d3d3;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-timeline .timeline-box .node .line{
+    display: block;
+    height: 1px;
+    width: 183px;
+    background-color: rgb(131, 131, 131);
+    line-height: 5px;
+    position: absolute;
+    top: 10px;
+    left: -181px;
+}
+
+.project-timeline img{
+    width: 100%;
+    z-index: 1;
+}
+
+.project-timeline .content{
+    border-top: 1px #11151a solid;
+    padding: 10px;
+}
+
+.project-timeline .content .title{
+    font-family: "museo-sans";
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.project-timeline .content p{
+    font-family: "museo-sans";
+    font-weight: 100;
+    font-size: 16px;
+    color: #7e7e7e;
 }
 
 .project-user{
