@@ -2,6 +2,10 @@
     padding: 0px;
 }
 
+.col-md-3{
+    padding-left: 0px;
+}
+
 body{
     width: 100%;
     background-color: #f5f5f5;
@@ -115,9 +119,16 @@ ul{
     margin-top: 30px;
 }
 
-.navContainer img{
-    width: 25px;
+.navContainer #logo{
     height: 40px;
+    width: 25px;
+    display: block;
+    position: absolute;
+}
+
+.navContainer img{
+    width: 100%;
+    height: 100%;
     float: left;
     line-height: 39px;
 }
@@ -484,7 +495,8 @@ body .project-description{
 }
 
 .footer img{
-    margin-right: 10px;
+    //margin-right: 10px;
+    width: 15%
 }
 
 .footer h1{
@@ -507,9 +519,8 @@ body .project-description{
 
 .footer .link-holder{
     margin: 0 auto;
-    width: auto;
+    width: 30%;
     display: block;
-    width: 40%;
 }
         
 /* portfolio page rules*/
@@ -524,7 +535,7 @@ body .project-description{
     height: auto;
     margin: 0 auto;
     padding: 80px 0px;
-    background-color: red;
+    //background-color: red;
     z-index: 1;
     position: relative;
     border: solid 2px #363636;
@@ -570,6 +581,7 @@ body .project-description{
 
 .project-goal{
     padding: 160px 0;
+    background-color: white;
 }
 
 .project-goal p{
@@ -577,6 +589,14 @@ body .project-description{
     font-family: "museo-sans";
     font-weight: 100;
     line-height: 50px;
+}
+
+.project-timeline .center{
+    z-index: 0;
+}
+
+.project-timeline .left-boxes{
+    z-index: 1;
 }
 
 .project-timeline .center .line{
@@ -589,7 +609,7 @@ body .project-description{
 
 .project-timeline .timeline-box{
     width: 100%;
-    border-radius: 3px;
+    border-radius: 10px;
     background-color: white;
     border: 1px #11151a solid;
     position: relative;
@@ -648,22 +668,23 @@ body .project-description{
 .project-timeline .timeline-box .node .line{
     display: block;
     height: 1px;
-    width: 183px;
+    width: 181px;
     background-color: rgb(131, 131, 131);
     line-height: 5px;
     position: absolute;
     top: 10px;
-    left: -181px;
+    left: -180px;
 }
 
 .project-timeline img{
     width: 100%;
     z-index: 1;
+    border-radius: 8px 8px 0px 0px;
 }
 
 .project-timeline .content{
     border-top: 1px #11151a solid;
-    padding: 10px;
+    padding: 15px;
 }
 
 .project-timeline .content .title{
@@ -705,6 +726,13 @@ body .project-description{
     width: 65%;
 }
 
+.project-sketches img{
+    width: 100%;
+    border: 1px #2f4d5d solid;
+    box-shadow: 0px 0px 5px #464646;
+    -webkit-box-shadow: 0px 0px 5px #464646;
+}
+
 .project-wireframe{
 }
 
@@ -738,7 +766,7 @@ body .project-description{
 }
 
 .project-comps img{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
     display: block;
 }
@@ -882,12 +910,16 @@ screen and (min-resolution: 2dppx)  and (max-width: 1300px) {
 }
 
 @media screen and (max-width: 1200px){            
-    p.hello{
-        font-size: 90px;
+    .hello{
+        font-size: 75px;
     }
             
-    p.second-line{
-        font-size: 40px;
+    .second-line{
+        font-size: 32px;
+    }
+    
+    .hero .display{
+        bottom: -258px;
     }
     
     .work{
@@ -913,6 +945,22 @@ screen and (min-resolution: 2dppx)  and (max-width: 1300px) {
     .project-subject{
         font-size: 18px;
     }
+    
+    .project-timeline .timeline-box .node{
+        right: -153px;
+    }
+    
+    .project-timeline .right-boxes .timeline-box .node{
+        right: 275px;
+    }
+    
+    .project-timeline .timeline-box .node .line{
+        width: 149px;
+    }
+    
+    .project-timeline .left-boxes .timeline-box .node .line{
+        left: -148px;
+    }
 }
 /*Retina*/
 @media
@@ -922,12 +970,16 @@ screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1200px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 1200px),
 screen and (min-resolution: 192dpi) and (max-width: 1200px),
 screen and (min-resolution: 2dppx)  and (max-width: 1200px) {
-    p.hello{
-        font-size: 90px;
+    .hello{
+        font-size: 75px;
     }
             
-    p.second-line{
-        font-size: 40px;
+    .second-line{
+        font-size: 32px;
+    }
+    
+    .hero .display{
+        bottom: -258px;
     }
     
     .work{
@@ -949,16 +1001,34 @@ screen and (min-resolution: 2dppx)  and (max-width: 1200px) {
     .project-subject{
         font-size: 18px;
     }
-}
-@media screen and (max-width: 991px){
-    p.hello{
-        font-size: 75px;
-        top: 80px;
+    
+    .project-timeline .timeline-box .node{
+        right: -153px;
     }
     
-    p.second-line{
-        font-size: 30px;
-        top: 55px;
+    .project-timeline .right-boxes .timeline-box .node{
+        right: 275px;
+    }
+    
+    .project-timeline .timeline-box .node .line{
+        width: 149px;
+    }
+    
+    .project-timeline .left-boxes .timeline-box .node .line{
+        left: -148px;
+    }
+}
+@media screen and (max-width: 991px){
+    .hello{
+        
+    }
+    
+    .second-line{
+        
+    }
+    
+    .hero .display{
+        bottom: -315px;
     }
     
     .work{
@@ -978,8 +1048,39 @@ screen and (min-resolution: 2dppx)  and (max-width: 1200px) {
         top: 290px;
     }
     
+    .details-contain{
+        padding: 60px 0px;
+    }
+    
+    .details-blah ul{
+        padding-bottom: 20px;
+    }
+    
+    .project-goal{
+        padding: 100px 0px;
+    }
+    
     .project-subject{
         font-size: 20px;
+    }
+    
+    body .project-description{
+        padding-bottom: 240px;
+    }
+    
+    .project-timeline .timeline-box .node{
+        visibility: hidden;
+        position: absolute;
+        left: 0px;
+    }
+    
+    .project-timeline .center{
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .footer .link-holder{
+        width: 60%;
     }
 }
 /*Retina*/
@@ -990,14 +1091,16 @@ screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 991px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 991px),
 screen and (min-resolution: 192dpi) and (max-width: 991px),
 screen and (min-resolution: 2dppx)  and (max-width: 991px) {
-    p.hello{
-        font-size: 75px;
-        top: 80px;
+    .hello{
+        
     }
             
-    p.second-line{
-        font-size: 30px;
-        top: 55px;
+    .second-line{
+        
+    }
+    
+    .hero .display{
+        bottom: -315px;
     }
     
     .work{
@@ -1016,24 +1119,59 @@ screen and (min-resolution: 2dppx)  and (max-width: 991px) {
     .work:hover .project-container{
         top: 290px;
     }
-}
-@media screen and (max-width: 570px){
-    p.hello{
-        font-size: 40px;
-        top: 60px;
+    
+    .details-contain{
+        padding: 60px 0px;
     }
     
-    p.second-line{
+    .details-blah ul{
+        padding-bottom: 20px;
+    }
+    
+    .project-goal{
+        padding: 100px 0px;
+    }
+    
+    body .project-description{
+        padding-bottom: 240px;
+    }
+    
+    .project-timeline .timeline-box .node{
+        visibility: hidden;
+        position: absolute;
+        left: 0px;
+    }
+    
+    .project-timeline .center{
+        visibility: hidden;
+        position: absolute;
+    }
+    
+    .footer .link-holder{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 570px){
+    .hello{
+        font-size: 40px;
+        top: 110px;
+    }
+    
+    .second-line{
         font-size: 19px;
-        top: 45px;
+        top: 152px;
+    }
+    
+    .hero .display{
+        bottom: -120px;
     }
     
     .bar1{
-        top: 300px;
+        top: 301px;
     }
     
     .bar2{
-        top: 303px;
+        top: 304px;
     }
     
     .hero-gradient{
@@ -1068,13 +1206,12 @@ screen and (min-resolution: 2dppx)  and (max-width: 991px) {
         top: 175px;
     }
     
-    .navContainer img{
+    .navContainer #logo{
         width: 50px;
         height: 80px;
-        position: absolute;
-        top: 50px;
+        top: 15px;
         left: 50%;
-        margin-left: -25px;
+        transform: translateX(-50%);
     }
     
     .navContainer ul{
@@ -1089,6 +1226,10 @@ screen and (min-resolution: 2dppx)  and (max-width: 991px) {
     .second-nav-bg{
         left: 0px;
     }
+    
+    .footer .link-holder{
+        width: 100%;
+    }
 }
 /*Retina*/
 @media
@@ -1098,22 +1239,26 @@ screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 570px),
 screen and (min-device-pixel-ratio: 2) and (max-width: 570px),
 screen and (min-resolution: 192dpi) and (max-width: 570px),
 screen and (min-resolution: 2dppx)  and (max-width: 570px) {
-    p.hello{
+    .hello{
         font-size: 40px;
-        top: 20px;
+        top: 110px;
     }
             
-    p.second-line{
-        font-size: 19px;
-        top: 0px;
+    .second-line{
+        font-size: 20px;
+        top: 152px;
+    }
+    
+    .hero .display{
+        bottom: -120px;
     }
     
     .bar1{
-        top: 300px;
+        top: 301px;
     }
     
     .bar2{
-        top: 303px;
+        top: 304px;
     }
     
     .hero-gradient{
@@ -1142,18 +1287,21 @@ screen and (min-resolution: 2dppx)  and (max-width: 570px) {
         top: 175px;
     }
     
-    .navContainer img{
+    .navContainer #logo{
         width: 50px;
         height: 80px;
-        position: absolute;
         top: 15px;
         left: 50%;
-        margin-left: -25px;
+        transform: translateX(-50%);
     }
     
     .navContainer ul{
         position: absolute;
         left: -350px;
+    }
+    
+    .footer .link-holder{
+        width: 100%;
     }
     
 }

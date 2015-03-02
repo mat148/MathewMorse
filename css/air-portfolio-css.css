@@ -8,9 +8,9 @@
     background-color: #5286a2;
 }
 
-.center-block{
+/*.center-block{
     width: 182px;
-}
+}*/
 
 ul li{    
 }
@@ -23,7 +23,7 @@ ul li{
 }
 
 .project-description{
-    background-color: #eaeaea;
+    background-color: #f5f5f5;
 }
 
 .project-timeline{
@@ -50,89 +50,4 @@ ul li{
 .project-prototype{
     background-color: #028d86;
     border-color: #026f6a;
-}
-
-<!--================ MEDIA QUERY=============-->
-@media screen and (max-width: 1300px){
-    .display{
-        width: 60%;
-        bottom: -15px;
-    }
-}
-
-/*Retina*/
-@media
-screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1300px),
-screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1300px),
-screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1300px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 1300px),
-screen and (min-resolution: 192dpi) and (max-width: 1300px),
-screen and (min-resolution: 2dppx)  and (max-width: 1300px) {
-    .display{
-        width: 60%;
-        bottom: -15px;
-    }
-}
-
-@media screen and (max-width: 1200px){
-    .display{
-        width: 60%;
-        bottom: -15px;
-    }
-}
-
-/*Retina*/
-@media
-screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1200px),
-screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1200px),
-screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1200px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 1200px),
-screen and (min-resolution: 192dpi) and (max-width: 1200px),
-screen and (min-resolution: 2dppx)  and (max-width: 1200px) {
-    .display{
-        width: 60%;
-        bottom: -15px;
-    }
-}
-
-@media screen and (max-width: 991px){
-    .display{
-        width: 80%;
-        bottom: -85px;
-    }
-}
-
-/*Retina*/
-@media
-screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 991px),
-screen and (min--moz-device-pixel-ratio: 2) and (max-width: 991px),
-screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 991px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 991px),
-screen and (min-resolution: 192dpi) and (max-width: 991px),
-screen and (min-resolution: 2dppx)  and (max-width: 991px) {
-    .display{
-        width: 80%;
-        bottom: -85px;
-    }
-}
-
-@media screen and (max-width: 570px){
-    .display{
-        width: 80%;
-        bottom: 9px;
-    }
-}
-
-/*Retina*/
-@media
-screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 570px),
-screen and (min--moz-device-pixel-ratio: 2) and (max-width: 570px),
-screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 570px),
-screen and (min-device-pixel-ratio: 2) and (max-width: 570px),
-screen and (min-resolution: 192dpi) and (max-width: 570px),
-screen and (min-resolution: 2dppx)  and (max-width: 570px) {
-    .display{
-        width: 80%;
-        bottom: 9px;
-    }
 }
