@@ -1,6 +1,6 @@
 /* -- Air portfolio page--*/
 .air-hero{
-    background-image: url('../img/airHero2.jpg');
+    background-image: url('../img/airProject/airHero2.jpg');
     background-position: 50% 150%;
 }
 
@@ -40,7 +40,7 @@ ul li{
 }
 
 .project-comps{
-    background-image: url(../img/purty_wood2.jpg);
+    background-image: url(../img/main/purty_wood2.jpg);
 }
 
 .project-comps h1{

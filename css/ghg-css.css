@@ -1,0 +1,52 @@
+/* -- Air portfolio page--*/
+.hero{
+    background-image: url('../img/ghg/roy%20o%20something.jpg');
+    background-position: 50% 73%;
+}
+
+.bar2{
+    background-color: #5286a2;
+}
+
+.greySpace-box{
+    background-color: #3d6377;
+    border-color: #2f4d5d;
+    /*background-image: url(../img/diagonal-noise6.png);*/
+    background-repeat: repeat;
+}
+
+.details-contain{
+    background-color: #165a6f;
+    border-color: #103d4b;
+}
+
+body .project-description{
+    background-color: #f5f5f5;
+    padding-bottom: 80px;
+}
+
+.project-timeline{
+    background-color: #2b333e;
+    border-color: #11151a;
+}
+
+.user-contain{
+}
+
+.project-moodboards{
+    background-color: #167e81;
+    border-color: #136d6f;
+}
+
+.project-comps{
+    background-image: url(../img/main/purty_wood2.jpg);
+}
+
+.project-comps h1{
+    color: white;
+}
+
+.project-prototype{
+    background-color: #028d86;
+    border-color: #026f6a;
+}
