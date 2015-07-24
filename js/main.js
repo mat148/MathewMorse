@@ -1,18 +1,9 @@
 window.onload = init;
 var namePos = 0;
 var titlePos = 0;
-
-var height = $(window).height();
-    
-//console.log(height);
-    
-$('.hero').css({
-    "height":""+height+"px",
-});
-
+        
 function init()
 {
-    
     var name = document.getElementsByName('name');
     var title = document.getElementsByName('title');
     $(name).addClass("hello-anim");
