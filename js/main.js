@@ -1,3 +1,11 @@
+var height = $(window).height();
+    
+//console.log(height);
+    
+$('.hero').css({
+    "height":""+height+"px",
+});
+
 window.onload = init;
 var namePos = 0;
 var titlePos = 0;
