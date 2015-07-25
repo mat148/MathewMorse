@@ -1,0 +1,53 @@
+/* line 1, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%; }
+  /* line 5, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+  html body {
+    margin: 0;
+    height: 100%;
+    width: 100%; }
+    /* line 9, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+    html body nav {
+      height: 70px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      padding: 0 10%;
+      display: block;
+      box-sizing: border-box;
+      background: #2b333e;
+      opacity: 0.95;
+      z-index: 0; }
+      /* line 20, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+      html body nav .logo {
+        height: 40px;
+        width: 25px;
+        float: left;
+        margin: 15px 0; }
+      /* line 25, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+      html body nav .nav-btn {
+        height: 40px;
+        width: 25px;
+        z-index: 1;
+        float: right;
+        margin: 15px 0;
+        background: green; }
+        /* line 32, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        html body nav .nav-btn .line {
+          height: 3px;
+          width: 100%;
+          background: white;
+          margin: 10px 0px; }
+      /* line 37, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+      html body nav ul {
+        float: right;
+        visibility: hidden; }
+    /* line 40, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+    html body .hero {
+      width: 100%;
+      height: 10px;
+      background: red; }
+
+/*# sourceMappingURL=main.css.map */
