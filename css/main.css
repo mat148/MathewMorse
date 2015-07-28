@@ -1,53 +1,24 @@
-/* line 1, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-html {
-  margin: 0;
-  height: 100%;
-  width: 100%; }
-  /* line 5, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-  html body {
-    margin: 0;
-    height: 100%;
-    width: 100%; }
-    /* line 9, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-    html body nav {
-      height: 70px;
-      width: 100%;
-      position: fixed;
-      top: 0px;
-      padding: 0 10%;
-      display: block;
-      box-sizing: border-box;
-      background: #2b333e;
-      opacity: 0.95;
-      z-index: 0; }
-      /* line 20, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-      html body nav .logo {
-        height: 40px;
-        width: 25px;
-        float: left;
-        margin: 15px 0; }
-      /* line 25, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-      html body nav .nav-btn {
-        height: 40px;
-        width: 25px;
-        z-index: 1;
-        float: right;
-        margin: 15px 0;
-        background: green; }
-        /* line 32, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body nav .nav-btn .line {
-          height: 3px;
-          width: 100%;
-          background: white;
-          margin: 10px 0px; }
-      /* line 37, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-      html body nav ul {
-        float: right;
-        visibility: hidden; }
-    /* line 40, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-    html body .hero {
-      width: 100%;
-      height: 10px;
-      background: red; }
-
-/*# sourceMappingURL=main.css.map */
+/* line 1, main.sass */
+html { margin: 0; height: 100%; width: 100%; }
+/* line 5, main.sass */
+html body { margin: 0; height: 100%; width: 100%; }
+/* line 9, main.sass */
+html body nav { height: 70px; width: 100%; position: fixed; top: 0px; padding: 0 10%; display: block; box-sizing: border-box; background: #2b333e; opacity: 0.95; z-index: 1; }
+/* line 20, main.sass */
+html body nav .logo { height: 40px; width: 25px; float: left; margin: 15px 0; }
+/* line 25, main.sass */
+html body nav .nav-btn { height: 24px; width: 25px; z-index: 1; float: right; position: relative; top: 50%; transform: translateY(-50%); }
+/* line 35, main.sass */
+html body nav .nav-btn .line { height: 3px; width: 100%; background: white; margin-top: 5px; }
+/* line 40, main.sass */
+html body nav ul { float: right; visibility: hidden; }
+/* line 43, main.sass */
+html body .hero { width: 100%; height: 10px; background: green; overflow: hidden; position: relative; }
+/* line 49, main.sass */
+html body .hero video { height: 100%; position: absolute; left: 50%; transform: translateX(-50%); z-index: 0; }
+/* line 55, main.sass */
+html body .hero .title-holder { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #06061B; }
+/* line 61, main.sass */
+html body .hero .title-holder .hello { font-family: museo-sans; font-weight: 600; font-size: 5rem; text-align: center; }
+/* line 66, main.sass */
+html body .hero .title-holder .second-line { font-size: 2rem; font-family: utopia-std; font-style: italic; font-weight: 100; }
