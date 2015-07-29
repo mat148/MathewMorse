@@ -1,5 +1,6 @@
 var height = $(window).height();
 var width = $(window).width();
+var clicked = 0;
     
 //console.log(height);
     
@@ -20,17 +21,40 @@ function init()
     setTimeout(function(){
         $(title).addClass("second-line-anim");
     }, 150);
-    
-    $('.nav-btn').mousedown(function(){
+}
+
+function close()
+{
+    $('.slide-out').css({'top':'0px', 'right': - width+'px'});
+    $('.slide-out ul').css({'left':'30%'});
+    $('.line1').css({'top':'0px', 'transform':'translateY(-50%) rotate(0deg)',});
+    $('.line2').css({'opacity':'1',});
+    $('.line3').css({'top':'100%', 'transform':'translateY(-50%) rotate(0deg)',});
+    clicked = 0;
+}
+
+$('.nav-btn').on('click',function(){
+    if(clicked == 0){
         $('.slide-out').css({'top':'0px','right':'0px'});
         $('.slide-out ul').css({'left':'10%'});
-    });
+        $('.line1').css({'top':'50%', 'transform':'translateY(-50%) rotate(45deg)',});
+        $('.line2').css({'opacity':'0',});
+        $('.line3').css({'top':'50%', 'transform':'translateY(-50%) rotate(-45deg)',});
+        clicked = +1;
+    }
+    else{
+        close();
+    }
+});
 
-    $('.slide-out').mousedown( function(){
-        $('.slide-out').css({'top':'0px', 'right': - width+'px'});
-        $('.slide-out ul').css({'left':'30%'});
-    } );
-}
+$('.slide-out').on('click', function(){
+    close();
+} );
+
+$('.open').on('click', function(){
+    alert('yo');
+    close();
+});
 
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
