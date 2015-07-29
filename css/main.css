@@ -1,124 +1,42 @@
-/* line 1, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-html {
-  margin: 0;
-  height: 100%;
-  width: 100%; }
-  /* line 5, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-  html body {
-    margin: 0;
-    height: 100%;
-    width: 100%; }
-    /* line 9, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-    html body nav {
-      height: 70px;
-      width: 100%;
-      position: fixed;
-      top: 0px;
-      padding: 0 10%;
-      display: block;
-      box-sizing: border-box;
-      opacity: 0.95;
-      z-index: 4; }
-      /* line 20, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-      html body nav .logo {
-        height: 40px;
-        width: 25px;
-        float: left;
-        margin: 15px 0; }
-      /* line 25, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-      html body nav .nav-btn {
-        height: 18px;
-        width: 25px;
-        float: right;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-        display: block; }
-        /* line 33, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body nav .nav-btn .line {
-          height: 3px;
-          width: 100%;
-          background: #5d6f88;
-          position: absolute;
-          top: 50%;
-          transform: translateY(-50%);
-          transition: all 0.5s; }
-        /* line 41, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body nav .nav-btn .line1 {
-          top: 0px; }
-        /* line 43, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body nav .nav-btn .line3 {
-          top: 100%; }
-    /* line 45, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-    html body .slide-out {
-      position: fixed;
-      top: 0px;
-      right: -100%;
-      height: 100%;
-      width: 100%;
-      background-color: #2b333e;
-      z-index: 3;
-      transition: all 1s ease;
-      overflow: hidden; }
-      /* line 56, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-      html body .slide-out ul {
-        float: left;
-        position: absolute;
-        top: 50%;
-        left: 30%;
-        transform: translateY(-50%);
-        transition: all 1.8s ease; }
-        /* line 64, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body .slide-out ul li {
-          margin-bottom: 10%; }
-          /* line 66, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-          html body .slide-out ul li a {
-            text-decoration: none;
-            font-family: museo-sans;
-            font-weight: 100;
-            font-size: 5rem;
-            transition: all 0.8s; }
-          /* line 72, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-          html body .slide-out ul li a:link {
-            color: #444f5f; }
-          /* line 74, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-          html body .slide-out ul li a:visited {
-            color: #444f5f; }
-          /* line 76, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-          html body .slide-out ul li a:hover {
-            color: #aeb8c6; }
-    /* line 78, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-    html body .hero {
-      width: 100%;
-      height: 10px;
-      background: green;
-      overflow: hidden;
-      position: relative; }
-      /* line 84, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-      html body .hero video {
-        height: 100%;
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-        z-index: 0; }
-      /* line 90, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-      html body .hero .title-holder {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: #06061B; }
-        /* line 97, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body .hero .title-holder .hello {
-          font-family: museo-sans;
-          font-weight: 600;
-          font-size: 5rem;
-          text-align: center; }
-        /* line 102, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body .hero .title-holder .second-line {
-          font-size: 2rem;
-          font-family: utopia-std;
-          font-style: italic;
-          font-weight: 100; }
-
-/*# sourceMappingURL=main.css.map */
+/* line 1, main.sass */
+html { margin: 0; height: 100%; width: 100%; }
+/* line 5, main.sass */
+html body { margin: 0; height: 100%; width: 100%; }
+/* line 9, main.sass */
+html body nav { height: 70px; width: 100%; position: fixed; top: 0px; padding: 0 10%; display: block; box-sizing: border-box; opacity: 0.95; z-index: 4; }
+/* line 20, main.sass */
+html body nav .logo { height: 40px; width: 25px; float: left; margin: 15px 0; }
+/* line 25, main.sass */
+html body nav .nav-btn { height: 18px; width: 25px; float: right; position: relative; top: 50%; transform: translateY(-50%); display: block; }
+/* line 33, main.sass */
+html body nav .nav-btn:hover .line { background: white; }
+/* line 35, main.sass */
+html body nav .nav-btn .line { height: 3px; width: 100%; background: #68778e; position: absolute; top: 50%; transform: translateY(-50%); transition: all 0.5s; }
+/* line 43, main.sass */
+html body nav .nav-btn .line1 { top: 0px; }
+/* line 45, main.sass */
+html body nav .nav-btn .line3 { top: 100%; }
+/* line 47, main.sass */
+html body .slide-out { position: fixed; top: 0px; right: -100%; height: 100%; width: 100%; background-color: #2b333e; z-index: 3; transition: all 1s ease; overflow: hidden; }
+/* line 57, main.sass */
+html body .slide-out ul { float: left; position: absolute; top: 50%; left: 30%; transform: translateY(-50%); transition: all 1.8s ease; }
+/* line 65, main.sass */
+html body .slide-out ul li { margin-bottom: 10%; }
+/* line 67, main.sass */
+html body .slide-out ul li a { text-decoration: none; font-family: museo-sans; font-weight: 100; font-size: 5rem; transition: all 0.8s; }
+/* line 73, main.sass */
+html body .slide-out ul li a:link { color: #444f5f; }
+/* line 75, main.sass */
+html body .slide-out ul li a:visited { color: #444f5f; }
+/* line 77, main.sass */
+html body .slide-out ul li a:hover { color: white; }
+/* line 79, main.sass */
+html body .hero { width: 100%; height: 10px; background: green; overflow: hidden; position: relative; }
+/* line 85, main.sass */
+html body .hero video { height: 100%; position: absolute; left: 50%; transform: translateX(-50%); z-index: 0; }
+/* line 91, main.sass */
+html body .hero .title-holder { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #06061B; }
+/* line 98, main.sass */
+html body .hero .title-holder .hello { font-family: museo-sans; font-weight: 600; font-size: 5rem; text-align: center; }
+/* line 103, main.sass */
+html body .hero .title-holder .second-line { font-size: 2rem; font-family: utopia-std; font-style: italic; font-weight: 100; }
