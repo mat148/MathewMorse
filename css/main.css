@@ -1,56 +1,66 @@
 /* line 1, main.sass */
-html { margin: 0; height: 100%; width: 100%; }
-/* line 5, main.sass */
+html { margin: 0; height: 100%; width: 100%; overflow-x: hidden; }
+/* line 6, main.sass */
 html body { margin: 0; height: 100%; width: 100%; }
-/* line 9, main.sass */
+/* line 10, main.sass */
 html body nav { height: 70px; width: 100%; position: fixed; top: 0px; padding: 0 10%; display: block; box-sizing: border-box; z-index: 4; transition: all 1s ease; }
-/* line 19, main.sass */
+/* line 20, main.sass */
 html body nav .logo { height: 40px; width: 25px; float: left; margin: 15px 0; zindex: 10; position: absolute; }
-/* line 26, main.sass */
+/* line 27, main.sass */
 html body nav .nav-btn { height: 18px; width: 25px; float: right; position: relative; top: 50%; transform: translateY(-50%); display: block; }
-/* line 34, main.sass */
+/* line 35, main.sass */
 html body nav .nav-btn:hover .line { background: white; }
-/* line 36, main.sass */
+/* line 37, main.sass */
 html body nav .nav-btn .line { height: 3px; width: 100%; background: #68778e; position: absolute; top: 50%; transform: translateY(-50%); transition: all 0.5s; }
-/* line 44, main.sass */
+/* line 45, main.sass */
 html body nav .nav-btn .line1 { top: 0px; }
-/* line 46, main.sass */
+/* line 47, main.sass */
 html body nav .nav-btn .line3 { top: 100%; }
-/* line 48, main.sass */
+/* line 49, main.sass */
 html body .slide-out { position: fixed; top: 0px; right: -100%; height: 100%; width: 100%; background-color: #2b333e; z-index: 3; transition: all 1s ease; overflow: hidden; -webkit-filter: url("#blur"); }
-/* line 59, main.sass */
+/* line 60, main.sass */
 html body .slide-out ul { float: left; position: absolute; top: 50%; transform: translateY(-50%); }
-/* line 65, main.sass */
+/* line 66, main.sass */
 html body .slide-out ul li { margin-bottom: 10%; position: relative; left: 100%; }
-/* line 69, main.sass */
+/* line 70, main.sass */
 html body .slide-out ul li a { text-decoration: none; font-family: museo-sans; font-weight: 100; font-size: 5rem; transition: all 0.8s; }
-/* line 75, main.sass */
+/* line 76, main.sass */
 html body .slide-out ul li a:link { color: #444f5f; }
-/* line 77, main.sass */
+/* line 78, main.sass */
 html body .slide-out ul li a:visited { color: #444f5f; }
-/* line 79, main.sass */
+/* line 80, main.sass */
 html body .slide-out ul li a:hover { color: white; }
-/* line 81, main.sass */
+/* line 82, main.sass */
 html body .slide-out ul #aboutButton { transition: all 1.5s ease; }
-/* line 83, main.sass */
+/* line 84, main.sass */
 html body .slide-out ul #workButton { transition: all 1.5s ease; left: 120%; }
-/* line 86, main.sass */
+/* line 87, main.sass */
 html body .slide-out ul #resumeButton { transition: all 1.5s ease; left: 140%; }
-/* line 89, main.sass */
+/* line 90, main.sass */
 html body .slide-out ul #contactButton { transition: all 1.5s ease; left: 160%; }
-/* line 92, main.sass */
+/* line 93, main.sass */
 html body .hero { width: 100%; height: 10px; background: green; overflow: hidden; position: relative; }
-/* line 98, main.sass */
+/* line 99, main.sass */
 html body .hero video { height: 100%; position: absolute; left: 50%; transform: translateX(-50%); z-index: 0; }
-/* line 104, main.sass */
+/* line 105, main.sass */
 html body .hero .title-holder { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #06061B; }
-/* line 111, main.sass */
+/* line 112, main.sass */
 html body .hero .title-holder .hello { font-family: museo-sans; font-weight: 600; font-size: 5rem; text-align: center; }
-/* line 116, main.sass */
+/* line 117, main.sass */
 html body .hero .title-holder .second-line { font-size: 2rem; font-family: utopia-std; font-style: italic; font-weight: 100; }
-/* line 121, main.sass */
-html body .work-holder { background: green; width: 100%; padding: 0 10%; box-sizing: border-box; }
-/* line 126, main.sass */
-html body .work-holder .work-container { height: 500px; width: 49.5%; background: red; overflow: hidden; float: left; margin: 1% 1% 1% 0; }
+/* line 122, main.sass */
+html body .work-holder { width: 100%; padding: 0 10%; box-sizing: border-box; }
+/* line 127, main.sass */
+html body .work-holder h1 { font-family: museo-sans; font-weight: 600; font-size: 3rem; text-align: center; margin: 10% 0; }
 /* line 133, main.sass */
-html body .work-holder .work-container:nth-child(even) { background: yellow; margin: 1% 0 1% 0; }
+html body .work-holder .work-container { height: 500px; width: 49.5%; background: red; overflow: hidden; float: left; margin: 1% 1% 0% 0; }
+/* line 140, main.sass */
+html body .work-holder .work-container:nth-child(odd) { background: yellow; margin: 1% 0 0% 0; }
+/* line 143, main.sass */
+html body .work-holder .work-container a { height: 100%; width: 100%; display: block; text-decoration: none; }
+/* line 148, main.sass */
+html body .work-holder .work-container a:link { color: white; }
+/* line 150, main.sass */
+html body .work-holder .work-container a:visited { color: white; }
+/* line 152, main.sass */
+html body .work-holder .work-container a:visited .project-title { text-decoration: none; }
