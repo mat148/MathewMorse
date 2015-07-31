@@ -6,10 +6,6 @@ var workWidth = $('.work-container').width();
 var clicked = 'false';
     
 //console.log(height);
-    
-$('.hero').css({
-    "height":""+height+"px",
-});
 
 window.onload = init;
 var namePos = 0;
@@ -24,6 +20,10 @@ function init()
     setTimeout(function(){
         $(title).addClass("second-line-anim");
     }, 150);
+    
+    $('.hero').css({
+        "height":""+height+"px",
+    });
     
     $('.work-container').css({
         'height': (workWidth)+'px',
@@ -55,6 +55,18 @@ $('.nav-btn').on('click',function(){
     else{
         close();
     }
+});
+
+$(window).resize(function(){
+    var workWidth = $('.work-container').width();
+    
+    $('.work-container').css({
+        'height': (workWidth)+'px',
+    });
+    
+    $('.hero').css({
+        "height":""+height+"px",
+    });
 });
 
 $('.slide-out').on('click', function(){

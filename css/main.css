@@ -51,16 +51,16 @@ html body .hero .title-holder .second-line { font-size: 2rem; font-family: utopi
 /* line 122, main.sass */
 html body .work-holder { width: 100%; padding: 0 10%; box-sizing: border-box; }
 /* line 127, main.sass */
-html body .work-holder h1 { font-family: museo-sans; font-weight: 600; font-size: 3rem; text-align: center; margin: 10% 0; }
-/* line 133, main.sass */
-html body .work-holder .work-container { height: 500px; width: 49.5%; background: red; overflow: hidden; float: left; margin: 1% 1% 0% 0; }
-/* line 140, main.sass */
+html body .work-holder h1 { font-family: utopia-std; font-style: italic; font-weight: 100; font-size: 3rem; text-align: center; margin: 10% 0; }
+/* line 134, main.sass */
+html body .work-holder .work-container { position: relative; height: 500px; width: 49.5%; background: red; overflow: hidden; float: left; margin: 1% 1% 0% 0; }
+/* line 142, main.sass */
 html body .work-holder .work-container:nth-child(odd) { background: yellow; margin: 1% 0 0% 0; }
-/* line 143, main.sass */
+/* line 145, main.sass */
 html body .work-holder .work-container a { height: 100%; width: 100%; display: block; text-decoration: none; }
-/* line 148, main.sass */
-html body .work-holder .work-container a:link { color: white; }
 /* line 150, main.sass */
-html body .work-holder .work-container a:visited { color: white; }
-/* line 152, main.sass */
-html body .work-holder .work-container a:visited .project-title { text-decoration: none; }
+html body .work-holder .work-container .project-title { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; z-index: 2; font-family: museo-sans; font-weight: 600; font-size: 2rem; text-align: center; }
+/* line 161, main.sass */
+html body .work-holder .work-container .darken { position: absolute; top: 0; left: 0; height: 100%; width: 100%; background: #282b30; z-index: 1; opacity: 0.45; }
+/* line 170, main.sass */
+html body .work-holder .work-container .img { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: url(../img/ntp/endo2.jpg); background-position: center; background-size: 100%; z-index: 0; }

@@ -125,12 +125,14 @@ html
             padding: 0 10%
             box-sizing: border-box
             h1
-                font-family: museo-sans
-                font-weight: 600
+                font-family: utopia-std
+                font-style: italic
+                font-weight: 100
                 font-size: 3rem
                 text-align: center
                 margin: 10% 0
             .work-container
+                position: relative
                 height: 500px
                 width: 49.5%
                 background: red
@@ -145,10 +147,34 @@ html
                     width: 100%
                     display: block
                     text-decoration: none
-                a:link
+                .project-title
+                    position: absolute
+                    top: 50%
+                    left: 50%
+                    transform: translate(-50%, -50%)
                     color: white
-                a:visited
-                    color: white
-                    .project-title
-                        text-decoration: none
+                    z-index: 2
+                    font-family: museo-sans
+                    font-weight: 600
+                    font-size: 2rem
+                    text-align: center
+                .darken
+                    position: absolute
+                    top: 0
+                    left: 0
+                    height: 100%
+                    width: 100%
+                    background: #282b30
+                    z-index: 1
+                    opacity: 0.45
+                .img
+                    position: absolute
+                    top: 0
+                    left: 0
+                    width: 100%
+                    height: 100%
+                    background-image: url(../img/ntp/endo2.jpg)
+                    background-position: center
+                    background-size: 100%
+                    z-index: 0
                     
