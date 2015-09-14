@@ -16,7 +16,7 @@ html
             display: block
             box-sizing: border-box
             z-index: 4
-            transition: all 1s ease
+            transition: all 0.8s ease
             .logo
                 height: 40px
                 width: 25px
@@ -32,6 +32,7 @@ html
                 top: 50%
                 transform: translateY(-50%)
                 display: block
+                cursor: pointer
                 &:hover .line
                     background: white
                 .line
@@ -103,22 +104,32 @@ html
                 transform: translateX(-50%)
                 z-index: 0
             .title-holder
+                width: auto
                 position: absolute
                 top: 50%
                 left: 50%
                 transform: translate(-50%, -50%)
-                color: #06061B
-                //color: #e2e2e2
-                .hello
+                color: #1a182a
+                //color: #1a182a
+                //2 color: #2E1D37
+                //3 color: #1D2837
+                //3 color: #370026
+                transition: all 2s ease-in
+                .name
                     font-family: museo-sans
                     font-weight: 600
                     font-size: 5rem
                     text-align: center
-                .second-line
+                    letter-spacing: -2px
+                    width: 100%
+                .job-title
                     font-size: 2rem
-                    font-family: utopia-std
+                    font-family: acta-display
                     font-style: italic
-                    font-weight: 100
+                    font-weight: 700
+                    text-align: right
+                    margin-top: 10px
+                    color: #110f1c
         .work-holder
             //background: green
             width: 100%

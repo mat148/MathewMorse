@@ -50,10 +50,12 @@ $('.nav-btn').on('click',function(){
         $('.line1').css({'top':'50%', 'transform':'translateY(-50%) rotate(45deg)',});
         $('.line2').css({'opacity':'0',});
         $('.line3').css({'top':'50%', 'transform':'translateY(-50%) rotate(-45deg)',});
+        $('html').css({'overflow-y':'hidden',});
         clicked = 'true';
     }
     else{
         close();
+        $('html').css({'overflow-y':'visible',});
     }
 });
 
@@ -69,22 +71,27 @@ $(window).resize(function(){
     });
 });
 
-$('.slide-out').on('click', function(){
-    close();
-} );
-
 $('.open').on('click', function(){
     alert('yo');
     close();
 });
 
 $(window).scroll(function() {
-  if ($(window).scrollTop() >= (height-500)) {
+  if ($(window).scrollTop() >= (height-70)) {
     $('nav').css({'background':'#2b333e',});
   }
-    if ($(window).scrollTop() <= height) {
+    
+  if ($(window).scrollTop() <= (height-70)) {
     $('nav').css({'background':'transparent',});
   }
+    
+  /*if ($(window).scrollTop() >= (height/4)){
+    $('.title-holder').css({'opacity':'0',});
+  }
+    
+    if ($(window).scrollTop() <= (height/4)){
+    $('.title-holder').css({'opacity':'1',});
+  }*/
 });
 
 $(function() {
