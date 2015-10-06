@@ -131,9 +131,12 @@ html {
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: #1a182a;
-        transition: all 2s ease-in; }
-        /* line 118, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        color: #444f5f;
+        transition: all 1s; }
+        /* line 114, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        html body .hero .title-holder:hover {
+          color: white; }
+        /* line 116, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
         html body .hero .title-holder .name {
           font-family: museo-sans;
           font-weight: 600;
@@ -141,21 +144,20 @@ html {
           text-align: center;
           letter-spacing: -2px;
           width: 100%; }
-        /* line 125, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        /* line 123, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
         html body .hero .title-holder .job-title {
           font-size: 2rem;
           font-family: acta-display;
           font-style: italic;
           font-weight: 700;
           text-align: right;
-          margin-top: 10px;
-          color: #110f1c; }
-    /* line 133, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+          margin-top: 10px; }
+    /* line 130, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
     html body .work-holder {
       width: 100%;
       padding: 0 10%;
       box-sizing: border-box; }
-      /* line 138, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+      /* line 135, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
       html body .work-holder h1 {
         font-family: utopia-std;
         font-style: italic;
@@ -163,7 +165,7 @@ html {
         font-size: 3rem;
         text-align: center;
         margin: 10% 0; }
-      /* line 145, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+      /* line 142, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
       html body .work-holder .work-container {
         position: relative;
         height: 500px;
@@ -172,17 +174,17 @@ html {
         overflow: hidden;
         float: left;
         margin: 1% 1% 0% 0; }
-        /* line 153, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        /* line 150, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
         html body .work-holder .work-container:nth-child(odd) {
           background: yellow;
           margin: 1% 0 0% 0; }
-        /* line 156, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        /* line 153, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
         html body .work-holder .work-container a {
           height: 100%;
           width: 100%;
           display: block;
           text-decoration: none; }
-        /* line 161, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        /* line 158, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
         html body .work-holder .work-container .project-title {
           position: absolute;
           top: 50%;
@@ -194,7 +196,7 @@ html {
           font-weight: 600;
           font-size: 2rem;
           text-align: center; }
-        /* line 172, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        /* line 169, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
         html body .work-holder .work-container .darken {
           position: absolute;
           top: 0;
@@ -204,7 +206,7 @@ html {
           background: #282b30;
           z-index: 1;
           opacity: 0.45; }
-        /* line 181, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        /* line 178, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
         html body .work-holder .work-container .img {
           position: absolute;
           top: 0;
