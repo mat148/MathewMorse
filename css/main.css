@@ -176,41 +176,64 @@ html {
         float: left;
         margin: 1% 1% 0% 0; }
         /* line 151, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        html body .work-holder .work-container:after {
+          content: "";
+          display: block;
+          background: #282b30;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          z-index: 0;
+          position: absolute;
+          top: 0;
+          left: 0;
+          -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+          transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
+        /* line 164, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
         html body .work-holder .work-container:nth-child(odd) {
           background: yellow;
           margin: 1% 0 0% 0; }
-        /* line 154, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        /* line 167, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        html body .work-holder .work-container:hover .project-text-container {
+          bottom: 0; }
+        /* line 169, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        html body .work-holder .work-container:hover:after {
+          opacity: 0.9; }
+        /* line 171, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
         html body .work-holder .work-container a {
+          position: absolute;
           height: 100%;
           width: 100%;
           display: block;
           text-decoration: none;
-          cursor: pointer; }
-        /* line 160, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body .work-holder .work-container p {
-          color: white;
-          z-index: 2;
-          font-family: museo-sans;
-          font-weight: 600;
-          font-size: 2rem;
-          text-align: center; }
-        /* line 171, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body .work-holder .work-container .darken {
+          cursor: pointer;
+          z-index: 2; }
+        /* line 179, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+        html body .work-holder .work-container .project-text-container {
           position: absolute;
-          top: 0;
+          bottom: -20%;
           left: 0;
-          height: 100%;
-          width: 100%;
-          z-index: 1; }
-          /* line 179, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-          html body .work-holder .work-container .darken:after {
-            content: "";
-            display: block;
-            background: #282b30;
-            height: 100%;
-            width: 100%;
-            opacity: 0.8; }
-      /* line 188, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+          z-index: 1;
+          box-sizing: border-box;
+          padding: 0 0 30px 30px;
+          -webkit-transition: all 500ms cubic-bezier(0.39, 0.575, 0.565, 1);
+          transition: all 500ms cubic-bezier(0.39, 0.575, 0.565, 1); }
+          /* line 188, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+          html body .work-holder .work-container .project-text-container li {
+            color: white; }
+          /* line 190, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+          html body .work-holder .work-container .project-text-container .project-title {
+            font-family: museo-sans;
+            font-weight: 600;
+            font-size: 2rem;
+            margin-bottom: 15px; }
+          /* line 195, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+          html body .work-holder .work-container .project-text-container .project-type {
+            font-size: 1.5rem;
+            font-family: acta-display;
+            font-style: italic;
+            font-weight: 700; }
+      /* line 201, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
       html body .work-holder .foot-vr {
         background-image: url(../img/ntp/endo2.jpg);
         background-position: center;
