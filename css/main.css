@@ -187,11 +187,7 @@ html {
           text-decoration: none;
           cursor: pointer; }
         /* line 160, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
-        html body .work-holder .work-container .project-title {
-          position: absolute;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
+        html body .work-holder .work-container p {
           color: white;
           z-index: 2;
           font-family: museo-sans;
@@ -205,10 +201,16 @@ html {
           left: 0;
           height: 100%;
           width: 100%;
-          background: #282b30;
-          z-index: 1;
-          opacity: 0; }
-      /* line 180, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+          z-index: 1; }
+          /* line 179, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
+          html body .work-holder .work-container .darken:after {
+            content: "";
+            display: block;
+            background: #282b30;
+            height: 100%;
+            width: 100%;
+            opacity: 0.8; }
+      /* line 188, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
       html body .work-holder .foot-vr {
         background-image: url(../img/ntp/endo2.jpg);
         background-position: center;
