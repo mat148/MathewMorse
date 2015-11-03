@@ -235,8 +235,8 @@ html {
             font-weight: 700; }
       /* line 201, /Users/mat.morse/Documents/www/MathewMorse/css/main.sass */
       html body .work-holder .foot-vr {
-        background-image: url(../img/ntp/endo2.jpg);
+        background-image: url(../img/shoe/ElementariumAd.jpg);
         background-position: center;
-        background-size: 100%; }
+        background-size: auto 100%; }
 
 /*# sourceMappingURL=main.css.map */
