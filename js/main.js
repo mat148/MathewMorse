@@ -33,10 +33,10 @@ function init()
 function close()
 {
     $('.slide-out').css({'top':'0px', 'right': - width+'px'});
-    $('.slide-out ul #aboutButton').css({'left':'100%'});
-    $('.slide-out ul #workButton').css({'left':'120%'});
-    $('.slide-out ul #resumeButton').css({'left':'140%'});
-    $('.slide-out ul #contactButton').css({'left':'160%'});
+    $('.slide-out ul #aboutButton').css({'left':'160%', 'opacity':'0'});
+    $('.slide-out ul #workButton').css({'left':'140%', 'opacity':'0'});
+    $('.slide-out ul #resumeButton').css({'left':'120%', 'opacity':'0'});
+    $('.slide-out ul #contactButton').css({'left':'100%', 'opacity':'0'});
     $('.line1').css({'top':'0px', 'transform':'translateY(-50%) rotate(0deg)',});
     $('.line2').css({'opacity':'1',});
     $('.line3').css({'top':'100%', 'transform':'translateY(-50%) rotate(0deg)',});
@@ -46,7 +46,7 @@ function close()
 $('.nav-btn').on('click',function(){
     if(clicked == 'false'){
         $('.slide-out').css({'top':'0px','right':'0px'});
-        $('.slide-out ul li').css({'left':'50%'});
+        $('.slide-out ul li').css({'left':'50%', 'opacity':'1'});
         $('.line1').css({'top':'50%', 'transform':'translateY(-50%) rotate(45deg)',});
         $('.line2').css({'opacity':'0',});
         $('.line3').css({'top':'50%', 'transform':'translateY(-50%) rotate(-45deg)',});
