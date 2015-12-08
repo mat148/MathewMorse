@@ -31,31 +31,36 @@ function init()
 }
 
 function close()
-{
-    $('.slide-out').css({'top':'0px', 'right': - width+'px'});
-    $('.slide-out ul #aboutButton').css({'left':'160%', 'opacity':'0'});
-    $('.slide-out ul #workButton').css({'left':'140%', 'opacity':'0'});
-    $('.slide-out ul #resumeButton').css({'left':'120%', 'opacity':'0'});
-    $('.slide-out ul #contactButton').css({'left':'100%', 'opacity':'0'});
-    $('.line1').css({'top':'0px', 'transform':'translateY(-50%) rotate(0deg)',});
-    $('.line2').css({'opacity':'1',});
-    $('.line3').css({'top':'100%', 'transform':'translateY(-50%) rotate(0deg)',});
-    clicked = 'false';
-}
+{}
 
 $('.nav-btn').on('click',function(){
     if(clicked == 'false'){
-        $('.slide-out').css({'top':'0px','right':'0px'});
-        $('.slide-out ul li').css({'left':'50%', 'opacity':'1'});
-        $('.line1').css({'top':'50%', 'transform':'translateY(-50%) rotate(45deg)',});
-        $('.line2').css({'opacity':'0',});
-        $('.line3').css({'top':'50%', 'transform':'translateY(-50%) rotate(-45deg)',});
-        $('html').css({'overflow-y':'hidden',});
+        $('.slide-out').css({
+            'opacity':'1',
+            'pointer-events':'all',
+        });
+        $('.slide-out li').css({
+            'top':'0px',
+            'opacity': '1',
+        });
+        $('html').css({
+            'overflow-y':'hidden',
+        });
         clicked = 'true';
     }
     else{
-        close();
-        $('html').css({'overflow-y':'visible',});
+        $('.slide-out').css({
+            'opacity':'0',
+            'pointer-events':'none',
+        });
+        $('.slide-out li').css({
+            'top':'50px',
+            'opacity':'0',
+        });
+        $('html').css({
+            'overflow-y':'visible',
+        });
+        clicked = 'false';
     }
 });
 
@@ -78,7 +83,7 @@ $('.open').on('click', function(){
 
 $(window).scroll(function() {
   if ($(window).scrollTop() >= (height-70)) {
-    $('nav').css({'background':'#2b333e',});
+    $('nav').css({'background':'#2b333e', 'opacity':'0.98'});
   }
     
   if ($(window).scrollTop() <= (height-70)) {

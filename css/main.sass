@@ -43,7 +43,7 @@ html
                     position: absolute
                     top: 50%
                     transform: translateY(-50%)
-                    transition: all 0.5s
+                    transition: all 0.8s
                 .line1
                     top: 0px
                 .line3
@@ -51,32 +51,35 @@ html
         .slide-out
             position: fixed
             top: 0px
-            right: -100%
+            right: 0px
             height: 100%
             width: 100%
             background-color: #2b333e
             z-index: 3
-            transition: all 1s ease
             overflow: hidden
             -webkit-filter: url('#blur')
+            opacity: 0
+            transition: opacity 0.3s ease
             ul
                 float: left
                 position: absolute
                 top: 50%
-                transform: translateY(-50%)
+                left: 50%
+                transform: translate(-50%, -50%)
                 //visibility: hidden
                 li
                     margin-bottom: 10%
                     position: relative
-                    left: 100%
+                    top: 50px
+                    //transition: all 2s ease
+                    text-align: center
                     opacity: 0
-                    transition: all 2s ease
                     a
                         text-decoration: none
                         font-family: museo-sans
                         font-weight: 100
-                        font-size: 5rem
-                        transition: all 0.8s
+                        font-size: 4.1em
+                        transition: all 0.8s ease
                     a:link
                         color: #444f5f
                     a:visited
@@ -84,12 +87,17 @@ html
                     a:hover
                         color: white
                 #aboutButton
+                    transition: top 0.85s cubic-bezier(.17,.67,.38,1.8), opacity 1.5s ease
+                    transition-delay: 0s
                 #workButton
-                    left: 120%
+                    transition: top 0.85s cubic-bezier(.17,.67,.38,1.8), opacity 1.5s ease
+                    transition-delay: 0.025s
                 #resumeButton
-                    left: 140%
+                    transition: top 0.85s cubic-bezier(.17,.67,.38,1.8), opacity 1.5s ease
+                    transition-delay: 0.050s
                 #contactButton
-                    left: 160%
+                    transition: top 0.85s cubic-bezier(.17,.67,.38,1.8), opacity 1.5s ease
+                    transition-delay: 0.075s
         .hero
             width: 100%
             height: 10px
@@ -147,7 +155,7 @@ html
                 float: left
                 margin: 1% 1% 0% 0
                 &:after
-                    content:""
+                    content: hello
                     display: block
                     background: #2b333e
                     height: 100%
@@ -191,10 +199,10 @@ html
                         font-size: 2rem
                         margin-bottom: 15px
                     .project-type
-                        font-size: 1.5rem;
-                        font-family: acta-display;
-                        font-style: italic;
-                        font-weight: 700;
+                        font-size: 1.5rem
+                        font-family: acta-display
+                        font-style: italic
+                        font-weight: 700
                         
             .foot-vr
                 background-image: url(../img/shoe/ElementariumAd.jpg)
