@@ -9,7 +9,7 @@ html body nav .logo { height: 40px; width: 25px; float: left; margin: 30px 0; z-
 /* line 28, main.sass */
 html body nav .nav-btn { height: 18px; width: 25px; float: right; position: relative; top: 50%; transform: translateY(-50%); display: block; cursor: pointer; }
 /* line 37, main.sass */
-html body nav .nav-btn:hover .line { background: white; }
+html body nav .nav-btn:hover .line { background: #f8f8f8; }
 /* line 39, main.sass */
 html body nav .nav-btn .line { height: 3px; width: 100%; background: #68778e; position: absolute; top: 50%; transform: translateY(-50%); transition: all 0.8s; }
 /* line 47, main.sass */
@@ -17,62 +17,64 @@ html body nav .nav-btn .line1 { top: 0px; }
 /* line 49, main.sass */
 html body nav .nav-btn .line3 { top: 100%; }
 /* line 51, main.sass */
-html body .slide-out { position: fixed; top: 0px; right: 0px; height: 100%; width: 100%; background-color: #2b333e; z-index: 3; overflow: hidden; -webkit-filter: url("#blur"); opacity: 0; transition: opacity 0.3s ease; }
-/* line 63, main.sass */
+html body .slide-out { position: fixed; top: 0px; right: 0px; height: 100%; width: 100%; background-color: #2b333e; z-index: 3; overflow: hidden; -webkit-filter: url("#blur"); opacity: 0; transition: opacity 0.3s ease; pointer-events: none; }
+/* line 64, main.sass */
 html body .slide-out ul { float: left; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-/* line 70, main.sass */
+/* line 71, main.sass */
 html body .slide-out ul li { margin-bottom: 10%; position: relative; top: 50px; text-align: center; opacity: 0; }
-/* line 77, main.sass */
+/* line 78, main.sass */
 html body .slide-out ul li a { text-decoration: none; font-family: museo-sans; font-weight: 100; font-size: 4.1em; transition: all 0.8s ease; }
-/* line 83, main.sass */
+/* line 84, main.sass */
 html body .slide-out ul li a:link { color: #444f5f; }
-/* line 85, main.sass */
+/* line 86, main.sass */
 html body .slide-out ul li a:visited { color: #444f5f; }
-/* line 87, main.sass */
+/* line 88, main.sass */
 html body .slide-out ul li a:hover { color: white; }
-/* line 89, main.sass */
+/* line 90, main.sass */
 html body .slide-out ul #aboutButton { transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease; transition-delay: 0s; }
-/* line 92, main.sass */
+/* line 93, main.sass */
 html body .slide-out ul #workButton { transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease; transition-delay: 0.025s; }
-/* line 95, main.sass */
+/* line 96, main.sass */
 html body .slide-out ul #resumeButton { transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease; transition-delay: 0.05s; }
-/* line 98, main.sass */
+/* line 99, main.sass */
 html body .slide-out ul #contactButton { transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease; transition-delay: 0.075s; }
-/* line 101, main.sass */
+/* line 102, main.sass */
 html body .hero { width: 100%; height: 10px; background: green; overflow: hidden; position: relative; }
-/* line 107, main.sass */
+/* line 108, main.sass */
 html body .hero video { height: 100%; position: absolute; left: 50%; transform: translateX(-50%); z-index: 0; }
-/* line 113, main.sass */
-html body .hero .title-holder { width: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #444f5f; transition: all 1s; }
-/* line 121, main.sass */
-html body .hero .title-holder:hover { color: white; }
+/* line 114, main.sass */
+html body .hero .title-holder { width: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #444f5f; transition: all 1s; z-index: 5; }
 /* line 123, main.sass */
+html body .hero .title-holder:hover { color: #f8f8f8; }
+/* line 125, main.sass */
 html body .hero .title-holder .name { font-family: museo-sans; font-weight: 600; font-size: 5rem; text-align: center; letter-spacing: -2px; width: 100%; }
-/* line 130, main.sass */
+/* line 132, main.sass */
 html body .hero .title-holder .job-title { font-size: 2rem; font-family: acta-display; font-style: italic; font-weight: 700; text-align: right; margin-top: 10px; }
-/* line 137, main.sass */
+/* line 139, main.sass */
+html body .hero .hero-gradient { height: 300px; width: 100%; background: red; z-index: 5; }
+/* line 144, main.sass */
 html body .work-holder { width: 100%; padding: 0 10%; box-sizing: border-box; }
-/* line 142, main.sass */
-html body .work-holder h1 { font-family: utopia-std; font-style: italic; font-weight: 100; font-size: 3rem; text-align: center; margin: 10% 0; }
 /* line 149, main.sass */
-html body .work-holder .work-container { position: relative; height: 500px; width: 49.5%; background: red; overflow: hidden; float: left; margin: 1% 1% 0% 0; }
-/* line 157, main.sass */
-html body .work-holder .work-container:after { content: hello; display: block; background: #2b333e; height: 100%; width: 100%; opacity: 0; z-index: 0; position: absolute; top: 0; left: 0; -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
-/* line 170, main.sass */
-html body .work-holder .work-container:nth-child(odd) { background: yellow; margin: 1% 0 0% 0; }
-/* line 173, main.sass */
-html body .work-holder .work-container:hover .project-text-container { bottom: 0; }
-/* line 175, main.sass */
-html body .work-holder .work-container:hover:after { opacity: 0.95; }
-/* line 177, main.sass */
+html body .work-holder h1 { font-family: utopia-std; font-style: italic; font-weight: 100; font-size: 3rem; text-align: center; margin: 10% 0; }
+/* line 156, main.sass */
+html body .work-holder .work-container { position: relative; height: 500px; width: 30%; background: red; overflow: hidden; float: left; margin: 0 5% 3% 0; }
+/* line 164, main.sass */
+html body .work-holder .work-container:nth-child(3n+1) { background: yellow; margin: 0 0 5% 0; }
+/* line 167, main.sass */
+html body .work-holder .work-container:hover .project-text-container { opacity: 1; }
+/* line 169, main.sass */
+html body .work-holder .work-container:hover .cover { opacity: 0.5; }
+/* line 171, main.sass */
+html body .work-holder .work-container .cover { position: absolute; top: 0; left: 0; background: black; height: 100%; width: 100%; opacity: 0; -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
+/* line 181, main.sass */
 html body .work-holder .work-container a { position: absolute; height: 100%; width: 100%; display: block; text-decoration: none; cursor: pointer; z-index: 2; }
-/* line 185, main.sass */
-html body .work-holder .work-container .project-text-container { position: absolute; bottom: -20%; left: 0; z-index: 1; box-sizing: border-box; padding: 0 0 30px 30px; -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
-/* line 194, main.sass */
+/* line 189, main.sass */
+html body .work-holder .work-container .project-text-container { position: absolute; bottom: 0; left: 0; z-index: 1; box-sizing: border-box; padding: 0 0 30px 30px; opacity: 0; -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
+/* line 199, main.sass */
 html body .work-holder .work-container .project-text-container li { color: white; }
-/* line 196, main.sass */
-html body .work-holder .work-container .project-text-container .project-title { font-family: museo-sans; font-weight: 600; font-size: 2rem; margin-bottom: 15px; }
 /* line 201, main.sass */
+html body .work-holder .work-container .project-text-container .project-title { font-family: museo-sans; font-weight: 600; font-size: 2rem; margin-bottom: 15px; }
+/* line 206, main.sass */
 html body .work-holder .work-container .project-text-container .project-type { font-size: 1.5rem; font-family: acta-display; font-style: italic; font-weight: 700; }
-/* line 207, main.sass */
+/* line 212, main.sass */
 html body .work-holder .foot-vr { background-image: url(../img/shoe/ElementariumAd.jpg); background-position: center; background-size: auto 100%; }

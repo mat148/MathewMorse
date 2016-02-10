@@ -35,7 +35,7 @@ html
                 display: block
                 cursor: pointer
                 &:hover .line
-                    background: white
+                    background: #f8f8f8
                 .line
                     height: 3px
                     width: 100%
@@ -60,6 +60,7 @@ html
             -webkit-filter: url('#blur')
             opacity: 0
             transition: opacity 0.3s ease
+            pointer-events: none
             ul
                 float: left
                 position: absolute
@@ -118,8 +119,9 @@ html
                 transform: translate(-50%, -50%)
                 color: #444f5f
                 transition: all 1s
+                z-index: 5
                 &:hover
-                    color: white
+                    color: #f8f8f8
                 .name
                     font-family: museo-sans
                     font-weight: 600
@@ -134,6 +136,11 @@ html
                     font-weight: 700
                     text-align: right
                     margin-top: 10px
+            .hero-gradient
+                height: 300px
+                width: 100%
+                background: red
+                z-index: 5
         .work-holder
             //background: green
             width: 100%
@@ -149,31 +156,28 @@ html
             .work-container
                 position: relative
                 height: 500px
-                width: 49.5%
+                width: 30%
                 background: red
                 overflow: hidden
                 float: left
-                margin: 1% 1% 0% 0
-                &:after
-                    content: hello
-                    display: block
-                    background: #2b333e
-                    height: 100%
-                    width: 100%
-                    opacity: 0
-                    z-index: 0
+                margin: 0 5% 3% 0
+                &:nth-child(3n+1)
+                    background: yellow
+                    margin: 0 0 5% 0
+                &:hover .project-text-container
+                    opacity: 1
+                &:hover .cover
+                    opacity: .5
+                .cover
                     position: absolute
                     top: 0
                     left: 0
+                    background: black
+                    height: 100%
+                    width: 100%
+                    opacity: 0
                     -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
                     transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-                &:nth-child(odd)
-                    background: yellow
-                    margin: 1% 0 0% 0
-                &:hover .project-text-container
-                    bottom: 0
-                &:hover:after
-                    opacity: 0.95
                 a
                     position: absolute
                     height: 100%
@@ -184,11 +188,12 @@ html
                     z-index: 2
                 .project-text-container
                     position: absolute
-                    bottom: -20%
+                    bottom: 0
                     left: 0
                     z-index: 1
                     box-sizing: border-box
                     padding: 0 0 30px 30px
+                    opacity: 0
                     -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
                     transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
                     li
