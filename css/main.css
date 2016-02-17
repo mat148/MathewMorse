@@ -47,34 +47,32 @@ html body .hero .title-holder { width: auto; position: absolute; top: 50%; left:
 /* line 123, main.sass */
 html body .hero .title-holder:hover { color: #f8f8f8; }
 /* line 125, main.sass */
-html body .hero .title-holder .name { font-family: museo-sans; font-weight: 600; font-size: 5rem; text-align: center; letter-spacing: -2px; width: 100%; }
+html body .hero .title-holder .name { font-family: proxima-nova; font-weight: 600; font-size: 5rem; text-align: center; letter-spacing: 3px; width: 100%; }
 /* line 132, main.sass */
-html body .hero .title-holder .job-title { font-size: 2rem; font-family: acta-display; font-style: italic; font-weight: 700; text-align: right; margin-top: 10px; }
+html body .hero .title-holder .job-title { font-size: 2rem; font-family: acta-display; font-style: italic; font-weight: 700; text-align: right; margin-top: 5px; }
 /* line 139, main.sass */
 html body .hero .hero-gradient { height: 300px; width: 100%; background: red; z-index: 5; }
 /* line 144, main.sass */
-html body .work-holder { width: 100%; padding: 0 10%; box-sizing: border-box; }
-/* line 149, main.sass */
-html body .work-holder h1 { font-family: utopia-std; font-style: italic; font-weight: 100; font-size: 3rem; text-align: center; margin: 10% 0; }
-/* line 156, main.sass */
-html body .work-holder .work-container { position: relative; height: 500px; width: 30%; background: red; overflow: hidden; float: left; margin: 0 5% 3% 0; }
-/* line 164, main.sass */
-html body .work-holder .work-container:nth-child(3n+1) { background: yellow; margin: 0 0 5% 0; }
-/* line 167, main.sass */
+html body .work-holder { width: 100%; padding: 0 10%; box-sizing: border-box; margin-top: 300px; }
+/* line 150, main.sass */
+html body .work-holder .work-container { position: relative; height: 500px; width: 30%; background: #2adb83; overflow: hidden; float: left; margin: 0 5% 3% 0; }
+/* line 158, main.sass */
+html body .work-holder .work-container:nth-child(n+3) { background: yellow; margin: 0 0 5% 0; }
+/* line 161, main.sass */
 html body .work-holder .work-container:hover .project-text-container { opacity: 1; }
-/* line 169, main.sass */
+/* line 163, main.sass */
 html body .work-holder .work-container:hover .cover { opacity: 0.5; }
-/* line 171, main.sass */
+/* line 165, main.sass */
 html body .work-holder .work-container .cover { position: absolute; top: 0; left: 0; background: black; height: 100%; width: 100%; opacity: 0; -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
-/* line 181, main.sass */
+/* line 175, main.sass */
 html body .work-holder .work-container a { position: absolute; height: 100%; width: 100%; display: block; text-decoration: none; cursor: pointer; z-index: 2; }
-/* line 189, main.sass */
+/* line 183, main.sass */
 html body .work-holder .work-container .project-text-container { position: absolute; bottom: 0; left: 0; z-index: 1; box-sizing: border-box; padding: 0 0 30px 30px; opacity: 0; -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
-/* line 199, main.sass */
+/* line 193, main.sass */
 html body .work-holder .work-container .project-text-container li { color: white; }
-/* line 201, main.sass */
+/* line 195, main.sass */
 html body .work-holder .work-container .project-text-container .project-title { font-family: museo-sans; font-weight: 600; font-size: 2rem; margin-bottom: 15px; }
-/* line 206, main.sass */
+/* line 200, main.sass */
 html body .work-holder .work-container .project-text-container .project-type { font-size: 1.5rem; font-family: acta-display; font-style: italic; font-weight: 700; }
-/* line 212, main.sass */
+/* line 206, main.sass */
 html body .work-holder .foot-vr { background-image: url(../img/shoe/ElementariumAd.jpg); background-position: center; background-size: auto 100%; }
