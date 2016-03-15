@@ -117,30 +117,43 @@ html
                 top: 50%
                 left: 50%
                 transform: translate(-50%, -50%)
-                color: #444f5f
+                color: #f8f8f8
                 transition: all 1s
-                z-index: 5
-                &:hover
-                    color: #f8f8f8
-                .name
-                    font-family: proxima-nova
-                    font-weight: 600
-                    font-size: 5rem
-                    text-align: center
-                    letter-spacing: 3px
-                    width: 100%
+                z-index: 2
                 .job-title
-                    font-size: 2rem
-                    font-family: acta-display
+                    font-size: 28px
+                    font-family: 'Gentium Basic', serif
                     font-style: italic
                     font-weight: 700
+                    text-align: left
+                    margin-bottom: 10px
+                    letter-spacing: 5px
+                .name
+                    font-family: 'Open Sans', sans-serif
+                    font-weight: 800
+                    font-size: 67px
+                    text-align: center
+                    letter-spacing: 8px
+                    width: 100%
+                .location
+                    font-size: 21px
+                    font-family: 'Gentium Basic', serif
+                    font-weight: 400
                     text-align: right
-                    margin-top: 5px
+                    margin-top: 10px
+                    letter-spacing: 5px
             .hero-gradient
-                height: 300px
+                height: 500px
                 width: 100%
-                background: red
-                z-index: 5
+                //background: red
+                z-index: 1
+                position: absolute
+                bottom: 0
+                opacity: 0.5
+                background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)
+                background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)
+                background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 )
         .work-holder
             //background: green
             width: 100%

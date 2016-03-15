@@ -1,78 +1,217 @@
-/* line 1, main.sass */
-html { margin: 0; height: 100%; width: 100%; overflow-x: hidden; background-color: #f1f0ee; }
-/* line 7, main.sass */
-html body { margin: 0; height: 100%; width: 100%; }
-/* line 11, main.sass */
-html body nav { height: 100px; width: 100%; position: fixed; top: 0px; padding: 0 10%; display: block; box-sizing: border-box; z-index: 4; transition: all 0.8s ease; }
-/* line 21, main.sass */
-html body nav .logo { height: 40px; width: 25px; float: left; margin: 30px 0; z-index: 10; position: absolute; }
-/* line 28, main.sass */
-html body nav .nav-btn { height: 18px; width: 25px; float: right; position: relative; top: 50%; transform: translateY(-50%); display: block; cursor: pointer; }
-/* line 37, main.sass */
-html body nav .nav-btn:hover .line { background: #f8f8f8; }
-/* line 39, main.sass */
-html body nav .nav-btn .line { height: 3px; width: 100%; background: #68778e; position: absolute; top: 50%; transform: translateY(-50%); transition: all 0.8s; }
-/* line 47, main.sass */
-html body nav .nav-btn .line1 { top: 0px; }
-/* line 49, main.sass */
-html body nav .nav-btn .line3 { top: 100%; }
-/* line 51, main.sass */
-html body .slide-out { position: fixed; top: 0px; right: 0px; height: 100%; width: 100%; background-color: #2b333e; z-index: 3; overflow: hidden; -webkit-filter: url("#blur"); opacity: 0; transition: opacity 0.3s ease; pointer-events: none; }
-/* line 64, main.sass */
-html body .slide-out ul { float: left; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); }
-/* line 71, main.sass */
-html body .slide-out ul li { margin-bottom: 10%; position: relative; top: 50px; text-align: center; opacity: 0; }
-/* line 78, main.sass */
-html body .slide-out ul li a { text-decoration: none; font-family: museo-sans; font-weight: 100; font-size: 4.1em; transition: all 0.8s ease; }
-/* line 84, main.sass */
-html body .slide-out ul li a:link { color: #444f5f; }
-/* line 86, main.sass */
-html body .slide-out ul li a:visited { color: #444f5f; }
-/* line 88, main.sass */
-html body .slide-out ul li a:hover { color: white; }
-/* line 90, main.sass */
-html body .slide-out ul #aboutButton { transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease; transition-delay: 0s; }
-/* line 93, main.sass */
-html body .slide-out ul #workButton { transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease; transition-delay: 0.025s; }
-/* line 96, main.sass */
-html body .slide-out ul #resumeButton { transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease; transition-delay: 0.05s; }
-/* line 99, main.sass */
-html body .slide-out ul #contactButton { transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease; transition-delay: 0.075s; }
-/* line 102, main.sass */
-html body .hero { width: 100%; height: 10px; background: green; overflow: hidden; position: relative; }
-/* line 108, main.sass */
-html body .hero video { height: 100%; position: absolute; left: 50%; transform: translateX(-50%); z-index: 0; }
-/* line 114, main.sass */
-html body .hero .title-holder { width: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #444f5f; transition: all 1s; z-index: 5; }
-/* line 123, main.sass */
-html body .hero .title-holder:hover { color: #f8f8f8; }
-/* line 125, main.sass */
-html body .hero .title-holder .name { font-family: proxima-nova; font-weight: 600; font-size: 5rem; text-align: center; letter-spacing: 3px; width: 100%; }
-/* line 132, main.sass */
-html body .hero .title-holder .job-title { font-size: 2rem; font-family: acta-display; font-style: italic; font-weight: 700; text-align: right; margin-top: 5px; }
-/* line 139, main.sass */
-html body .hero .hero-gradient { height: 300px; width: 100%; background: red; z-index: 5; }
-/* line 144, main.sass */
-html body .work-holder { width: 100%; padding: 0 10%; box-sizing: border-box; margin-top: 300px; }
-/* line 150, main.sass */
-html body .work-holder .work-container { position: relative; height: 500px; width: 30%; background: #2adb83; overflow: hidden; float: left; margin: 0 5% 3% 0; }
-/* line 158, main.sass */
-html body .work-holder .work-container:nth-child(n+3) { background: yellow; margin: 0 0 5% 0; }
-/* line 161, main.sass */
-html body .work-holder .work-container:hover .project-text-container { opacity: 1; }
-/* line 163, main.sass */
-html body .work-holder .work-container:hover .cover { opacity: 0.5; }
-/* line 165, main.sass */
-html body .work-holder .work-container .cover { position: absolute; top: 0; left: 0; background: black; height: 100%; width: 100%; opacity: 0; -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
-/* line 175, main.sass */
-html body .work-holder .work-container a { position: absolute; height: 100%; width: 100%; display: block; text-decoration: none; cursor: pointer; z-index: 2; }
-/* line 183, main.sass */
-html body .work-holder .work-container .project-text-container { position: absolute; bottom: 0; left: 0; z-index: 1; box-sizing: border-box; padding: 0 0 30px 30px; opacity: 0; -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
-/* line 193, main.sass */
-html body .work-holder .work-container .project-text-container li { color: white; }
-/* line 195, main.sass */
-html body .work-holder .work-container .project-text-container .project-title { font-family: museo-sans; font-weight: 600; font-size: 2rem; margin-bottom: 15px; }
-/* line 200, main.sass */
-html body .work-holder .work-container .project-text-container .project-type { font-size: 1.5rem; font-family: acta-display; font-style: italic; font-weight: 700; }
-/* line 206, main.sass */
-html body .work-holder .foot-vr { background-image: url(../img/shoe/ElementariumAd.jpg); background-position: center; background-size: auto 100%; }
+html {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #f1f0ee; }
+  html body {
+    margin: 0;
+    height: 100%;
+    width: 100%; }
+    html body nav {
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      top: 0px;
+      padding: 0 10%;
+      display: block;
+      box-sizing: border-box;
+      z-index: 4;
+      transition: all 0.8s ease; }
+      html body nav .logo {
+        height: 40px;
+        width: 25px;
+        float: left;
+        margin: 30px 0;
+        z-index: 10;
+        position: absolute; }
+      html body nav .nav-btn {
+        height: 18px;
+        width: 25px;
+        float: right;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+        cursor: pointer; }
+        html body nav .nav-btn:hover .line {
+          background: #f8f8f8; }
+        html body nav .nav-btn .line {
+          height: 3px;
+          width: 100%;
+          background: #68778e;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          transition: all 0.8s; }
+        html body nav .nav-btn .line1 {
+          top: 0px; }
+        html body nav .nav-btn .line3 {
+          top: 100%; }
+    html body .slide-out {
+      position: fixed;
+      top: 0px;
+      right: 0px;
+      height: 100%;
+      width: 100%;
+      background-color: #2b333e;
+      z-index: 3;
+      overflow: hidden;
+      -webkit-filter: url("#blur");
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none; }
+      html body .slide-out ul {
+        float: left;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); }
+        html body .slide-out ul li {
+          margin-bottom: 10%;
+          position: relative;
+          top: 50px;
+          text-align: center;
+          opacity: 0; }
+          html body .slide-out ul li a {
+            text-decoration: none;
+            font-family: museo-sans;
+            font-weight: 100;
+            font-size: 4.1em;
+            transition: all 0.8s ease; }
+          html body .slide-out ul li a:link {
+            color: #444f5f; }
+          html body .slide-out ul li a:visited {
+            color: #444f5f; }
+          html body .slide-out ul li a:hover {
+            color: white; }
+        html body .slide-out ul #aboutButton {
+          transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease;
+          transition-delay: 0s; }
+        html body .slide-out ul #workButton {
+          transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease;
+          transition-delay: 0.025s; }
+        html body .slide-out ul #resumeButton {
+          transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease;
+          transition-delay: 0.05s; }
+        html body .slide-out ul #contactButton {
+          transition: top 0.85s cubic-bezier(0.17, 0.67, 0.38, 1.8), opacity 1.5s ease;
+          transition-delay: 0.075s; }
+    html body .hero {
+      width: 100%;
+      height: 10px;
+      background: green;
+      overflow: hidden;
+      position: relative; }
+      html body .hero video {
+        height: 100%;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 0; }
+      html body .hero .title-holder {
+        width: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #f8f8f8;
+        transition: all 1s;
+        z-index: 2; }
+        html body .hero .title-holder .job-title {
+          font-size: 28px;
+          font-family: "Gentium Basic", serif;
+          font-style: italic;
+          font-weight: 700;
+          text-align: left;
+          margin-bottom: 10px;
+          letter-spacing: 5px; }
+        html body .hero .title-holder .name {
+          font-family: "Open Sans", sans-serif;
+          font-weight: 800;
+          font-size: 67px;
+          text-align: center;
+          letter-spacing: 8px;
+          width: 100%; }
+        html body .hero .title-holder .location {
+          font-size: 21px;
+          font-family: "Gentium Basic", serif;
+          font-weight: 400;
+          text-align: right;
+          margin-top: 10px;
+          letter-spacing: 5px; }
+      html body .hero .hero-gradient {
+        height: 500px;
+        width: 100%;
+        z-index: 1;
+        position: absolute;
+        bottom: 0;
+        opacity: 0.5;
+        background: -moz-linear-gradient(top, transparent 0%, black 100%);
+        background: -webkit-linear-gradient(top, transparent 0%, black 100%);
+        background: linear-gradient(to bottom, transparent 0%, black 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); }
+    html body .work-holder {
+      width: 100%;
+      padding: 0 10%;
+      box-sizing: border-box;
+      margin-top: 300px; }
+      html body .work-holder .work-container {
+        position: relative;
+        height: 500px;
+        width: 30%;
+        background: #2adb83;
+        overflow: hidden;
+        float: left;
+        margin: 0 5% 3% 0; }
+        html body .work-holder .work-container:nth-child(n+3) {
+          background: yellow;
+          margin: 0 0 5% 0; }
+        html body .work-holder .work-container:hover .project-text-container {
+          opacity: 1; }
+        html body .work-holder .work-container:hover .cover {
+          opacity: 0.5; }
+        html body .work-holder .work-container .cover {
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: black;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+          transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
+        html body .work-holder .work-container a {
+          position: absolute;
+          height: 100%;
+          width: 100%;
+          display: block;
+          text-decoration: none;
+          cursor: pointer;
+          z-index: 2; }
+        html body .work-holder .work-container .project-text-container {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          z-index: 1;
+          box-sizing: border-box;
+          padding: 0 0 30px 30px;
+          opacity: 0;
+          -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1);
+          transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1); }
+          html body .work-holder .work-container .project-text-container li {
+            color: white; }
+          html body .work-holder .work-container .project-text-container .project-title {
+            font-family: museo-sans;
+            font-weight: 600;
+            font-size: 2rem;
+            margin-bottom: 15px; }
+          html body .work-holder .work-container .project-text-container .project-type {
+            font-size: 1.5rem;
+            font-family: acta-display;
+            font-style: italic;
+            font-weight: 700; }
+      html body .work-holder .foot-vr {
+        background-image: url(../img/shoe/ElementariumAd.jpg);
+        background-position: center;
+        background-size: auto 100%; }
