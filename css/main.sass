@@ -157,22 +157,21 @@ html
                 background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 )
         .work-holder
-            //background: green
             width: 100%
-            padding: 0 10%
-            box-sizing: border-box
+            display: flex
+            flex-direction: row
+            flex-wrap: wrap
             margin-top: 300px
             .work-container
-                position: relative
+                
                 height: 500px
-                width: 30%
-                background: #2adb83
+                background-color: #999999
+                background-color: rgba(0,0,0,0.2)
+                background-clip: content-box
                 overflow: hidden
-                float: left
-                margin: 0 5% 3% 0
-                &:nth-child(n+3)
-                    background: yellow
-                    margin: 0 0 5% 0
+                flex: 1 1 8%
+                padding: 0.5em 30px
+                box-sizing: border-box
                 &:hover .project-text-container
                     opacity: 1
                 &:hover .cover
