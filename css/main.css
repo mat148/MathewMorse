@@ -9,7 +9,7 @@ html {
     height: 100%;
     width: 100%; }
     html body nav {
-      height: 100px;
+      height: 80px;
       width: 100%;
       position: fixed;
       top: 0px;
@@ -22,9 +22,10 @@ html {
         height: 40px;
         width: 25px;
         float: left;
-        margin: 30px 0;
         z-index: 10;
-        position: absolute; }
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%); }
       html body nav .nav-btn {
         height: 18px;
         width: 25px;
@@ -212,6 +213,6 @@ html {
             font-style: italic;
             font-weight: 700; }
       html body .work-holder .foot-vr {
-        background-image: url(../img/shoe/ElementariumAd.jpg);
+        background-image: url(../assets/images/shoe/ElementariumAd.jpg);
         background-position: center;
         background-size: auto 100%; }
