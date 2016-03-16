@@ -8,12 +8,19 @@ html
         margin: 0
         height: 100%
         width: 100%
+        .contain
+            width: 80%
+            max-width: 1170px
+            height: 100%
+            position: relative
+            left: 50%
+            transform: translateX(-50%)
         nav
             height: 80px
             width: 100%
             position: fixed
             top: 0px
-            padding: 0 10%
+            padding-top: 0
             display: block
             box-sizing: border-box
             z-index: 4
@@ -157,66 +164,37 @@ html
                 background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 )
         .work-holder
+            position: relative
+            left: 50%
+            transform: translateX(-50%)
             width: 100%
             display: flex
             flex-direction: row
             flex-wrap: wrap
-            margin-top: 300px
+            //margin-top: 300px
             .work-container
-                
-                height: 500px
                 background-color: #999999
-                background-color: rgba(0,0,0,0.2)
                 background-clip: content-box
-                overflow: hidden
-                flex: 1 1 8%
-                padding: 0.5em 30px
-                box-sizing: border-box
+                flex: 1 1 auto
+                //padding: 0.5em 30px
+                //box-sizing: border-box
+                margin-right: 60px
+                cursor: pointer
                 &:hover .project-text-container
                     opacity: 1
                 &:hover .cover
                     opacity: .5
+                &:nth-child(3n)
+                    margin-right: 0px
                 .cover
-                    position: absolute
-                    top: 0
-                    left: 0
                     background: black
                     height: 100%
                     width: 100%
-                    opacity: 0
-                    -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-                    transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-                a
-                    position: absolute
-                    height: 100%
-                    width: 100%
-                    display: block
-                    text-decoration: none
-                    cursor: pointer
-                    z-index: 2
-                .project-text-container
-                    position: absolute
-                    bottom: 0
-                    left: 0
-                    z-index: 1
+                    flex: 1 1 auto
                     box-sizing: border-box
-                    padding: 0 0 30px 30px
                     opacity: 0
                     -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
                     transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-                    li
-                        color: white
-                    .project-title
-                        font-family: museo-sans
-                        font-weight: 600
-                        font-size: 2rem
-                        margin-bottom: 15px
-                    .project-type
-                        font-size: 1.5rem
-                        font-family: acta-display
-                        font-style: italic
-                        font-weight: 700
-                        
             .foot-vr
                 background-image: url(../assets/images/shoe/ElementariumAd.jpg)
                 background-position: center
