@@ -80,11 +80,14 @@ html {
           text-align: center;
           opacity: 0; }
           html body .slide-out ul li a {
+            font-size: 67px;
+            font-family: "Gentium Basic", serif;
+            font-weight: 400;
+            text-align: left;
+            margin-bottom: 10px;
+            transition: all 0.8s ease;
             text-decoration: none;
-            font-family: museo-sans;
-            font-weight: 100;
-            font-size: 4.1em;
-            transition: all 0.8s ease; }
+            letter-spacing: 1px; }
           html body .slide-out ul li a:link {
             color: #444f5f; }
           html body .slide-out ul li a:visited {
@@ -249,7 +252,7 @@ html {
       html body footer .top-footer {
         height: auto;
         width: 100%;
-        margin-bottom: 187px; }
+        margin-bottom: 60px; }
         html body footer .top-footer h1 {
           font-size: 33px;
           color: white;
@@ -257,7 +260,49 @@ html {
           font-weight: 800;
           letter-spacing: 1px;
           text-align: center;
-          padding: 187px 0; }
+          padding: 80px 0 10px 0; }
+        html body footer .top-footer h2 {
+          font-size: 21px;
+          font-family: "Gentium Basic", serif;
+          font-style: italic;
+          color: white;
+          letter-spacing: 1px;
+          text-align: center;
+          padding: 0 0 90px 0; }
+        html body footer .top-footer .email {
+          font-size: 21px;
+          line-height: 50px;
+          font-family: "Gentium Basic";
+          font-weight: 100;
+          color: #8e9093;
+          letter-spacing: 2px;
+          text-align: center; }
+          html body footer .top-footer .email a {
+            color: #8e9093;
+            text-decoration: none; }
+        html body footer .top-footer .link-holder {
+          width: 40%;
+          margin: 0 auto;
+          margin-bottom: 30px;
+          display: -webkit-flex;
+          display: flex;
+          -webkit-justify-content: center;
+          justify-content: center;
+          -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+          html body footer .top-footer .link-holder a {
+            flex: 1 1 auto;
+            margin-right: 15px; }
       html body footer .bottom-footer {
         height: auto;
         width: 100%; }
+        html body footer .bottom-footer p {
+          font-size: 16px;
+          line-height: 50px;
+          font-family: "Gentium Basic";
+          font-weight: 100;
+          color: #8e9093;
+          letter-spacing: 2px; }

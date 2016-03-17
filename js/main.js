@@ -36,11 +36,47 @@ function init()
     });
 }
 
-function close()
-{}
+$('.slide-out li').on('click',function(){
+    if(clicked == 'true'){
+        $('.nav-btn .line1').css({
+            'top': '0px',
+            'transform': 'rotate(0deg) translateY(-50%)',
+        });
+        $('.nav-btn .line2').css({
+            'opacity': '1',
+        });
+        $('.nav-btn .line3').css({
+            'top': '100%',
+            'transform': 'rotate(0deg) translateY(-50%)',
+        });
+        $('.slide-out').css({
+            'opacity':'0',
+            'pointer-events':'none',
+        });
+        $('.slide-out li').css({
+            'top':'50px',
+            'opacity':'0',
+        });
+        $('html').css({
+            'overflow-y':'visible',
+        });
+        clicked = 'false';
+    }
+});
 
 $('.nav-btn').on('click',function(){
     if(clicked == 'false'){
+        $('.nav-btn .line1').css({
+            'top': '50%',
+            'transform': 'rotate(45deg)',
+        });
+        $('.nav-btn .line2').css({
+            'opacity': '0',
+        });
+        $('.nav-btn .line3').css({
+            'top': '50%',
+            'transform': 'rotate(-45deg)',
+        });
         $('.slide-out').css({
             'opacity':'1',
             'pointer-events':'all',
@@ -55,6 +91,17 @@ $('.nav-btn').on('click',function(){
         clicked = 'true';
     }
     else{
+        $('.nav-btn .line1').css({
+            'top': '0px',
+            'transform': 'rotate(0deg) translateY(-50%)',
+        });
+        $('.nav-btn .line2').css({
+            'opacity': '1',
+        });
+        $('.nav-btn .line3').css({
+            'top': '100%',
+            'transform': 'rotate(0deg) translateY(-50%)',
+        });
         $('.slide-out').css({
             'opacity':'0',
             'pointer-events':'none',
@@ -95,14 +142,6 @@ $(window).scroll(function() {
   if ($(window).scrollTop() <= (height-70)) {
     $('nav').css({'background':'transparent',});
   }
-    
-  /*if ($(window).scrollTop() >= (height/4)){
-    $('.title-holder').css({'opacity':'0',});
-  }
-    
-    if ($(window).scrollTop() <= (height/4)){
-    $('.title-holder').css({'opacity':'1',});
-  }*/
 });
 
 $(function() {
