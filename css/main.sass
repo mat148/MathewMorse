@@ -12,9 +12,7 @@ html
             width: 80%
             max-width: 1170px
             height: 100%
-            position: relative
-            left: 50%
-            transform: translateX(-50%)
+            margin: 0 auto
         nav
             height: 80px
             width: 100%
@@ -163,40 +161,110 @@ html
                 background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)
                 background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)
                 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 )
+        .intro
+            //background: red
+            width: 80% 
+            margin: 187px 0
+            p
+                font-size: 33px
+                line-height: 50px
+                font-family: 'Gentium Basic', serif
+                font-weight: 400
+                font-style: italic
+                color: #333
+                letter-spacing: 0px
         .work-holder
-            position: relative
-            left: 50%
-            transform: translateX(-50%)
-            width: 100%
+            display: -webkit-flex
             display: flex
-            flex-direction: row
+            -webkit-justify-content: center
+            justify-content: center
+            -webkit-flex-wrap: wrap
             flex-wrap: wrap
-            //margin-top: 300px
+            margin-top: 30px
+            -webkit-box-sizing: border-box
+            -moz-box-sizing: border-box
+            box-sizing: border-box
+            .invisible
+                opacity: 0
+                cursor: none
+                pointer-events: none
             .work-container
-                background-color: #999999
-                background-clip: content-box
+                position: relative
+                //margin-bottom: 60px
+                background: #fefff9
+                color: #363636
                 flex: 1 1 auto
-                //padding: 0.5em 30px
-                //box-sizing: border-box
-                margin-right: 60px
-                cursor: pointer
-                &:hover .project-text-container
-                    opacity: 1
-                &:hover .cover
-                    opacity: .5
+                margin-right: 30px
                 &:nth-child(3n)
                     margin-right: 0px
-                .cover
-                    background: black
+                &:hover .content .cover
+                    opacity: 0.65
+                &:hover .content .desc
+                    opacity: 1
+                .content
+                    position: relative
                     height: 100%
                     width: 100%
-                    flex: 1 1 auto
-                    box-sizing: border-box
-                    opacity: 0
-                    -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-                    transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-            .foot-vr
-                background-image: url(../assets/images/shoe/ElementariumAd.jpg)
-                background-position: center
-                background-size: auto 100%
-                    
+                    overflow: hidden
+                    .foot-vr
+                        background-image: url(../assets/images/shoe/ElementariumAd.jpg)
+                    .img
+                        height: 100%
+                        width: 100%
+                        background-position: center
+                        background-size: auto 100%
+                        z-index: 0
+                        position: absolute
+                    .cover
+                        background: black
+                        height: 100%
+                        width: 100%
+                        opacity: 0
+                        -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                        transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                        z-index: 1
+                        position: absolute
+                    .desc
+                        //background: red
+                        height: auto
+                        width: 100%
+                        -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                        transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                        z-index: 2
+                        position: absolute
+                        bottom: 0
+                        padding: 20px
+                        opacity: 0
+                        h1
+                            font-size: 21px
+                            color: white
+                            font-family: 'Open Sans', sans-serif
+                            font-weight: 800
+                            letter-spacing: 1px
+                            margin-bottom: 5px
+                        h2
+                            font-size: 16px
+                            font-family: 'Gentium Basic', serif
+                            font-style: italic
+                            color: white
+                            letter-spacing: 1px
+        footer
+            height: auto
+            width: 100%
+            background: #2B333E
+            margin-top: 187px
+            .top-footer
+                height: auto
+                width: 100%
+                margin-bottom: 187px
+                h1
+                    font-size: 33px
+                    color: white
+                    font-family: 'Open Sans', sans-serif
+                    font-weight: 800
+                    letter-spacing: 1px
+                    text-align: center
+                    padding: 187px 0
+            .bottom-footer
+                height: auto
+                width: 100%
