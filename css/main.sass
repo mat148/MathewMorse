@@ -154,18 +154,6 @@ html
                     text-align: right
                     margin-top: 10px
                     letter-spacing: 0.1em
-            .hero-gradient
-                height: 500px
-                width: 100%
-                //background: red
-                z-index: 1
-                position: absolute
-                bottom: 0
-                opacity: 0.5
-                background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%)
-                background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)
-                background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%)
-                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 )
         .intro
             //background: red
             width: 80% 
@@ -195,10 +183,12 @@ html
                 pointer-events: none
             .work-container
                 position: relative
-                //margin-bottom: 60px
+                display: block
                 background: #fefff9
                 color: #363636
+                -webkit-flex: 1 1 auto
                 flex: 1 1 auto
+                -webkit-flex-basis: 0
                 flex-basis: 0
                 margin-right: 30px
                 &:nth-child(3n)
@@ -308,8 +298,11 @@ html
                     -moz-box-sizing: border-box
                     box-sizing: border-box
                     a
+                        -webkit-flex: 1 1 auto
                         flex: 1 1 auto
                         margin-right: 15px
+                        min-width: 40px
+                        display: block
             .bottom-footer
                 height: auto
                 width: 100%
@@ -323,6 +316,20 @@ html
                     letter-spacing: 2px
                     
 //Mobile
+@media all and (min-width:1024px)
+    html
+        body
+            footer
+                .top-footer
+                    .link-holder
+                        width: 40%
+@media all and (max-width: 1024px)
+    html
+        body
+            footer
+                .top-footer
+                    .link-holder
+                        width: 80%
 @media all and (max-width: 420px)
     html
         body
