@@ -80,14 +80,15 @@ html {
           text-align: center;
           opacity: 0; }
           html body .slide-out ul li a {
-            font-size: 67px;
+            font-size: 4em;
             font-family: "Gentium Basic", serif;
+            font-style: italic;
             font-weight: 400;
             text-align: left;
             margin-bottom: 10px;
             transition: all 0.8s ease;
             text-decoration: none;
-            letter-spacing: 1px; }
+            letter-spacing: 0.1em; }
           html body .slide-out ul li a:link {
             color: #444f5f; }
           html body .slide-out ul li a:visited {
@@ -128,27 +129,28 @@ html {
         transition: all 1s;
         z-index: 2; }
         html body .hero .title-holder .job-title {
-          font-size: 28px;
+          font-size: 2em;
           font-family: "Gentium Basic", serif;
           font-style: italic;
           font-weight: 700;
           text-align: left;
           margin-bottom: 10px;
-          letter-spacing: 5px; }
+          letter-spacing: 0.1em; }
         html body .hero .title-holder .name {
           font-family: "Open Sans", sans-serif;
           font-weight: 800;
-          font-size: 67px;
+          font-size: 4em;
           text-align: center;
-          letter-spacing: 8px;
-          width: 100%; }
+          letter-spacing: 0.1em;
+          width: 100%;
+          white-space: nowrap; }
         html body .hero .title-holder .location {
-          font-size: 21px;
+          font-size: 1.5em;
           font-family: "Gentium Basic", serif;
           font-weight: 400;
           text-align: right;
           margin-top: 10px;
-          letter-spacing: 5px; }
+          letter-spacing: 0.1em; }
       html body .hero .hero-gradient {
         height: 500px;
         width: 100%;
@@ -164,7 +166,7 @@ html {
       width: 80%;
       margin: 187px 0; }
       html body .intro p {
-        font-size: 33px;
+        font-size: 2em;
         line-height: 50px;
         font-family: "Gentium Basic", serif;
         font-weight: 400;
@@ -191,6 +193,7 @@ html {
         background: #fefff9;
         color: #363636;
         flex: 1 1 auto;
+        flex-basis: 0;
         margin-right: 30px; }
         html body .work-holder .work-container:nth-child(3n) {
           margin-right: 0px; }
@@ -232,18 +235,18 @@ html {
             padding: 20px;
             opacity: 0; }
             html body .work-holder .work-container .content .desc h1 {
-              font-size: 21px;
+              font-size: 1.3em;
               color: white;
               font-family: "Open Sans", sans-serif;
               font-weight: 800;
-              letter-spacing: 1px;
+              letter-spacing: 0.05em;
               margin-bottom: 5px; }
             html body .work-holder .work-container .content .desc h2 {
-              font-size: 16px;
+              font-size: 1em;
               font-family: "Gentium Basic", serif;
               font-style: italic;
               color: white;
-              letter-spacing: 1px; }
+              letter-spacing: 0.1em; }
     html body footer {
       height: auto;
       width: 100%;
@@ -306,3 +309,28 @@ html {
           font-weight: 100;
           color: #8e9093;
           letter-spacing: 2px; }
+
+@media all and (max-width: 420px) {
+  html body .hero .title-holder .job-title {
+    font-size: 1.5em; }
+  html body .hero .title-holder .name {
+    white-space: normal;
+    font-size: 3.5em; }
+  html body .hero .title-holder .location {
+    font-size: 1em; }
+  html body .work .intro {
+    width: 100%; }
+  html body .work .work-holder {
+    margin-top: 0; }
+  html body .work .work-holder .work-container {
+    flex-basis: 100%;
+    margin: 0 0 30px 0; }
+  html body .work .work-holder .invisible {
+    position: absolute; }
+  html body footer {
+    margin-top: 0; }
+    html body footer .top-footer .link-holder {
+      width: 100%; }
+      html body footer .top-footer .link-holder a {
+        flex-basis: 25%;
+        margin-bottom: 30px; } }
