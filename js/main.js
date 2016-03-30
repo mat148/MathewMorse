@@ -2,11 +2,9 @@
 /*jshint unused:false*/
 
 var height;
-var width;
-var namePos;
-var titlePos;
+//var width;
 
-var workWidth = $('.work-container').width();
+var workWidth;
 
 var clicked = 'false';
 
@@ -14,26 +12,41 @@ window.onload = init;
         
 function init()
 {
-    height = $(window).height();
-    width = $(window).width();
+    //width = $(window).width();
 
     workWidth = $('.work-container').width();
     
-    var name = document.getElementsByName('name');
-    var title = document.getElementsByName('title');
-    $(name).addClass("hello-anim");
-            
-    setTimeout(function(){
-        $(title).addClass("second-line-anim");
-    }, 150);
+    if($('.hero').hasClass('project-page')){
+        height = ($(window).height())/2;
+        $('.hero').css({
+            "height":""+height+"px",
+        });
+    }
+    else{
+        height = $(window).height();
+        $('.hero').css({
+            "height":""+height+"px",
+        });
     
-    $('.hero').css({
-        "height":""+height+"px",
+        $('.work-container').css({
+            'height': (workWidth)+'px',
+        });
+    }
+    
+    $(function() {
+        $(".rslides").responsiveSlides();
     });
     
-    $('.work-container').css({
-        'height': (workWidth)+'px',
+    $(".rslides").responsiveSlides({
+        auto: false,// Boolean: Animate automatically, true or false
+        pager: true,// Boolean: Show pager, true or false
+        nav: true,// Boolean: Show navigation, true or false
+        prevText: "<",// String: Text for the "previous" button
+        nextText: ">",// String: Text for the "next" button
+        //navContainer: ".slide",// Selector: Where controls should be appended to, default is after the 'ul'
+        //maxwidth: "456px",// Integer: Max-width of the slideshow, in pixels
     });
+
 }
 
 $('.slide-out li').on('click',function(){
