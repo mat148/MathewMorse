@@ -61,6 +61,53 @@ html body .project-details {
         font-weight: 400; }
         html body .project-details .details ul li span {
           font-weight: 700; }
+html body .change-project {
+  position: relative;
+  background: white; }
+  html body .change-project .project-button {
+    height: 50px;
+    width: 140px;
+    background-color: #f2f2f2;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    cursor: pointer;
+    border: solid #e2e2e2; }
+  html body .change-project .next-project {
+    right: 0;
+    padding-right: 0px;
+    border-width: 1px 0px 1px 1px;
+    padding-left: 10px; }
+    html body .change-project .next-project img {
+      width: 50px;
+      float: right;
+      margin-top: 0; }
+    html body .change-project .next-project p {
+      font-size: 18px;
+      line-height: 52px;
+      float: left;
+      color: #b1b1b1;
+      width: 0; }
+  html body .change-project .previous-project {
+    left: 0;
+    padding-right: 0px;
+    border-width: 1px 0px 1px 1px;
+    padding-right: 10px; }
+    html body .change-project .previous-project img {
+      width: 50px;
+      float: left;
+      margin-top: 0;
+      -ms-transform: rotate(180deg);
+      transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      -moz-transform: rotate(180deg);
+      -o-transform: rotate(180deg); }
+    html body .change-project .previous-project p {
+      font-size: 18px;
+      line-height: 52px;
+      float: left;
+      color: #b1b1b1;
+      width: 0; }
 
 @media all and (max-width: 768px) {
   html body .box p {

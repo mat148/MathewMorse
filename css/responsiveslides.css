@@ -55,22 +55,26 @@ html body .rslides-container .rslides img {
 .rslides-container .rslides_nav{
     z-index: 3;
     position: absolute;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
-    top: 0;
-    left: 0;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
     display: block;
-    background: #fff;
-    opacity: 0;
-    filter: alpha(opacity=1);
-    width: 48%;
+    height: 50px;
+    width: 50px;
+    background-color: #f2f2f2;
     text-indent: -9999px;
     overflow: hidden;
-    height: 91%;
+    cursor: pointer;
+    border: solid #e2e2e2 1px;
+    background-image: url(../assets/Images/main/arrow-01.svg);
+    background-repeat: no-repeat;
+    float: right;
 }
 
-.rslides-container .next{
-    left: auto;
-    right: 0;
+.rslides-container .prev{
+    right: auto;
+    left: 0;
+    transform: translateY(-50%) rotate(180deg);
 }
 
 .rslides_tabs{
@@ -83,6 +87,11 @@ html body .rslides-container .rslides img {
     display: inline;
     float: none;
     margin-right: 10px;
+}
+
+html body .rslides_here a{
+    background: #222;
+    background: rgba(0,0,0, .8);
 }
 
 .rslides_tabs a {

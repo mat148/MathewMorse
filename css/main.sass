@@ -13,6 +13,12 @@ html
             max-width: 1170px
             height: 100%
             margin: 0 auto
+            a:link
+                color: #444f5f
+            a:visited
+                color: #444f5f
+            a:hover
+                color: white
         nav
             height: 80px
             width: 100%
@@ -21,7 +27,7 @@ html
             padding-top: 0
             display: block
             box-sizing: border-box
-            z-index: 4
+            z-index: 6
             transition: all 0.8s ease
             .logo
                 height: 40px
@@ -62,7 +68,7 @@ html
             height: 100%
             width: 100%
             background-color: #2b333e
-            z-index: 3
+            z-index: 5
             overflow: hidden
             -webkit-filter: url('#blur')
             opacity: 0
@@ -110,6 +116,68 @@ html
                 #contactButton
                     transition: top 0.85s cubic-bezier(.17,.67,.38,1.8), opacity 1.5s ease
                     transition-delay: 0.075s
+        .jumper
+            height: auto
+            width: auto
+            z-index: 4
+            position: fixed
+            top: 50%
+            right: 0
+            transform: translateY(-50%)
+            ul
+                list-style-type: none
+                li
+                    position: relative
+                    &:hover .slider
+                        left: -150px
+                    a
+                        height: 40px
+                        width: 40px
+                        text-decoration: none
+                        font-size: 1.2em
+                        font-family: 'Gentium Basic', serif
+                        font-style: italic
+                        font-weight: 400
+                        position: relative
+                        display: block
+                        &:link
+                            color: white
+                        &:visited
+                            color: white
+                        &:hover
+                            color: white
+                        .tab
+                            height: 40px
+                            width: 40px
+                            background-color: #ffffff
+                            cursor: pointer
+                            border: solid #e2e2e2 1px
+                            position: absolute
+                            z-index: 1
+                            .circle
+                                height: 10px
+                                width: 10px
+                                border-radius: 50%
+                                background: rgba(0, 0, 0, 0.13)
+                                position: absolute
+                                top: 50%
+                                left: 50%
+                                transform: translate(-50%, -50%)
+                        .slider
+                            height: 40px
+                            width: 400px
+                            background-color: #54585E
+                            cursor: pointer
+                            border: solid #34373b 1px
+                            position: absolute
+                            left: 0
+                            z-index: 0
+                            transition: left 0.85s ease
+                            p
+                                position: absolute
+                                top: 50%
+                                transform: translateY(-50%)
+                                margin-left: 20px
         .hero
             width: 100%
             height: 10px
@@ -124,7 +192,8 @@ html
                 overflow: hidden
                 position: absolute
                 left: 50%
-                transform: translateX(-50%)
+                top: 50%
+                transform: translate(-50%, -50%)
                 z-index: 0
             img
                 opacity: 0.5
@@ -166,101 +235,104 @@ html
                     text-align: center
                     margin-top: 10px
                     letter-spacing: 0.1em
-        .intro
-            //background: red
-            width: 80% 
-            margin: 187px 0
-            p
-                font-size: 2em
-                line-height: 50px
-                font-family: 'Gentium Basic', serif
-                font-weight: 400
-                font-style: italic
-                color: #333
-                letter-spacing: 0px
-        .work-holder
-            display: -webkit-flex
-            display: flex
-            -webkit-justify-content: center
-            justify-content: center
-            -webkit-flex-wrap: wrap
-            flex-wrap: wrap
-            margin-top: 30px
-            -webkit-box-sizing: border-box
-            -moz-box-sizing: border-box
-            box-sizing: border-box
-            .invisible
-                opacity: 0
-                cursor: none
-                pointer-events: none
-            .work-container
-                position: relative
-                display: block
-                background: #fefff9
-                color: #363636
-                -webkit-flex: 1 1 auto
-                flex: 1 1 auto
-                -webkit-flex-basis: 0
-                flex-basis: 0
-                margin-right: 30px
-                &:nth-child(3n)
-                    margin-right: 0px
-                &:hover .content .cover
-                    opacity: 0.65
-                &:hover .content .desc
-                    opacity: 1
-                .content
+        .work
+            margin-bottom: 187px
+            .intro
+                //background: red
+                width: 80% 
+                margin: 187px 0
+                p
+                    font-size: 2em
+                    line-height: 50px
+                    font-family: 'Gentium Basic', serif
+                    font-weight: 400
+                    font-style: italic
+                    color: #333
+                    letter-spacing: 0px
+            .work-holder
+                display: -webkit-flex
+                display: flex
+                -webkit-justify-content: center
+                justify-content: center
+                -webkit-flex-wrap: wrap
+                flex-wrap: wrap
+                margin-top: 30px
+                -webkit-box-sizing: border-box
+                -moz-box-sizing: border-box
+                box-sizing: border-box
+                .invisible
+                    opacity: 0
+                    cursor: none
+                    pointer-events: none
+                .work-container
                     position: relative
-                    height: 100%
-                    width: 100%
-                    overflow: hidden
-                    .foot-vr
-                        background-image: url(../assets/images/shoe/ElementariumAd.jpg)
-                    .img
+                    display: block
+                    background: #fefff9
+                    color: #363636
+                    -webkit-flex: 1 1 auto
+                    flex: 1 1 auto
+                    -webkit-flex-basis: 0
+                    flex-basis: 0
+                    margin-right: 30px
+                    &:nth-child(3n)
+                        margin-right: 0px
+                    &:hover .content .cover
+                        opacity: 0.65
+                    &:hover .content .desc
+                        opacity: 1
+                    .content
+                        position: relative
                         height: 100%
                         width: 100%
-                        background-position: center
-                        background-size: auto 100%
-                        z-index: 0
-                        position: absolute
-                    .cover
-                        background: black
-                        height: 100%
-                        width: 100%
-                        opacity: 0
-                        -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-                        transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-                        z-index: 1
-                        position: absolute
-                    .desc
-                        //background: red
-                        height: auto
-                        width: 100%
-                        -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-                        transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
-                        z-index: 2
-                        position: absolute
-                        bottom: 0
-                        padding: 20px
-                        opacity: 0
-                        h1
-                            font-size: 1.8vw
-                            color: white
-                            font-family: 'Open Sans', sans-serif
-                            font-weight: 800
-                            letter-spacing: 0.05em
-                            margin-bottom: 5px
-                        h2
-                            font-size: 1.3vw
-                            font-family: 'Gentium Basic', serif
-                            font-style: italic
-                            color: white
-                            letter-spacing: 0.1em
+                        overflow: hidden
+                        .foot-vr
+                            background-image: url(../assets/images/shoe/element.jpg)
+                        .air
+                            background-image: url(../assets/images/airProject/air.jpg)
+                        .img
+                            height: 100%
+                            width: 100%
+                            background-position: center
+                            background-size: auto 100%
+                            z-index: 0
+                            position: absolute
+                        .cover
+                            background: black
+                            height: 100%
+                            width: 100%
+                            opacity: 0
+                            -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                            transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                            z-index: 1
+                            position: absolute
+                        .desc
+                            //background: red
+                            height: auto
+                            width: 100%
+                            -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                            transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                            z-index: 2
+                            position: absolute
+                            bottom: 0
+                            padding: 20px
+                            opacity: 0
+                            h1
+                                font-size: 1.8vw
+                                color: white
+                                font-family: 'Open Sans', sans-serif
+                                font-weight: 800
+                                letter-spacing: 0.05em
+                                margin-bottom: 5px
+                            h2
+                                font-size: 1.3vw
+                                font-family: 'Gentium Basic', serif
+                                font-style: italic
+                                color: white
+                                letter-spacing: 0.1em
         footer
             height: auto
             width: 100%
             background: #2B333E
-            margin-top: 187px
             .top-footer
                 height: auto
                 width: 100%
@@ -395,6 +467,9 @@ html
                         text-align: center
                     .second-line
                         font-size: 5vw
+            .jumper
+                opacity: 0
+                pointer-events: none
             footer
                 margin-top: 0
                 .top-footer 
