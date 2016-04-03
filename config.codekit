@@ -29,6 +29,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Archive.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Archive.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/Images\/airProject\/air.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -212,6 +221,50 @@
 		"initialSize": 106658,
 		"inputAbbreviatedPath": "\/assets\/Images\/airProject\/wires2.png",
 		"outputAbbreviatedPath": "\/assets\/Images\/airProject\/wires2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/Final Comp@1x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.37748e+06,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Final Comp@1x.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Final Comp@1x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/iPhone 6 Copy.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51613,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone 6 Copy.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone 6 Copy.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/iPhone-6-Mockup.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57820,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone-6-Mockup.jpg",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone-6-Mockup.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/Untitled-1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22097,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Untitled-1.jpg",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Untitled-1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -436,6 +489,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/Images\/main\/Logo16.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 542,
+		"inputAbbreviatedPath": "\/assets\/Images\/main\/Logo16.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/main\/Logo16.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/Images\/main\/logo2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -443,6 +507,39 @@
 		"initialSize": 561,
 		"inputAbbreviatedPath": "\/assets\/Images\/main\/logo2.png",
 		"outputAbbreviatedPath": "\/assets\/Images\/main\/logo2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/main\/Logo32.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1050,
+		"inputAbbreviatedPath": "\/assets\/Images\/main\/Logo32.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/main\/Logo32.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/main\/Logo48.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1481,
+		"inputAbbreviatedPath": "\/assets\/Images\/main\/Logo48.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/main\/Logo48.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/main\/Logo64.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1990,
+		"inputAbbreviatedPath": "\/assets\/Images\/main\/Logo64.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/main\/Logo64.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

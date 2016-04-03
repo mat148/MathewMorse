@@ -14,6 +14,490 @@ html
             height: 100%
             margin: 0 auto
             a:link
+                color: white
+            a:visited
+                color: white
+            a:hover
+                color: grey
+        nav
+            height: 80px
+            width: 100%
+            position: fixed
+            top: 0px
+            padding-top: 0
+            display: block
+            box-sizing: border-box
+            z-index: 6
+            transition: all 0.8s ease
+            .logo
+                height: 40px
+                width: 25px
+                float: left
+                //margin: 30px 0
+                z-index: 10
+                position: absolute
+                top: 50%
+                transform: translateY(-50%)
+            .nav-btn
+                height: 18px
+                width: 25px
+                float: right
+                position: relative
+                top: 50%
+                transform: translateY(-50%)
+                display: block
+                cursor: pointer
+                &:hover .line
+                    background: #f8f8f8
+                .line
+                    height: 3px
+                    width: 100%
+                    background: #68778e
+                    position: absolute
+                    top: 50%
+                    transform: translateY(-50%)
+                    transition: all 0.8s
+                .line1
+                    top: 0px
+                .line3
+                    top: 100%
+        .slide-out
+            position: fixed
+            top: 0px
+            right: 0px
+            height: 100%
+            width: 100%
+            background-color: #2b333e
+            z-index: 5
+            overflow: hidden
+            -webkit-filter: url('#blur')
+            opacity: 0
+            transition: opacity 0.3s ease
+            pointer-events: none
+            ul
+                float: left
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%)
+                //visibility: hidden
+                li
+                    margin-bottom: 10%
+                    position: relative
+                    top: 50px
+                    //transition: all 2s ease
+                    text-align: center
+                    opacity: 0
+                    a
+                        font-size: 4em
+                        font-family: 'Gentium Basic', serif
+                        font-style: italic
+                        font-weight: 400
+                        text-align: left
+                        margin-bottom: 10px
+                        transition: all 0.8s ease
+                        text-decoration: none
+                        letter-spacing: 0.1em
+                    a:link
+                        color: #444f5f
+                    a:visited
+                        color: #444f5f
+                    a:hover
+                        color: white
+                #aboutButton
+                    transition: top 0.85s cubic-bezier(.17,.67,.38,1.8), opacity 1.5s ease
+                    transition-delay: 0s
+                #workButton
+                    transition: top 0.85s cubic-bezier(.17,.67,.38,1.8), opacity 1.5s ease
+                    transition-delay: 0.025s
+                #resumeButton
+                    transition: top 0.85s cubic-bezier(.17,.67,.38,1.8), opacity 1.5s ease
+                    transition-delay: 0.050s
+                #contactButton
+                    transition: top 0.85s cubic-bezier(.17,.67,.38,1.8), opacity 1.5s ease
+                    transition-delay: 0.075s
+        .jumper
+            height: auto
+            width: auto
+            z-index: 4
+            position: fixed
+            top: 50%
+            right: 0
+            transform: translateY(-50%)
+            ul
+                list-style-type: none
+                li
+                    position: relative
+                    &:hover .slider
+                        left: -150px
+                    a
+                        height: 40px
+                        width: 40px
+                        text-decoration: none
+                        font-size: 1.2em
+                        font-family: 'Gentium Basic', serif
+                        font-style: italic
+                        font-weight: 400
+                        position: relative
+                        display: block
+                        &:link
+                            color: white
+                        &:visited
+                            color: white
+                        &:hover
+                            color: white
+                        .tab
+                            height: 40px
+                            width: 40px
+                            background-color: #ffffff
+                            cursor: pointer
+                            border: solid #e2e2e2 1px
+                            position: absolute
+                            z-index: 1
+                            .circle
+                                height: 10px
+                                width: 10px
+                                border-radius: 50%
+                                background: rgba(0, 0, 0, 0.13)
+                                position: absolute
+                                top: 50%
+                                left: 50%
+                                transform: translate(-50%, -50%)
+                        .slider
+                            height: 40px
+                            width: 400px
+                            background-color: #54585E
+                            cursor: pointer
+                            border: solid #34373b 1px
+                            position: absolute
+                            left: 0
+                            z-index: 0
+                            transition: left 0.85s ease
+                            p
+                                position: absolute
+                                top: 50%
+                                transform: translateY(-50%)
+                                margin-left: 20px
+        .hero
+            width: 100%
+            height: 10px
+            background: #2B333E
+            overflow: hidden
+            position: relative
+            video, img
+                min-width: 100% 
+                min-height: 100%
+                width: auto 
+                height: auto
+                overflow: hidden
+                position: absolute
+                left: 50%
+                top: 50%
+                transform: translate(-50%, -50%)
+                z-index: 0
+            img
+                opacity: 0.5
+            .title-holder
+                width: auto
+                position: absolute
+                top: 50%
+                left: 50%
+                transform: translate(-50%, -50%)
+                color: #f8f8f8
+                transition: all 1s
+                z-index: 2
+                .job-title
+                    font-size: 2vw
+                    font-family: 'Gentium Basic', serif
+                    font-style: italic
+                    font-weight: 700
+                    text-align: left
+                    margin-bottom: 10px
+                    letter-spacing: 0.1em
+                .name
+                    font-family: 'Open Sans', sans-serif
+                    font-weight: 800
+                    font-size: 6vw
+                    text-align: center
+                    width: 100%
+                    white-space: nowrap
+                .location
+                    font-size: 1.5vw
+                    font-family: 'Gentium Basic', serif
+                    font-weight: 400
+                    text-align: right
+                    margin-top: 10px
+                    letter-spacing: 0.1em
+                .second-line
+                    font-size: 1.5vw
+                    font-family: 'Gentium Basic', serif
+                    font-weight: 400
+                    text-align: center
+                    margin-top: 10px
+                    letter-spacing: 0.1em
+                    line-height: 1.5em
+        .work
+            margin-bottom: 187px
+            .intro
+                //background: red
+                width: 80% 
+                margin: 187px 0
+                p
+                    font-size: 2em
+                    line-height: 50px
+                    font-family: 'Gentium Basic', serif
+                    font-weight: 400
+                    font-style: italic
+                    color: #333
+                    letter-spacing: 0px
+            .work-holder
+                display: -webkit-flex
+                display: flex
+                -webkit-justify-content: center
+                justify-content: center
+                -webkit-flex-wrap: wrap
+                flex-wrap: wrap
+                margin-top: 30px
+                -webkit-box-sizing: border-box
+                -moz-box-sizing: border-box
+                box-sizing: border-box
+                .invisible
+                    opacity: 0
+                    cursor: none
+                    pointer-events: none
+                .work-container
+                    position: relative
+                    display: block
+                    background: #fefff9
+                    color: #363636
+                    -webkit-flex: 1 1 auto
+                    flex: 1 1 auto
+                    -webkit-flex-basis: 0
+                    flex-basis: 0
+                    margin-right: 30px
+                    &:nth-child(3n)
+                        margin-right: 0px
+                    &:hover .content .cover
+                        opacity: 0.65
+                    &:hover .content .desc
+                        opacity: 1
+                    .content
+                        position: relative
+                        height: 100%
+                        width: 100%
+                        overflow: hidden
+                        .foot-vr
+                            background-image: url(../assets/Images/shoe/element.jpg)
+                        .air
+                            background-image: url(../assets/Images/airProject/air.jpg)
+                        .archive
+                            background-image: url(../assets/Images/archive/iPhone-6-Mockup.jpg)
+                        .img
+                            height: 100%
+                            width: 100%
+                            background-position: center
+                            background-size: auto 100%
+                            z-index: 0
+                            position: absolute
+                        .cover
+                            background: black
+                            height: 100%
+                            width: 100%
+                            opacity: 0
+                            -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                            transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                            z-index: 1
+                            position: absolute
+                        .desc
+                            //background: red
+                            height: auto
+                            width: 100%
+                            -webkit-transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                            transition: all 400ms cubic-bezier(0.39, 0.575, 0.565, 1)
+                            z-index: 2
+                            position: absolute
+                            bottom: 0
+                            padding: 20px
+                            opacity: 0
+                            h1
+                                font-size: 1.8vw
+                                color: white
+                                font-family: 'Open Sans', sans-serif
+                                font-weight: 800
+                                letter-spacing: 0.05em
+                                margin-bottom: 5px
+                            h2
+                                font-size: 1.3vw
+                                font-family: 'Gentium Basic', serif
+                                font-style: italic
+                                color: white
+                                letter-spacing: 0.1em
+        footer
+            height: auto
+            width: 100%
+            background: #2B333E
+            .top-footer
+                height: auto
+                width: 100%
+                margin-bottom: 60px
+                h1
+                    font-size: 33px
+                    color: white
+                    font-family: 'Open Sans', sans-serif
+                    font-weight: 800
+                    letter-spacing: 1px
+                    text-align: center
+                    padding: 80px 0 10px 0
+                h2
+                    font-size: 21px
+                    font-family: 'Gentium Basic', serif
+                    font-style: italic
+                    color: white
+                    letter-spacing: 1px
+                    text-align: center
+                    padding: 0 0 90px
+                .link-holder
+                    width: 50%
+                    margin: 0 auto
+                    margin-bottom: 30px
+                    display: -webkit-flex
+                    display: flex
+                    -webkit-flex-direction: row
+                    flex-direction: row
+                    a
+                        -webkit-flex: 1 1 auto
+                        flex: 1 1 auto
+                        box-sizing: border-box
+                        margin-right: 15px
+                        min-width: 40px
+                        display: block
+                        &:nth-child(6)
+                            margin-right: 0
+                        img
+                            height: 100%
+                            width: 100%
+                .email
+                    font-size: 21px
+                    line-height: 50px
+                    font-family: 'Gentium Basic'
+                    font-weight: 100
+                    //font-style: italic
+                    color: #8e9093
+                    letter-spacing: 2px
+                    text-align: center
+                    //padding: 0 0 187px 0
+                    a
+                        color: #8e9093
+                        text-decoration: none
+            .bottom-footer
+                height: auto
+                width: 100%
+                p
+                    font-size: 16px
+                    line-height: 50px
+                    font-family: 'Gentium Basic'
+                    font-weight: 100
+                    //font-style: italic
+                    color: #8e9093
+                    letter-spacing: 2px
+//1200px
+@media all and (max-width: 1200px)
+    html
+        body
+            .hero
+                .title-holder
+                    .job-title
+                        font-size: 2.5vw
+                    .name
+                        font-size: 6vw
+                    .location
+                        font-size: 2.5vw
+                    .second-line
+                        font-size: 2.5vw
+            .work .work-holder .work-container .content .desc
+                h1
+                    font-size: 2vw
+                h2
+                    font-size: 1.5vw
+//Tablet
+@media all and (max-width: 768px)
+    html
+        body
+            .hero
+                .title-holder
+                    .job-title
+                        font-size: 3.5vw
+                    .name
+                        font-size: 10vw
+                    .location
+                        font-size: 3.5vw
+                    .second-line
+                        font-size: 3.5vw
+            .work
+                .intro
+                    width: 100%
+                .work-holder
+                    margin-top: 0
+            .work .work-holder
+                .work-container
+                    flex-basis: 100%
+                    margin: 0 0 30px 0
+                    .content .desc
+                        h1
+                            font-size: 5vw
+                        h2
+                            font-size: 4vw
+                .invisible
+                    position: absolute
+            footer
+                .top-footer
+                    .link-holder
+                        width: 100%
+//Mobile
+@media all and (max-width: 420px)
+    html
+        body
+            .hero
+                .title-holder
+                    .job-title
+                        font-size: 5.5vw
+                        text-align: center
+                    .name
+                        white-space: normal
+                        font-size: 13vw
+                    .location
+                        font-size: 4.5vw
+                        text-align: center
+                    .second-line
+                        font-size: 5vw
+            .jumper
+                opacity: 0
+                pointer-events: none
+            footer
+                margin-top: 0
+                .top-footer 
+                    .link-holder
+                        width: 100%
+                        -webkit-flex-wrap: wrap
+                        flex-wrap: wrap
+                        a
+                            flex-basis: 25%
+                            margin-bottom: 30pxhtml
+    margin: 0
+    height: 100%
+    width: 100%
+    overflow-x: hidden
+    background: #f1f0ee
+    body
+        margin: 0
+        height: 100%
+        width: 100%
+        .contain
+            width: 80%
+            max-width: 1170px
+            height: 100%
+            margin: 0 auto
+            a:link
                 color: #444f5f
             a:visited
                 color: #444f5f
@@ -235,6 +719,7 @@ html
                     text-align: center
                     margin-top: 10px
                     letter-spacing: 0.1em
+                    line-height: 1.5em
         .work
             margin-bottom: 187px
             .intro
@@ -286,9 +771,11 @@ html
                         width: 100%
                         overflow: hidden
                         .foot-vr
-                            background-image: url(../assets/images/shoe/element.jpg)
+                            background-image: url(../assets/Images/shoe/element.jpg)
                         .air
-                            background-image: url(../assets/images/airProject/air.jpg)
+                            background-image: url(../assets/Images/airProject/air.jpg)
+                        .archive
+                            background-image: url(../assets/Images/archive/iPhone-6-Mockup.jpg)
                         .img
                             height: 100%
                             width: 100%
