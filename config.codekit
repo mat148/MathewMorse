@@ -280,13 +280,123 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/ghg\/aviatech.png": {
+	"\/assets\/Images\/ghg\/buisnessMan.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8211,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/aviatech.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/aviatech.png",
+		"initialSize": 8776,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/buisnessMan.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/buisnessMan.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-Comp-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 853726,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Comp-1.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Comp-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-Comp-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.48857e+06,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Comp-2.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Comp-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-Comp-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.08614e+06,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Comp-3.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Comp-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-Comp-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.96057e+06,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Comp-4.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Comp-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-UserResearch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40636,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-UserResearch.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-UserResearch.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-Wire-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 265557,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Wire-1.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Wire-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-Wire-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 567609,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Wire-2.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Wire-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-Wire-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 648388,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Wire-3.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Wire-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-Wire-4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 773460,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Wire-4.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Wire-4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/GHG-Work.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 478186,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Work.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Work.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -302,57 +412,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/ghg\/ghgPersona.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 24584,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgPersona.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgPersona.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/ghg\/ghgResearch.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 164366,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgResearch.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgResearch.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/ghg\/ghgUserResearch.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 115379,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgUserResearch.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgUserResearch.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/ghg\/main.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 917235,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/main.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/main.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/ghg\/main2.jpg": {
+	"\/assets\/Images\/ghg\/ghgSketches.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 333713,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/main2.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/main2.jpg",
+		"initialSize": 78297,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgSketches.jpg",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgSketches.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/moodboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 880999,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/moodboard.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/moodboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/ghg\/pie charts3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 568085,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/pie charts3.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/pie charts3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -368,13 +456,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/main\/airHeroPhoneFrame.png": {
+	"\/assets\/Images\/ghg\/woman.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 119776,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/airHeroPhoneFrame.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/airHeroPhoneFrame.png",
+		"initialSize": 7134,
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/woman.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/woman.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -584,6 +672,17 @@
 		"initialSize": 7.67815e+06,
 		"inputAbbreviatedPath": "\/assets\/Images\/main\/MatM.png",
 		"outputAbbreviatedPath": "\/assets\/Images\/main\/MatM.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/main\/me.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 341681,
+		"inputAbbreviatedPath": "\/assets\/Images\/main\/me.jpg",
+		"outputAbbreviatedPath": "\/assets\/Images\/main\/me.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

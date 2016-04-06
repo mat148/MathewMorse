@@ -2,11 +2,12 @@
 .rslides-container{
     position: relative;
     width: 100%;
-    height: 500px;
+    height: 600px;
     display: block;
     padding: 0 10%;
     box-sizing: border-box;
-    margin: 32px auto 0 auto;
+    margin: 32px auto;
+    //background: grey;
 }
 .rslides {
     position: relative;
@@ -14,15 +15,13 @@
     padding: 0;
     margin: 0 auto;
     width: 100%;
-    height: 95%;
+    height: 550px;
+    //background: red;
 }
 
 .rslides .slide {
-    -webkit-backface-visibility: hidden;
     position: relative;
     display: block;
-    left: 0;
-    top: 0;
     height: 100%;
     width: 100%;
 }
@@ -37,19 +36,27 @@
 
 .rslides .slide p{
     width: 100%;
+    height: 50px;
     color: #898f9a;
     font-size: 14px;
+    display: block;
+    margin: 0 auto;
+    //background: lightgrey;
+    position: absolute;
+    top: 0;
 }
 
 html body .rslides-container .rslides img {
     display: block;
     border: 0;
-    height: 100%;
+    height: 500px;
     width: auto;
     margin: 0 auto;
     position: absolute;
+    bottom: 0;
     left: 50%;
     transform: translateX(-50%);
+    //background: yellow;
 }
 
 .rslides-container .rslides_nav{
@@ -69,6 +76,8 @@ html body .rslides-container .rslides img {
     background-image: url(../assets/Images/main/arrow-01.svg);
     background-repeat: no-repeat;
     float: right;
+    background-size: 50%;
+    background-position: center;
 }
 
 .rslides-container .prev{
@@ -78,15 +87,18 @@ html body .rslides-container .rslides img {
 }
 
 .rslides_tabs{
-    //margin-top: 50px;
     position: relative;
-    top: 25px;
+    height: 50px;
+    margin: 0 auto;
+    //background: green;
 }
 
 .rslides_tabs li{
     display: inline;
     float: none;
     margin-right: 10px;
+    position: relative;
+    top: 50%;
 }
 
 html body .rslides_here a{

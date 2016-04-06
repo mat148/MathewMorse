@@ -6,80 +6,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
-
-    <title>About Me - Mat Morse</title>
-      
+    <link rel="shortcut icon" href="assets/Images/main/logoFavicon.ico">
     
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>About Me - Mathew Morse</title>
+    
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/aboutme.css" rel="stylesheet">
-    <script src="//use.typekit.net/vzk6nlt.js"></script>
-    <script>try{Typekit.load();}catch(e){}</script>
+    <link href="css/work.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:800,700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Gentium+Basic:400,700italic,400italic' rel='stylesheet' type='text/css'>
       
   </head>
   <body>
-    <section class="hero">
-        <div class="nav-bg"></div>
-        <div class="container">
-            <div class="row">
-                <nav class= "col-md-12 navContainer">
-                    <a href="index.html"><img id="logo" src="img/main/logo.svg"/></a>
-                    <ul>
-                        <li id="aboutButton"><a href="aboutme.html">ABOUT</a></li>
-                        <li id="workButton"><a href="index.html#work">WORK</a></li>
-                        <li id="resumeButton"><a href="img/resume2015.pdf">RESUME</a></li>
-                        <li id="contactButton"><a href="#contact">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </div>
-            
-            <div class="row who">
-                
-                <div class="col-md-6">
-                    <h2>Who Am I?</h2>
-                    <p>I am a interactive designer and front-end developer and I’m in my final year at Rochester Institute of Technology.  I’m passionate about designing and developing interactive experiences, exploring through web, mobile, and more.  Currently experimenting with pushing the boundaries in what interactivity means on the web using cutting edge tech such as webGL.  I’m looking for a opportunity to start my career at a creative company thats goals align with mine.  My goals are to work with a collaborate tight knit group that fosters growth and learning in the design and tech field.</p>
-                </div>
-                <div class="col-md-6">
-                    <img src="img/main/MatM.png"/>
-                </div>
+    <nav>
+        <div class="contain">
+            <a href="index.html"><img class="logo" src="assets/Images/main/logo.svg"/></a>
+            <div class="nav-btn">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
             </div>
         </div>
-        
-    <nav class="menu slide-menu-right">
-        <ul>
-            <li><button class="close-menu">Close &rarr;</button></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">WORK</a></li>
-            <li><a href="#">RESUME</a></li>
-            <li><a href="#">CONTACT</a></li>
-        </ul>
-    </nav><!-- /slide menu right -->
-    
-    </section>
-    
-    <section class="footer" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="">
-                    <h1>Say Hello!</h1>
-                    <h2>Feel free to email me or connect with me on another platform</h2>
-                    <div class="link-holder">
-                        <a class="" href="mailto:mrm1779@gmail.com?Subject=You're%20Awesome!"><img src="img/main/mail-01-01.svg"/></a>
-                        <a class="" href="https://www.pinterest.com/MathewMorse/" target="_blank"><img src="img/main/Pin-01.svg"/></a>
-                        <a class="" href="https://www.behance.net/mrm1779af59" target="_blank"><img src="img/main/behanced-01.svg"/></a>
-                        <a class="" href="https://www.linkedin.com/in/mathewmorse" target="_blank"><img src="img/main/Linkedin-01.svg"/></a>
-                        <a class="" href="https://github.com/mat148" target="_blank"><img src="img/main/Github-01.svg"/></a>
-                        <a class="" href="http://codepen.io/mat148/" target="_blank"><img src="img/main/codePen-01.svg"/></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bottom-footer">
-            <p>&copy 2015 Mathew Morse</p>
+    </nav>
+    <section class="slide-out">
+        <div class="contain">
+            <ul>
+                <li id="aboutButton"><a href="aboutme.html">About</a></li>
+                <li id="workButton"><a href="index.html#work">Work</a></li>
+                <li id="resumeButton"><a href="assets/resume2016.pdf">Resume</a></li>
+                <li id="contactButton"><a href="#contact">Contact</a></li>
+            </ul>
         </div>
     </section>
+    <section class="box white"></section>
+    <section class="about-me box white">
+        <div class="contain">
+            <h1>Who Am I?</h1>
+            <p>I'm a UI / UX Designer and I recently graduated from college in May 2015. I’m passionate about designing and developing interactive experiences, exploring through web, mobile, and more. Currently experimenting with pushing the boundaries in what interactivity means on the web using cutting edge tech such as webGL. I’m looking for a opportunity to start my career at a creative company that's goals align with mine. My goals are to work with a collaborate tight-knit group that fosters growth and learning in the design and tech field.</p>
+            <img src="assets/Images/main/me.jpg"/>
+        </div>    
+    </section>
+    <section class="skills box grey">
+        <div class="contain">
+            <h1>Skills</h1>
+            <p>Design : User Centered Design, User Research, Interaction Design, Design Thinking, Responsive Design, Visual Design, Typography, 2D / 3D Animation</p>
+            <p>Web : HTML / HTML 5, CSS / CSS3, Javascript / JQuery, WebGL / Three.js</p>
+        </div>    
+    </section>
+    <section class="hobbies box white">
+        <div class="contain">
+            <h1>Talking Points</h1>
+            <p>Avid Lindyhopper, Handletterer, occasional Runner, Hiker, and Hackathon participant.</p>
+        </div>    
+    </section>
+    <footer>
+        <div class="contain">
+            <div class="top-footer">
+                <h1>Say Hi To Me!</h1>
+                <h2>I'd Love to Hear From You!</h2>
+                <div class="link-holder">
+                    <a class="" href="mailto:mrm1779@gmail.com?Subject=You're%20Awesome!"><img src="assets/Images/main/mail-01-01.svg"/></a>
+                    <a class="" href="https://www.pinterest.com/MathewMorse/" target="_blank"><img src="assets/Images/main/Pin-01.svg"/></a>
+                    <a class="" href="https://www.behance.net/mrm1779af59" target="_blank"><img src="assets/Images/main/behanced-01.svg"/></a>
+                    <a class="" href="https://www.linkedin.com/in/mathewmorse" target="_blank"><img src="assets/Images/main/Linkedin-01.svg"/></a>
+                    <a class="" href="https://github.com/mat148" target="_blank"><img src="assets/Images/main/Github-01.svg"/></a>
+                    <a class="" href="http://codepen.io/mat148/" target="_blank"><img src="assets/Images/main/codePen-01.svg"/></a>
+                </div>
+                <p class="email"><a href="#">mrm1779@gmail.com</a></p>
+                <p class="email">+1 315 382 8467</p>
+            </div>
+            <div class="bottom-footer">
+                <p>&copy 2014 Mathew Morse</p>
+            </div>
+        </div>
+    </footer>
   </body>
-<script src="js/jquery-1.11.2.min.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-60488291-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    
+<script src="http://code.jquery.com/jquery-2.2.2.min.js"></script>
 <script src="js/main.js"></script>
 </html>
