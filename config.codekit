@@ -2,15 +2,6 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19115",
 "files": {
-	"\/3DPage.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/3DPage.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/aboutme.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -225,6 +216,94 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/Images\/archive\/1-Archive-Splash-Phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 376693,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/1-Archive-Splash-Phone.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/1-Archive-Splash-Phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/13-Archive-ProjectInfo-Complete-Phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 404323,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/13-Archive-ProjectInfo-Complete-Phone.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/13-Archive-ProjectInfo-Complete-Phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/19-Archive-Home-Phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148105,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/19-Archive-Home-Phone.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/19-Archive-Home-Phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/2-Archive-Home-Phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148760,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/2-Archive-Home-Phone.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/2-Archive-Home-Phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/20.1-Archive-Folder-Phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175208,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/20.1-Archive-Folder-Phone.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/20.1-Archive-Folder-Phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/21-Archive-ProjectPage-Phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 389950,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/21-Archive-ProjectPage-Phone.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/21-Archive-ProjectPage-Phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/23-Archive-Home-Search-Complete-Phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 148691,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/23-Archive-Home-Search-Complete-Phone.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/23-Archive-Home-Search-Complete-Phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/Archive-Home-Phone.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 191383,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Home-Phone.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Home-Phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/Images\/archive\/Final Comp@1x.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -236,24 +315,35 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/archive\/iPhone 6 Copy.png": {
+	"\/assets\/Images\/archive\/iPhone-6-Mockup-Lrg.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 51613,
-		"inputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone 6 Copy.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone 6 Copy.png",
+		"initialSize": 2.67575e+06,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone-6-Mockup-Lrg.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone-6-Mockup-Lrg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/archive\/iPhone-6-Mockup.jpg": {
-		"fileType": 16384,
+	"\/assets\/Images\/archive\/iPhone-6-Mockup-Sm.png": {
+		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 57820,
-		"inputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone-6-Mockup.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone-6-Mockup.jpg",
+		"initialSize": 518840,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone-6-Mockup-Sm.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/iPhone-6-Mockup-Sm.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/Prototype.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 411506,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Prototype.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Prototype.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -390,13 +480,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/ghg\/GHG-Work.png": {
+	"\/assets\/Images\/ghg\/GHG-work.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 478186,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Work.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Work.png",
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-work.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-work.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1319,24 +1409,6 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
 		"syntaxCheckerStyle": 1
-		},
-	"\/Mendo.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Mendo.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/thr33foldPage.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/thr33foldPage.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/VRPage.html": {
 		"fileType": 8192,
