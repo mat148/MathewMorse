@@ -293,6 +293,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/Images\/archive\/Archive-Branding.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70739,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Branding.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Branding.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/Images\/archive\/Archive-Home-Phone.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -300,6 +311,50 @@
 		"initialSize": 191383,
 		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Home-Phone.png",
 		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Home-Phone.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/Archive-ProductSite.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.79349e+06,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-ProductSite.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-ProductSite.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/Archive-Workflow-1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66000,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Workflow-1.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Workflow-1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/Archive-Workflow-2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56073,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Workflow-2.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Workflow-2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Images\/archive\/Archive-Workflow-3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22848,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Workflow-3.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-Workflow-3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -480,13 +535,13 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/ghg\/GHG-work.png": {
+	"\/assets\/Images\/ghg\/GHG-Work.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 478186,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-work.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-work.png",
+		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Work.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Work.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
