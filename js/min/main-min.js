@@ -1,8 +1,4 @@
-/*exported formValidationSetup, refreshErrorMessages */
-/*jshint unused:false*/
-
-var height = 0;
-//var width;
+//var height = $(window).height;
 
 var workWidth;
 
@@ -12,37 +8,33 @@ window.onload = init;
         
 function init()
 {
-    //width = $(window).width();
-
-    workWidth = $('.work-container').width();
-    
     if ($('.hero').length){
         if($('.hero').hasClass('project-page')){
-            height = ($(window).height())/2;
-            $('.hero').css({
-                "height":""+height+"px",
-            });
+            $(window).resize(function() {
+                $('.hero').height(($(window).height())/2);
+            }).resize();
         }
         else{
-            height = $(window).height();
-            $('.hero').css({
-                "height":""+height+"px",
-            });
-
-            $('.work-container').css({
-                'height': (workWidth)+'px',
-            });
+            $(window).resize(function() {
+                $('.hero').height($(window).height());
+            }).resize();
         }
     }
     else{
         $('nav').css({'background':'#2b333e', 'opacity':'0.98'});
     }
     
+    workWidth = $('.work-container').width();
+    $('.work-container').css({
+        'height': (workWidth)+'px',
+    });
+    
     $(function() {
         $(".rslides").responsiveSlides();
     });
     
     $(".rslides").responsiveSlides({
+        auto: false,
         auto: false,// Boolean: Animate automatically, true or false
         pager: true,// Boolean: Show pager, true or false
         nav: true,// Boolean: Show navigation, true or false
@@ -135,30 +127,18 @@ $('.nav-btn').on('click',function(){
     }
 });
 
-$(window).resize(function(){
-    var workWidth = $('.work-container').width();
-    
-    $('.work-container').css({
-        'height': (workWidth)+'px',
-    });
-    
-    $('.hero').css({
-        "height":""+height+"px",
-    });
-});
-
 $('.open').on('click', function(){
     //alert('yo');
     close();
 });
 
 $(window).scroll(function() {
-    console.log("window "+ $(window).scrollTop() +" height "+ height);
-  if ($(window).scrollTop() >= (height-70)) {
+    console.log($(window).height());
+  if ($(window).scrollTop() >= (($('.hero').height())-70)) {
     $('nav').css({'background':'#2b333e', 'opacity':'0.98'});
   }
     
-  if ($(window).scrollTop() <= (height-70)) {
+  if ($(window).scrollTop() <= (($('.hero').height())-70)) {
     $('nav').css({'background':'transparent',});
   }
 });
