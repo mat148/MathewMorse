@@ -326,6 +326,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/Images\/archive\/Archive-sketches.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.73316e+06,
+		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-sketches.png",
+		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Archive-sketches.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/Images\/archive\/Archive-Workflow-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
