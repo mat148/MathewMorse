@@ -645,61 +645,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/main\/diagonal-noise.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2501,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/main\/diagonal-noise3.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2200,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise3.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise3.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/main\/diagonal-noise4.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2353,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise4.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise4.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/main\/diagonal-noise5.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2385,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise5.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise5.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/main\/diagonal-noise6.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2221,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise6.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/diagonal-noise6.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/Images\/main\/li.png": {
 		"fileType": 32768,
 		"ignore": 0,

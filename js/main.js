@@ -4,11 +4,7 @@ var workWidth;
 
 var clicked = 'false';
 
-window.onload = init;
-        
-function init()
-{
-    if ($('.hero').length){
+if ($('.hero').length){
         if($('.hero').hasClass('project-page')){
             $(window).resize(function() {
                 $('.hero').height(($(window).height())/2);
@@ -20,10 +16,15 @@ function init()
             }).resize();
         }
     }
-    else{
-        $('nav').css({'background':'#2b333e', 'opacity':'0.98'});
-    }
-    
+else{
+    $('nav').css({'background':'#2b333e', 'opacity':'0.98'});
+}
+
+window.onload = init;
+     
+function init()
+{   
+    //blah
     workWidth = $('.work-container').width();
     $('.work-container').css({
         'height': (workWidth)+'px',
