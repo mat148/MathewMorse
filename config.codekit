@@ -414,28 +414,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/archive\/Untitled-1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 22097,
-		"inputAbbreviatedPath": "\/assets\/Images\/archive\/Untitled-1.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/archive\/Untitled-1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/ghg\/1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 999244,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/1.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/Images\/ghg\/buisnessMan.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -553,17 +531,6 @@
 		"initialSize": 478186,
 		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Work.png",
 		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/GHG-Work.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/ghg\/ghgMac.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 256885,
-		"inputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgMac.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/ghg\/ghgMac.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -755,28 +722,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/main\/MatM.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5.17027e+06,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/MatM.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/MatM.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/main\/MatM.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7.67815e+06,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/MatM.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/MatM.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/Images\/main\/me.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -806,28 +751,6 @@
 		"initialSize": 842,
 		"inputAbbreviatedPath": "\/assets\/Images\/main\/pin2.png",
 		"outputAbbreviatedPath": "\/assets\/Images\/main\/pin2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/main\/purty_wood.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 263034,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/purty_wood.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/purty_wood.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/main\/purty_wood2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 51647,
-		"inputAbbreviatedPath": "\/assets\/Images\/main\/purty_wood2.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/main\/purty_wood2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -883,17 +806,6 @@
 		"initialSize": 104198,
 		"inputAbbreviatedPath": "\/assets\/Images\/ntp\/endo2.jpg",
 		"outputAbbreviatedPath": "\/assets\/Images\/ntp\/endo2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/shoe\/element.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 75555,
-		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/element.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/element.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -993,17 +905,6 @@
 		"initialSize": 48827,
 		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/Elementarium-Workflow9.png",
 		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/Elementarium-Workflow9.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/shoe\/ElementariumAd.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 414557,
-		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/ElementariumAd.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/ElementariumAd.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1140,39 +1041,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/Images\/shoe\/nike.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 232729,
-		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/nike.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/nike.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/shoe\/Screenshot_2015-02-11-15-44-58.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 114715,
-		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/Screenshot_2015-02-11-15-44-58.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/Screenshot_2015-02-11-15-44-58.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/shoe\/Screenshot_2015-03-05-02-15-57.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 206827,
-		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/Screenshot_2015-03-05-02-15-57.png",
-		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/Screenshot_2015-03-05-02-15-57.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/assets\/Images\/shoe\/shoeHero.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1180,39 +1048,6 @@
 		"initialSize": 111710,
 		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/shoeHero.png",
 		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/shoeHero.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/shoe\/sketch1.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 109801,
-		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/sketch1.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/sketch1.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/shoe\/sketch2.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 104289,
-		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/sketch2.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/sketch2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/assets\/Images\/shoe\/sketch3.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 108093,
-		"inputAbbreviatedPath": "\/assets\/Images\/shoe\/sketch3.jpg",
-		"outputAbbreviatedPath": "\/assets\/Images\/shoe\/sketch3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1227,6 +1062,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/Blog.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Blog.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/css\/main.css": {
 		"fileType": 16,
