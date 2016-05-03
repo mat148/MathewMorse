@@ -1,0 +1,8 @@
+<blogs>
+    <blog title="Lorem Ipsum" date="9/16/1991" imgurl="assets/Images/blog/lorem.png" pageurl="blog/intro.html">
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque vehicula pretium. Duis quis nibh vel nisl aliquet malesuada at at mauris. Sed fermentum efficitur diam, eget sodales tellus semper ac. Phasellus vitae nisl finibus, aliquam lacus eu, maximus urna. Sed diam velit, rhoncus vitae est at, dignissim fermentum elit. Aliquam euismod felis maximus nisi congue cursus. Cras elementum tellus tellus, nec fringilla neque imperdiet sed.</content>
+    </blog>
+    <blog title="Lorem Ipsum" date="9/16/1991" imgurl="assets/Images/blog/lorem.png" pageurl="blog/">
+        <content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam scelerisque vehicula pretium. Duis quis nibh vel nisl aliquet malesuada at at mauris. Sed fermentum efficitur diam, eget sodales tellus semper ac. Phasellus vitae nisl finibus, aliquam lacus eu, maximus urna. Sed diam velit, rhoncus vitae est at, dignissim fermentum elit. Aliquam euismod felis maximus nisi congue cursus. Cras elementum tellus tellus, nec fringilla neque imperdiet sed.</content>
+    </blog>
+</blogs>

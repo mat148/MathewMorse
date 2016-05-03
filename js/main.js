@@ -134,7 +134,7 @@ $('.open').on('click', function(){
 });
 
 $(window).scroll(function() {
-    console.log($(window).height());
+    //console.log($(window).height());
   if ($(window).scrollTop() >= (($('.hero').height())-70)) {
     $('nav').css({'background':'#2b333e', 'opacity':'0.98'});
   }
