@@ -7,7 +7,7 @@ $(document).ready(function(){
             var title = $blog.attr("title");
             var date = $blog.attr("date");
             var imgurl = $blog.attr("imgurl");                         var content = $blog.find("content").text();
-            var contentsmall = content.substr(0,100);
+            var contentsmall = content.substr(0,300);
             var pageurl = $blog.attr("pageurl");
             
             var html = 
